@@ -1,0 +1,174 @@
+:root {
+    /* Fundos */
+    --fundo-principal: linear-gradient(135deg, #8f8f8f, #1a1a1a);           /* Branco limpo */
+    --fundo-claro: #f4f4f4;               /* Fundo de cartões */
+    --fundo-escuro: #1a1a1a;              /* Usar com texto branco, se necessário */
+
+    /* Texto */
+    --texto-principal: #1e1e1e;           /* Preto forte para títulos */
+    --texto-secundario: #2b2b2b;          /* Cinza para parágrafos */
+    --texto-claro: #f0f0f0;               /* Para texto sobre fundos escuros */
+
+    /* Destaques */
+    --dourado: #c49b0e;                   /* Títulos e destaques */
+    --dourado-escuro: #a37c00;            /* Hover ou variação */
+
+    /* Componentes */
+    --cinza-menu: #9e7b4e;                /* Menu A-Z */
+    --cinza-hover: #7d5832;               /* Hover sobre letras */
+
+    --borda-card: #dcdcdc;
+    --hover-link: #3f88c5;                /* Azul para links ou interações */
+    --alerta-suave: #ff6f61;              /* Opcional: alertas ou tags */
+
+    /* Navegação A-Z */
+    --az-normal: #979797;
+    --az-hover: var(--dourado);
+    --az-hover-texto: #1c1c1c;
+
+    /* Botao voltar pro topo */
+    --botao-back: #1473E6;
+    --botao-hover: #1460be;
+
+    /* Tipografia */
+    --fonte-titulo: 'Playfair Display', serif;
+    --fonte-texto: 'Inter', sans-serif;
+    --fonte-nav: 'Poppins', sans-serif;
+}
+
+
+body:hover {
+    filter: brightness(0.99);
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    background: var(--fundo-principal);
+    background-size: 300% 300%;
+    animation: De 10s ease-in-out infinite alternate;
+    font-family: 'Nunito', sans-serif;
+}
+
+@keyframes De {
+    0% {
+        background-position: 100% 0%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+main {
+    margin-top: 100px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header {
+    max-width: 100%;
+    min-width: 880px;
+    display: grid;
+    width: 100%;
+    height: 130px;
+    font-size: 100px;
+    grid-template-columns: 13% 87%;
+    grid-template-rows: 100%;
+    gap: 30px;
+    column-gap: 5px;
+    background: var(--dourado);
+    box-sizing: 5px 5px 15px 10px rgba(0, 0, 0, 0.314);
+    transition: 1s;
+}
+
+header:hover {
+    background: var(--dourado-escuro);
+}
+
+header > h1 {
+    grid-column: 2;
+    grid-row: 1;    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--texto-principal);
+    font-size: 1em;
+}
+
+@media (max-width:  1066px) {
+    header > h1 {
+        font-size: 0.8em;
+    }
+
+    .botao {
+        font-size: 0.27em;
+    }
+}
+
+@media (max-width: 880px) {
+    header > h1 {
+        font-size: 0.6em;
+        margin-left: 1%;
+    }
+
+    haeder > img {
+        justify-self: end;
+        align-self: center;
+    }
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    font-size: 100px;
+    max-width: 100%;
+    min-width: 880px;
+    font-family: var(--fonte-nav);
+}
+
+header > img {
+    justify-self: end;
+    align-self: center;
+    width: 100px;
+    height: 100px;
+}
+
+.BotaoTopo {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    width: 70px;
+    height: 70px;
+    right: 3%;
+    top: 5%;
+    background: var(--botao-back);
+    transition: 0.5s ease;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.BotaoTopo > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.BotaoTopo:active {
+    transform: scale(1.2);
+}
+
+.BotaoTopo:hover {
+    background: var(--botao-hover);
+    transform: scale(1.05);
+}
