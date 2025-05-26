@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/projeto_escola/static/css/main.2c792714.css",
-    "main.js": "/projeto_escola/static/js/main.6ea4080f.js",
+    "main.css": "/projeto_escola/static/css/main.e2b470c1.css",
+    "main.js": "/projeto_escola/static/js/main.17c4ef43.js",
     "static/js/453.74476cf5.chunk.js": "/projeto_escola/static/js/453.74476cf5.chunk.js",
     "static/media/ex.jpg": "/projeto_escola/static/media/ex.d015a5128fa4f7286c98.jpg",
-    "static/media/punho.png": "/projeto_escola/static/media/punho.623b74312b1cf48d3766.png",
+    "static/media/punhos-negros-1370.webp": "/projeto_escola/static/media/punhos-negros-1370.24b2e840549b964c5382.webp",
     "index.html": "/projeto_escola/index.html",
-    "main.2c792714.css.map": "/projeto_escola/static/css/main.2c792714.css.map",
-    "main.6ea4080f.js.map": "/projeto_escola/static/js/main.6ea4080f.js.map",
+    "static/media/fechaimg.webp": "/projeto_escola/static/media/fechaimg.3826fa55448b02033f6f.webp",
+    "main.e2b470c1.css.map": "/projeto_escola/static/css/main.e2b470c1.css.map",
+    "main.17c4ef43.js.map": "/projeto_escola/static/js/main.17c4ef43.js.map",
     "453.74476cf5.chunk.js.map": "/projeto_escola/static/js/453.74476cf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c792714.css",
-    "static/js/main.6ea4080f.js"
+    "static/css/main.e2b470c1.css",
+    "static/js/main.17c4ef43.js"
   ]
 }
