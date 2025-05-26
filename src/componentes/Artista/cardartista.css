@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.CardArtista {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 0.1vw;
+    font-family: 'Roboto Mono' ,Arial;
+    cursor: text;
+}
+
+
+.CardArtista:hover {
+    height: 50vh;
+}
+
+.infoArtista {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 17%;
+    flex-direction: column;
+    height: 100%;
+    background: var(--card-left);
+    box-shadow: inset 0px -10px 16px 0px var(--card-left) !important;
+    color: var(--card-left-text);
+}
+
+.infoArtista > img {
+    margin-top: 10%;
+    width: auto;
+    height: 25vh;
+}
+
+.infoArtista > span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1vh;
+    padding: 1vw;
+}
+
+.infoArtista > span > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1%;
+}
+
+.infoArtista > span > div:nth-child(2) {
+    max-height: 74px;
+    flex-direction: column;
+    transition: 0.4s;
+}
+
+.infoArtista > span > div:nth-child(2):hover {
+    overflow: auto;
+} 
+
+.infoArtista > span > div > h2, h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 83%;
+    height: 100%;
+    background: var(--card-right);
+    box-shadow: inset 0px -10px 16px 0px var(--card-right);
+    color: var(--card-right-text);
+    padding: 1%;
+    transition: 0.4s;
+}
+
+.bio:hover {
+    background: var(--card-right-back-ler);
+}
+
+.bio > h2  {
+    width: 100%;
+    font-size: 3rem;
+}
+
+.bio > div {
+    width: 99%;
+    padding-right: 1vw;
+    max-height: 100%;
+}
+
+.bio > div:hover {
+    overflow-y: auto;
+}
+
+.bio > div > p {
+    text-align: justify;
+    width: 100%;
+    font-size: 1.5rem;
+}

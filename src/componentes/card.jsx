@@ -2,45 +2,34 @@ import './card.css'
 import { useEffect, useRef } from 'react'
 
 function Card(props) {
-
-    function FormatNomePseudo() { return String(props.Nome).split(' ')[0] } // pegando so primeiro nome dele pae
-    function FormatNomeTitulo() {  // se o nome passa de 41 simplemente so vamos corta
-        if (props.Nome.length >= 40) {
-            return String(props.Nome).slice(0, 37) + '...'
-        }
-        return props.Nome
-    }
-
-    //ref
-    //ref dos nome formatados
-    const NomePseudo = useRef(FormatNomePseudo())
-    const NomeTitulo = useRef(FormatNomeTitulo())
+    
+    const refcard = useRef()
+    
     useEffect(() => {
-        const ob = new IntersectionObserver((entrada) => {
-            const entry = entrada[0]
-            if (entry.isIntersecting) {
-                props.refe.current.classList.remove('hidden')
-                props.refe.current.classList.add('show')
+        const ob = new IntersectionObserver((elementos) => {
+            const elemento = elementos[0]
+            if (elemento.isIntersecting) {
+                refcard.current.classList.remove('hidden')
+                refcard.current.classList.add('show')
             }
             else {
-                props.refe.current.classList.remove('show')
-                props.refe.current.classList.add('hidden')
+                refcard.current.classList.remove('show')
+                refcard.current.classList.add('hidden')
             }
         })
 
-        ob.observe(props.refe.current)
-    })
+        ob.observe(refcard.current)
+    }, [])
+
     return (
-        <div className="wraper hidden" ref={props.refe}>
-            <div className="card">
-                <div className="foto" data-text={NomePseudo.current}><img src={props.img} alt="" /></div>
-                <div className="info">
-                    <h2>{ NomeTitulo.current }</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis soluta dignissimos ad aliquam unde fugiat placeat temporibus officiis, commodi modi molestiae nam quis ipsa, obcaecati autem aut. Voluptate, odio laboriosam.</p>
-                </div>
-                <h3> { props.letra } </h3>
+        <div className="card">
+            <span className="aba"><span></span></span>
+            <div className="cardsub hidden" ref={refcard}>
+                <span></span>
+                <p>{props.letra}</p>
+                <div><button onClick={props.add}>Ver</button></div>
             </div>
-        </div>
+    </div>
     )
 }
 

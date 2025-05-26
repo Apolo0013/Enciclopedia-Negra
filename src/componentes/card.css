@@ -1,130 +1,142 @@
-.wraper {
-    width: 100%;
-    height: 250px;
-    overflow-x: auto;
-    overflow-y: visible;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .card {
-    border-top: 5px solid var(--borda-card);
+    position: relative;
     width: 100%;
     height: 100%;
+    max-width: 100%;
+    z-index: 5;
+    user-select: none   ;
+}
+
+.cardsub {
+    position: relative;
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    flex-direction: row;
-    background: var(--cinza-menu);
-    gap: 10px;
+    max-width: 100%;
+    height: 100%;
+    background: var(--card-back-2);
+    border-radius: 1.5em;
     position: relative;
-    min-width: 800px;
-    font-size: 140px;
-    transition: 0.7s;
+    z-index: 5;
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.188);
+    transition: 0.4s ease-in-out;
+    font-family: 'Anton', sans-serif;
+    overflow: hidden;
+}
+
+.cardsub > span {
+    position: absolute;
+    transition: 0.5s ease;
+    z-index: 1;
+    width: 100%;
+    height: 65%;
+    background: var(--card-back);
+    border-bottom: 5px solid var(--card-back-border);
+}
+
+.cardsub > p {
+    position: relative;
+    z-index: 2;
+    font-size: 7em;
+    text-align: top start;
+    animation: dilata 5s ease-in-out infinite alternate ;
+}
+
+.cardsub > div {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsub > div > button {
+    opacity: 0;
+    width: 50%;
+    height: 50%;
+    font-weight: bolder;
+    outline: 0;
+    border: 0;
+    border-radius: 5rem;
+    font-size: 2rem;
+    background: var(--card-button);
+    transition: 0.5s ease-in-out;
     cursor: pointer;
 }
 
-.card > * {
-    padding: 10px;
+.cardsub > div > button:hover {
+    background: var(--card-button-hover);
+    transform: scale(1.05);
 }
 
-.card:hover {
-    background: var(--cinza-hover);
+@keyframes dilata {
+    from {transform: scale(1);}
+    to {transform: scale(1.1);}
 }
 
-
-.card > h3 {
-    position: absolute;
-    font-size: 1em;
-    top: 50%;
-    right: 2%;
-    transform: translateY(-50%);
-}
-
-.foto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 13%;
-    height: 100%;
-    background: var(--dourado-escuro);
-    border-radius: 10px;
-    object-fit: cover;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    position: relative;
-}
-
-.foto > img {
-    border-radius: 10px;
-    width: 70%;
-    height: auto;
-    object-fit: cover;
-    transition: 0.5s;
-}
-
-.foto:hover > img{
-    transform: scale(1.2);
-}
-
-.foto:hover:before {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: 1000;
+.aba {
+    background: var(--card-back);
+    width: 30%;
+    height: 40%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    left: 50%;
     top: 0;
-    content: attr(data-text);
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: white;
-    width: 100%;
-    height: 20px;
-    animation: Apa 0.5s ease-in-out 1 forwards;
-}
-
-@keyframes Apa {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-.info {
+    transform: translateX(-50%) translateY(0%);
+    position: absolute;
+    z-index: 2;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-    height: 100%;
-    width: 70%;
-    background: var(--caixa-info);
-    border-radius: 5px;
+    padding: 1%;
+    transition: 0.3s;
 }
 
-.info:hover > * {
-    color: white;
+.card:hover > .aba {
+    transform: translateX(-50%) translateY(-40%);
 }
 
-.info > h2 {
-    color: var(--texto-principal);
-    font-size: 0.3em;
+.cardsub:hover > div > button {
+    opacity: 1;
 }
 
-.info > p {
-    color: var(--texto-secundario);
-    text-align: justify;
-    font-size: 0.17em;
+.card:hover > .cardsub {
+    transform: scale(1.05) translateY(-4%);
 }
 
-/*Suavidade*/
+.cardsub:hover > span {
+    filter: brightness(0.8);
+}
+
+.aba > span {
+    margin-top: 5%;
+    width: 60%;
+    height: 6%;
+    background: rgb(59, 59, 59);
+    border-radius: 15%;
+}
+
+/*fds*/
 .hidden {
-    transition: 0.5s;
-    opacity: 0.8;
-    transform: translateX(-20px);
+    transform: translateY(5%);
+    opacity: 0.5;
 }
 
 .show {
-    width: 100%;
-    transition: 0.5s;
+    transform: translate(0px);
     opacity: 1;
-    transform: translateX(0px);
+    animation: tre 0.3s ease-in-out 1 alternate;
 }
 
+@keyframes tre {
+    50% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(1deg);
+    }
+}

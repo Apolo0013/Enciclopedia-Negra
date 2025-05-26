@@ -1,59 +1,58 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Scroll Suave</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
+<style>
+    .grid {
+      display: flex;
+      gap: 10px;
+      background: #555;
+      padding: 20px;
     }
-
-    .section {
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-        color: white;
+  
+    .celula {
+      background: #c3c3c3;
+      width: 100px;
+      height: 150px;
+      border-radius: 15px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+      font-family: sans-serif;
+      font-weight: bold;
     }
-
-    .hidden {
-      opacity: 0;
-      transform: translateX(-40px);
-      transition: all 0.4s ease-out;
+  
+    .aba {
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40px;
+      height: 20px;
+      background: #aaa;
+      border-radius: 10px 10px 0 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
-
-    .show {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    .blue { background: #3498db; }
-    .green { background: #2ecc71; }
-    .purple { background: #9b59b6; }
   </style>
-</head>
-<body>
-
-  <div class="section blue hidden">Seção 1</div>
-  <div class="section green hidden">Seção 2</div>
-  <div class="section purple hidden">Seção 3</div>
-
-  <script>
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('show');
-        }
-      });
-    });
-
-    document.querySelectorAll('.hidden').forEach(el => observer.observe(el));
-  </script>
-
-</body>
-</html>
+  
+  <div class="grid">
+    <div class="celula">
+      <div class="aba"></div>
+      A
+    </div>
+    <div class="celula">
+      <div class="aba"></div>
+      B
+    </div>
+    <div class="celula">
+      <div class="aba"></div>
+      C
+    </div>
+    <div class="celula">
+      <div class="aba"></div>
+      D
+    </div>
+    <div class="celula">
+      <div class="aba"></div>
+      E
+    </div>
+  </div>
+  
