@@ -2,7 +2,7 @@
 
 .CardArtista {
     width: 100%;
-    height: 30vh;
+    height: 53vh;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -12,20 +12,22 @@
     border-radius: 0.1vw;
     font-family: 'Roboto Mono' ,Arial;
     cursor: text;
+    transition: 0.5s;
 }
 
 
 .CardArtista:hover {
-    height: 50vh;
+    height: 100vh;
 }
 
 .infoArtista {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 17%;
+    width: 25%;
     flex-direction: column;
-    height: 100%;
+    padding-left: 1%;
+    height: 100% !important;
     background: var(--card-left);
     box-shadow: inset 0px -10px 16px 0px var(--card-left) !important;
     color: var(--card-left-text);
@@ -33,8 +35,8 @@
 
 .infoArtista > img {
     margin-top: 10%;
-    width: auto;
-    height: 25vh;
+    width: 70%;
+    height: auto;
 }
 
 .infoArtista > span {
@@ -51,18 +53,21 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
     gap: 1%;
 }
 
 .infoArtista > span > div:nth-child(2) {
-    max-height: 74px;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
     transition: 0.4s;
 }
 
-.infoArtista > span > div:nth-child(2):hover {
-    overflow: auto;
-} 
+.infoArtista > span div:nth-child(2) > ul {
+    margin-left: 15%;
+}
+
 
 .infoArtista > span > div > h2, h3 {
     display: flex;
@@ -82,6 +87,7 @@
     box-shadow: inset 0px -10px 16px 0px var(--card-right);
     color: var(--card-right-text);
     padding: 1%;
+    gap: 5%;
     transition: 0.4s;
 }
 
@@ -89,9 +95,9 @@
     background: var(--card-right-back-ler);
 }
 
-.bio > h2  {
+.bio > div > h2  {
     width: 100%;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .bio > div {
@@ -104,8 +110,45 @@
     overflow-y: auto;
 }
 
-.bio > div > p {
+.biografia > p {
     text-align: justify;
     width: 100%;
     font-size: 1.5rem;
+}
+
+.obras {
+    margin-top: 5vh;
+    width: 100%;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    margin-bottom: 100px;
+}
+
+.obras > section {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    width: 100%;
+}
+
+.obras > section > p, div {
+    width: 100%;
+}
+
+.obras > section > p {
+    width: 100%;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+.obras > section > div > img {
+    width: 100%;
 }
