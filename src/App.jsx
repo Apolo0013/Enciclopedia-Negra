@@ -3,7 +3,7 @@ import './App.css'
 //compenentes
 import ConteinerArtista from './componentes/Artista/conteinerartista'
 import Entrada from './componentes/entrada'
-
+import AppRoute from './Rotas/AppRotas'
 
 function App() {
     function HiddenConteiner() {
@@ -11,11 +11,11 @@ function App() {
         RefConteinerCards.current.classList.remove('noscroll')
     }
 
-    function AddConteiner() {
+    function AddConteiner(dadosinfo, dadosimg, nome) {
         RefConteinerCards.current.classList.add('noscroll')
-        SetArtista(<ConteinerArtista fecha={HiddenConteiner}></ConteinerArtista>)
+        SetArtista(<ConteinerArtista fecha={HiddenConteiner} dadosinfo={dadosinfo} dadosimg={dadosimg} nome={nome} ></ConteinerArtista>)
     }
-    //faça que o over flow do conteiner cards desaparecça pae
+
     //ref
     const RefConteinerCards = useRef()
     //state
@@ -27,6 +27,7 @@ function App() {
             {EntradaState}
             {ConteinerCardsState}
             {Artista}
+            <AppRoute></AppRoute>
         </div>
     )
 }

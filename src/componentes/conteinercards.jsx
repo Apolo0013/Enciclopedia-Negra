@@ -1,36 +1,19 @@
 import './conteinercards.css'
 import Card from './card.jsx'
-
+import ImgVoltar from '../img/voltar.webp'
 
 function ConteinerCards(props) {
+    const dados = [['A', 'p'], ['B', 'p'], ['C', 'b'], ['D', 'b'], ['E', 'b'], ['F', 'b'], ['G', 'b'], ['H', 'b'], ['I', 'b'], ['J', 'b'], ['K', 'b'], ['L', 'b'], ['M', 'b'], ['N', 'b'], ['O', 'b'], ['P', 'b'], ['Q', 'b'], ['R', 'b'], ['S', 'b'], ['T', 'b'], ['U', 'b'], ['V', 'b'], ['W', 'b'], ['X', 'b'], ['Y', 'b'], ['Z', 'b']]
     return (
         <main ref={props.refe}>
-            <Card letra="A" add={props.add} fecha={props.fecha}></Card>
-            <Card letra="B"></Card>
-            <Card letra="C"></Card>
-            <Card letra="D"></Card>
-            <Card letra="E"></Card>
-            <Card letra="F"></Card>
-            <Card letra="G"></Card>
-            <Card letra="H"></Card>
-            <Card letra="I"></Card>
-            <Card letra="J"></Card>
-            <Card letra="K"></Card>
-            <Card letra="L"></Card>
-            <Card letra="M"></Card>
-            <Card letra="N"></Card>
-            <Card letra="O"></Card>
-            <Card letra="P"></Card>
-            <Card letra="Q"></Card>
-            <Card letra="R"></Card>
-            <Card letra="S"></Card>
-            <Card letra="T"></Card>
-            <Card letra="U"></Card>
-            <Card letra="V"></Card>
-            <Card letra="W"></Card>
-            <Card letra="X"></Card>
-            <Card letra="Y"></Card>
-            <Card letra="Z"></Card>
+            <div className="VoltarEntrada" onClick={props.voltar}><img src={ImgVoltar} alt="Voltar" /></div>
+            {dados.map((letra, i) => (
+                <Card chave={i} letra={letra[0]} desativado={letra[1]}
+                    dadosinfo={props.dados.dadosinfo[letra[0]]}
+                    dadosimg={props.dados.dadosimg[letra[0]]}
+                    add={props.add} fecha={props.fecha}
+                ></Card>
+            ))}
         </main>
     )
 }

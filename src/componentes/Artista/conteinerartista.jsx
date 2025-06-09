@@ -1,24 +1,56 @@
 import './conteinerartista.css'
 import imgfecha from '../../img/fechaimg.webp'
 import CardArtista from './cardartista.jsx'
-
-//artista imagens obras e artista.
-import fds from '../../img/img1.jpg'
-import fds2 from '../../img/D_Q_NP_717851-MLU50424885263_062022-O.webp'
+import { useEffect, useRef, useState } from 'react'
 
 function ConteinerArtista(props) {
-    return (
-        <div className="ConteinerArtista">
-            <img src={imgfecha} onClick={props.fecha} alt="" />
-            <div className="ConteinerCards">
+    function Scroll(e) {
+        e.scrollIntoView({
+        behavior: "smooth",  // anima o scroll
+        block: "start"       // posiciona o elemento no topo da viewport
+        })
+    }
+
+    function FormatConteiner() {
+        let ListConteiner = []
+        let conteiner = null
+        for (let index = 0; index < props.dadosinfo.length; index++) {
+            let scrollauto = false
+            if (props.dadosinfo[index].Nome === props.nome) {
+                scrollauto = true
+            }
+
+            conteiner = (
                 <CardArtista
-                    nome='Abdias do Nascimento'
-                    idade='(1914 - 2011)'
-                    profissoes={['ativista', 'político', 'poeta', 'professor', 'dramaturgo']}
-                    biografia='Abdias do Nascimento foi uma das figuras mais importantes na luta contra o racismo no Brasil. Fundador do Teatro Experimental do Negro, em 1944, ele atuou como militante pela valorização da cultura negra nas artes e na política. No período da ditadura militar, denunciou o racismo brasileiro em organismos internacionais como a ONU. Na política, foi deputado federal e senador, defendendo pautas como cotas raciais e a criação do Dia da Consciência Negra. Sua vida é símbolo de resistência e ativismo antirracista.'
-                    textos_obras={['"O Quilombismo" – Obra teórica que propõe uma sociedade baseada nos valores dos quilombos, como solidariedade e resistência.', '"Sortilégio" – Peça teatral que denuncia o racismo e exalta a identidade negra']}
-                    imgobras={[fds, fds2]}
-                ></CardArtista>
+                    ref={RefConteiner}
+                    fotoartista={props.dadosimg?.[`artista${index + 1}`].foto}
+                    nome={props.dadosinfo?.[index]?.Nome}
+                    idade={props.dadosinfo?.[index]?.Idade}
+                    profissoes={props.dadosinfo?.[index]?.Profissoes}
+                    biografia={props.dadosinfo?.[index]?.Biografia}
+                    textos_obras={props.dadosinfo?.[index]?.texto_obras}
+                    legado={props.dadosinfo?.[index]?.legado}
+                    imgobras={[props.dadosimg?.[`artista${index + 1}`]?.obras[0], props.dadosimg?.[`artista${index + 1}`]?.obras[1]]}
+                    scroll={Scroll}
+                    scrollauto={scrollauto}
+                ></CardArtista>)
+            ListConteiner.push(conteiner)
+        }
+        SetConteines(ListConteiner)
+    }
+
+
+    const RefConteiner = useRef()
+    const [Conteines, SetConteines] = useState([])
+    useEffect(() => FormatConteiner(), [])
+
+    return (
+        <div className="wrraperConteinerArtista">
+            <div className="ConteinerArtista" ref={RefConteiner}>
+                <img src={imgfecha} onClick={props.fecha} alt="" />
+                <div className="ConteinerCards">
+                    {Conteines}
+                </div>
             </div>
         </div>
     )  

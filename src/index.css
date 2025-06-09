@@ -5,8 +5,7 @@
     box-sizing: border-box;
 }
 
-
-body, html, #root{
+body, html, .ConteinerMain , #root{
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -15,4 +14,8 @@ body, html, #root{
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: 0;
 }
