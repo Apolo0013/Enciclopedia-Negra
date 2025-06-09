@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/projeto_escola/static/css/main.1017ee93.css",
-    "main.js": "/projeto_escola/static/js/main.9e220f68.js",
+    "main.css": "/projeto_escola/static/css/main.569e00b1.css",
+    "main.js": "/projeto_escola/static/js/main.722dede4.js",
     "static/js/453.74476cf5.chunk.js": "/projeto_escola/static/js/453.74476cf5.chunk.js",
-    "static/media/ex.jpg": "/projeto_escola/static/media/ex.eeffdb9cc3493f0a53a6.jpg",
-    "static/media/img1.jpg": "/projeto_escola/static/media/img1.7d2d736bcca2e2a835e9.jpg",
-    "static/media/D_Q_NP_717851-MLU50424885263_062022-O.webp": "/projeto_escola/static/media/D_Q_NP_717851-MLU50424885263_062022-O.b575fd7d988630c917d5.webp",
+    "static/media/1.webp": "/projeto_escola/static/media/1.8f528f4004aa6f6cbed1.webp",
+    "static/media/2.webp": "/projeto_escola/static/media/2.e704f3a426dca4a0b662.webp",
+    "static/media/abdias.webp": "/projeto_escola/static/media/abdias.05eb0cdf714d623e1a5c.webp",
     "static/media/punhos-negros-1370.webp": "/projeto_escola/static/media/punhos-negros-1370.24b2e840549b964c5382.webp",
-    "index.html": "/projeto_escola/index.html",
+    "static/media/foto.webp": "/projeto_escola/static/media/foto.e1392045c187a657de9c.webp",
+    "static/media/Arthur_timotheo.webp": "/projeto_escola/static/media/Arthur_timotheo.8449fccdf4bcace30dd6.webp",
+    "static/media/cancel.webp": "/projeto_escola/static/media/cancel.9bcddf95dfe8e01a9c45.webp",
+    "static/media/voltar.webp": "/projeto_escola/static/media/voltar.d9c7b736c5c9a8e1fcb0.webp",
     "static/media/fechaimg.webp": "/projeto_escola/static/media/fechaimg.3826fa55448b02033f6f.webp",
-    "main.1017ee93.css.map": "/projeto_escola/static/css/main.1017ee93.css.map",
-    "main.9e220f68.js.map": "/projeto_escola/static/js/main.9e220f68.js.map",
+    "index.html": "/projeto_escola/index.html",
+    "main.569e00b1.css.map": "/projeto_escola/static/css/main.569e00b1.css.map",
+    "main.722dede4.js.map": "/projeto_escola/static/js/main.722dede4.js.map",
     "453.74476cf5.chunk.js.map": "/projeto_escola/static/js/453.74476cf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1017ee93.css",
-    "static/js/main.9e220f68.js"
+    "static/css/main.569e00b1.css",
+    "static/js/main.722dede4.js"
   ]
 }
