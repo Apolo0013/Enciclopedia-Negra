@@ -1,26 +1,15 @@
+import { useNavigate } from 'react-router-dom'
 import './card.css'
 import { useEffect, useRef } from 'react'
 
 function Card(props) {
-    
-    const refcardwrraper = useRef()
     const refcard = useRef()
-    console.log(props.dadosimg)
-    console.log(props.dadosinfo)
     useEffect(() => {
-        if (props.desativado === 'b') {
-            refcardwrraper.current.classList.add('disabled')
-            return
-        }
         const ob = new IntersectionObserver((elementos) => {
             try {const elemento = elementos[0]
                 if (elemento.isIntersecting) {
                     refcard.current.classList.remove('hidden')
                     refcard.current.classList.add('show')
-                }
-                else {
-                    refcard.current.classList.remove('show')
-                    refcard.current.classList.add('hidden')
                 }
             } catch {
                 ob.disconnect()
@@ -30,13 +19,15 @@ function Card(props) {
         ob.observe(refcard.current)
     }, [])
 
+    const nv = useNavigate()
+
     return (
-        <div className="card" key={props.chave} ref={refcardwrraper}>
+        <div className="card hidden" key={props.chave}  ref={refcard}>
             <span className="aba"><span></span></span>
-            <div className="cardsub hidden" ref={refcard}>
+            <div className="cardsub">
                 <span></span>
                 <p>{props.letra}</p>
-                <div><button onClick={() => props.add(props.dadosinfo, props.dadosimg, false)}>Ver</button></div>
+                <div><button onClick={() => nv(`/home/artistas/artista/${props.letra}`, {state : {letra: props.letra}})}>Ver</button></div>
             </div>
     </div>
     )

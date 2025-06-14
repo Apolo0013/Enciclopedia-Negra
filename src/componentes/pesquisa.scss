@@ -1,0 +1,103 @@
+$font-base: 16;
+
+@function font($size-px) {
+  @return ($size-px / $font-base) * 1em;
+}
+
+
+.pesquisa-conteiner {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: white;
+}
+
+.pesquisawrapper {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: font(10);
+    border-bottom: font(5) solid rgb(172, 172, 172);
+}
+
+.pesquisa {
+    position: relative;
+    margin-right: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    height: 90%;
+    background: rgba(164, 161, 158, 0.999);
+    transition: 0.3s;
+}
+
+@media (max-width: 930px) {
+    .pesquisa {
+        width: 40%;
+    }
+}
+
+@media (max-width: 700px) {
+    .pesquisa {
+        width: 50%;
+    }
+}
+
+
+
+
+.pesquisa:hover {
+    background: rgba(221, 219, 217, 0.999);
+}
+
+.pesquisa:hover > input {
+    color: black;
+}
+
+.pesquisa > img {
+    height: 80%;
+    width: auto;
+}
+
+.pesquisa > img:nth-child(1):hover {
+    transform: scale(1.1);
+}
+
+.pesquisa > input {
+    border: 0;
+    outline: 0;
+    background: (38, 31, 26, 0.474);
+    width: 80%;
+    height: 90%;
+    background: rgba(255, 255, 255, 0);
+    color: rgb(230, 228, 228);
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 1%;
+}
+
+.resultado {
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2%;
+    gap: 2%;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgb(227, 217, 217);
+}
+
+
+

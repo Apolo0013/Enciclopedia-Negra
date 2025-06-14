@@ -1,28 +1,28 @@
-import './cardartista.css'
+import './cardartista.scss'
 import { useEffect, useRef} from 'react'
 
 function CardArtista(props) {
     const RefCard = useRef()
     const RefScrollAuto = useRef(true)
     const ScrollUsado = useRef(false)
+    const RefConteudoMobile = useRef(window.matchMedia("(hover: none) and (pointer: coarse)").matches)
+
     useEffect(() => {
+        console.log(props.scrollauto)
         if (props.scrollauto) {
-            props.scroll(RefCard.current)
+            setTimeout(() => props.scroll(RefCard.current), 100)
             setTimeout(() => RefScrollAuto.current = false, 2000)
         }
-        console.log(props.dados)
     })
 
     return (
         < div className="CardArtista" onMouseEnter={(e) => {
                 if (!RefScrollAuto.current || !ScrollUsado.current) {
-                    console.log('scroll auxiliar')
                     ScrollUsado.current = true
                     props.scroll(e.target)
                 }
             }}
             onMouseLeave={() => ScrollUsado.current = false}
-            
             ref={RefCard}
         >
             <div className="infoArtista">
@@ -47,7 +47,7 @@ function CardArtista(props) {
                     </div>
                 </span>
             </div>
-            <div className="bio" onMouseEnter={() => props.ref.current.classList.add('NoScrollY')} onMouseLeave={() => props.ref.current.classList.remove('NoScrollY')}>
+            <div className="bio" onMouseEnter={() => RefConteudoMobile.current ? null : props.ref.current.classList.add('NoScrollY')} onMouseLeave={() => RefConteudoMobile.current ? null :props.ref.current.classList.remove('NoScrollY')}>
                 <div>    
                     <h2>{props.nome}</h2>
                     <section className="biografia">

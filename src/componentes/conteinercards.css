@@ -2,6 +2,7 @@ main {
     position: relative;
     width: 100%;
     display: grid;
+    justify-items: center;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20% 20%;
     row-gap: 1vw;
@@ -14,6 +15,30 @@ main {
     animation: ShowCards 2s ease-in-out 1 forwards;
 }
 
+@media (max-width: 900px) {
+    main {
+        grid-template-columns: 34% 34% 34%;
+        grid-template-rows: repeat(9 ,15%);
+    }
+}
+
+
+@media (max-width: 700px) {
+    main {
+        grid-template-columns: repeat(2 ,50%) !important;
+        grid-template-rows: repeat(13, 10%);
+    }
+}
+
+
+@media (max-width: 420px) {
+    main { 
+        grid-template-columns: 100% !important;
+        grid-template-rows: repeat(26, 5%);
+    }
+}
+
+
 @keyframes ShowCards {
     from {
         opacity: 0;
@@ -22,32 +47,3 @@ main {
         opacity: 1;
     }
 }
-
-.VoltarEntrada {
-    top: -4%;
-    left: 0;
-    position: absolute;
-    width: 7%;
-    height: 7%;
-    transform: translateX(-5vw);
-    background: rgb(130, 76, 53);
-    border-top-right-radius: 5vh;
-    border-bottom-right-radius: 5vh;
-    transition: 0.5s;
-    animation: De 0.5s ease-in-out infinite forwards, ShowCards 2s ease 1 forwards;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.VoltarEntrada > img {
-    height: 70%;
-    width: auto;
-}
-
-.VoltarEntrada:hover{
-    transform: scale(1.1) translate(0);
-    filter: brightness(0.7);
-}
-

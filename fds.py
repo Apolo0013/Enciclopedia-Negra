@@ -1,11 +1,7 @@
-from string import ascii_uppercase
-lista = []
-cont = 0
-for i in ascii_uppercase:
-    cont += 1
-    if cont <= 2:
-        lista.append([i, 'p'])
-    else: 
-        lista.append([i, 'b'])
+🔎 React Hook Form + Zod → para controlar os campos e validar email/senha
 
-print(lista)
+🧑‍💻 TanStack Query → para enviar os dados via POST à API
+
+🔐 React IMask → se tivesse CPF, telefone, ou data
+
+🔔 React Hot Toast → pra mostrar “Login feito com sucesso!” ou erro

@@ -6,7 +6,7 @@
     height: 100%;
     max-width: 100%;
     z-index: 5;
-    user-select: none   ;
+    user-select: none;
 }
 
 .cardsub {
@@ -27,6 +27,19 @@
     font-family: 'Anton', sans-serif;
     overflow: hidden;
 }
+
+@media (max-width: 420px) {
+    .card {
+        width: 70%;
+    }
+}
+
+@media (max-width: 370px) {
+    .card {
+        width: 80%;
+    }
+}
+
 
 .cardsub > span {
     position: absolute;
@@ -122,28 +135,23 @@
 
 /*fds*/
 .hidden {
-    transform: translateY(5%);
-    opacity: 0.5;
+    transform: translateY(10%) !important;
+    opacity: 0;
 }
-
 .show {
-    transform: translate(0px);
+    transform: translateY(0px);
+    transition: all 1s;
     opacity: 1;
-    animation: tre 0.3s ease-in-out 1 alternate;
 }
 
-@keyframes tre {
-    50% {
-        transform: rotate(-1deg);
-    }
-    100% {
-        transform: rotate(1deg);
-    }
-}
 
-.disabled {
-    pointer-events: none;
-    opacity: 0.7;
-    filter: grayscale(1);
-    cursor: not-allowed;
+@media (hover: none) and (pointer: coarse) {
+    .cardsub > div > button {
+        opacity: 1;
+    }
+
+    .cardsub > div > button:hover {
+        background: var(--card-button);
+        transform: None;
+    }
 }

@@ -70,60 +70,46 @@
                 ]
             }
             ,"legado" : "Benedito José Tobias (1894–1963) foi um importante pintor, desenhista e aquarelista brasileiro, notável por retratar com sensibilidade e dignidade a população negra de São Paulo nas décadas de 1930 e 1940. Seu legado está na representação humanizada e expressiva de pessoas negras, muitas vezes invisibilizadas na arte da época. Apesar de ter sido pouco reconhecido em vida, sua obra ganhou valorização nas últimas décadas, sendo hoje vista como fundamental para a história da arte afro-brasileira e da representação racial no Brasil."
-        },
-        {
-            "Nome": "Bob Marley",
-            "Idade": "(1945 - 1981)",
-            "Profissoes": ["Cantor", "Compositor", "Guitarrista"],
-            "Biografia": "Nascido Robert Nesta Marley em 6 de fevereiro de 1945, em Nine Mile, Jamaica, foi um cantor, compositor e guitarrista que se tornou o maior ícone do reggae mundial. Sua música transcendeu fronteiras, promovendo mensagens de paz, justiça social e espiritualidade, e consolidando o reggae como um gênero global.",
-            "texto_obras": {
-                "obra1": [
-                "Início da carreira e ascensão com os Wailers",
-                "Na década de 1960, Marley formou o grupo The Wailers ao lado de Peter Tosh e Bunny Wailer. A banda alcançou sucesso internacional com álbuns como Catch a Fire (1973) e Burnin’ (1973), que incluíam faixas como “I Shot the Sheriff”, posteriormente popularizada por Eric Clapton. Após a saída de Tosh e Bunny, Marley continuou com o nome Bob Marley & The Wailers, incorporando o trio vocal feminino I Threes, que incluía sua esposa, Rita Marley."
-                ],
-                "obra2": [
-                "Ativismo e espiritualidade",
-                "Marley era adepto do movimento Rastafári, que influenciou profundamente sua música e visão de mundo. Ele utilizava suas canções para abordar temas como opressão, espiritualidade e unidade africana. Em 1978, organizou o One Love Peace Concert na Jamaica, onde promoveu um aperto de mão simbólico entre líderes políticos rivais, buscando a reconciliação nacional."
-                ]
-            },"legado" : "Bob Marley (1945–1981) foi um cantor, compositor e ícone cultural jamaicano que se tornou o maior expoente do reggae no mundo. Seu legado transcende a música, unindo espiritualidade, resistência política e identidade negra. Marley popularizou o reggae internacionalmente, levou a filosofia rastafári a milhões de pessoas e usou suas letras para pregar paz, justiça social e unidade."
-        }
+        }   
     ],
     "C" :
     [
         {
-            "Nome": "Clara Nunes",
-            "Idade": "(1942 - 1983)",
-            "Profissoes": ["Cantora", "Compositora", "Intérprete"],
-            "Biografia": "Nascida Clara Francisca Gonçalves Pinheiro em 12 de agosto de 1942, em Caetanópolis (antiga Paraopeba), Minas Gerais, foi uma das mais importantes intérpretes da música popular brasileira. Clara destacou-se pela valorização das raízes afro-brasileiras, do samba e das religiões de matriz africana, contribuindo para a inserção desses temas no cenário musical nacional.",
+            "Nome": "Francisca Xavier Queiroz de Jesus",
+            "Idade": "1932 - 2020",
+            "Profissoes": ["atriz", "produtora", "sacerdotisa do candomblé", "autora"],
+            "Biografia": "Nascida em Salvador em 22 de janeiro de 1932, Chica Xavier teve uma carreira artística que atravessou mais de seis décadas. Estreou no teatro em 1956 com 'Orfeu da Conceição' e consolidou-se como uma das mais importantes atrizes negras do Brasil. Atuou em diversos filmes e mais de 50 papéis na televisão, incluindo novelas marcantes como 'Sinhá Moça', 'Dancin’ Days', 'Renascer' e 'Tenda dos Milagres'. Também foi líder religiosa no candomblé, fundadora do terreiro Irmandade do Cercado do Boiadeiro, e autora do livro 'Chica Xavier canta sua prosa' (1999). Foi homenageada com o Troféu Palmares em 2010 e com a biografia 'Chica Xavier: Mãe do Brasil' (2013).",
             "texto_obras": {
                 "obra1": [
-                "Início da carreira e reconhecimento nacional",
-                "Clara começou a cantar em corais de igreja e se apresentou em programas de rádio em Minas Gerais. Mudou-se para o Rio de Janeiro em 1965, assinando contrato com a Odeon e lançando seu primeiro LP, A Voz Adorável de Clara Nunes, em 1966. Ao longo da carreira, lançou 16 álbuns de estúdio e se tornou a primeira mulher brasileira a vender mais de 100 mil cópias de um disco."
+                "Título: Tenda dos Milagres (1985)",
+                "Na minissérie inspirada na obra de Jorge Amado, Chica interpreta Magé Bassã, uma poderosa mãe-de-santo que representa a ancestralidade e a sabedoria da cultura afro-brasileira. Sua personagem simboliza a resistência espiritual e a preservação das tradições africanas no Brasil, sendo uma referência de força e respeito dentro da narrativa."
                 ],
                 "obra2": [
-                "Cultura afro-brasileira e identidade artística",
-                "Sua obra é profundamente marcada pela exaltação da cultura afro-brasileira, das religiões de matriz africana como o candomblé e das tradições populares. Entre seus maiores sucessos estão 'O Mar Serenou', 'Conto de Areia', 'Morena de Angola' e 'Canto das Três Raças'. Clara é reconhecida como uma das principais artistas a levar essas temáticas ao grande público, ajudando a combater o preconceito e celebrar a herança cultural africana no Brasil."
+                "Título: Sinhá Moça (1986)",
+                "Como Virgínia, conhecida como 'Bá', Chica deu vida a uma personagem que personifica a maternidade, a resistência e a dignidade negra em meio à violência do Brasil escravista. Sua atuação marcou profundamente o público, tornando-se símbolo de memória e respeito pela ancestralidade afrodescendente."
                 ]
             },
-            "legado": "Clara Nunes foi uma das maiores intérpretes da música brasileira e pioneira na valorização das raízes afro-brasileiras no samba. Sua trajetória abriu portas para outras mulheres na música e elevou temas culturais e religiosos afro-brasileiros ao mainstream. Sua morte precoce em 1983, aos 40 anos, gerou grande comoção. Seu legado é perpetuado por homenagens como o Teatro Clara Nunes e o documentário Clara Estrela (2017)."
-            },
+            "legado": "Chica Xavier foi pioneira na representação da mulher negra na televisão e no teatro brasileiros, inspirando gerações com sua presença marcante, dignidade e luta por visibilidade. Fora das artes, sua atuação religiosa como mãe-de-santo e sua liderança comunitária consolidaram sua imagem como guardiã da cultura afro-brasileira. Homenagens como o Troféu Palmares e centros culturais com seu nome reforçam sua importância histórica e espiritual para o Brasil."
+            }
+            ,
             {
-                "Nome": "Caetano Dias",
-                "Idade": "(1959)",
-                "Profissoes": ["Artista visual", "Cineasta", "Curador"],
-                "Biografia": "Caetano Dias nasceu em 7 de agosto de 1959, no distrito de Bonfim de Feira, em Feira de Santana, Bahia. É um artista visual, cineasta e curador brasileiro que vive e trabalha em Salvador. Sua obra tem abordagem multidisciplinar, explorando temas como corpo, memória, erotismo, religiosidade e identidade cultural.",
-                "texto_obras": {
-                    "obra1": [
-                    "Formação e início de carreira",
-                    "Entre 1985 e 1987, Caetano cursou Letras Vernáculas na Universidade Católica do Salvador. Ingressou nas artes visuais nos anos 1980 com o Grupo Interferências, realizando murais em espaços públicos de Salvador. Em 1988, apresentou a performance 'Hormônios de uma Cidade' e realizou um mural na Praça de Oxum/Terreiro Casa Branca. Desde 1995, ministra cursos no MAM/BA."
-                    ],
-                    "obra2": [
-                    "Poética e experimentação",
-                    "Sua obra é influenciada por Georges Bataille, explorando erotismo, sagrado e morte. O corpo é tratado como entidade simbólica e histórica, e suas produções incluem pintura, vídeo, instalação e fotografia digital. Caetano evita narrativas lineares, buscando expressão simbólica e visceral dos temas abordados."
-                    ]
-                },
-                "legado": "Caetano Dias é um dos nomes mais relevantes da arte contemporânea brasileira, conhecido por sua poética provocadora e experimental. Sua obra dialoga com questões profundas da condição humana, da identidade cultural e da espiritualidade afro-brasileira. Em 2025, expôs na mostra 'Afro Brasilidade', ao lado de sua mãe. Suas obras integram acervos como o do Museu de Arte Moderna da Bahia e da Casa de las Américas (Cuba), e é representado pela Paulo Darzé Galeria de Arte."
-        }
+  "Nome": "Conceição Evaristo",
+  "Idade": "(1946– )",
+  "Profissoes": ["Escritora", "Professora", "Pesquisadora"],
+  "Biografia": "Maria da Conceição Evaristo de Brito nasceu em 29 de novembro de 1946, em Belo Horizonte (MG), em uma família numerosa e humilde. Trabalhou como empregada doméstica até concluir o magistério. Formou-se em Letras pela UFRJ, fez Mestrado na PUC-RJ e Doutorado na UFF. Sua estreia literária ocorreu em 1990 nos Cadernos Negros. Criadora do conceito de 'escrevivência', sua escrita une experiência de vida e ficção para retratar as vivências de mulheres negras.",
+  "texto_obras": {
+    "obra1": [
+      "Ponciá Vicêncio (2003)",
+      "Romance que acompanha Ponciá, descendente de escravizados, lidando com memória ancestral e identidade. A obra reflete sobre herança histórica, resistência e a reconstrução do pertencimento feminino negro."
+    ],
+    "obra2": [
+      "Becos da Memória (2006)",
+      "Ambientado em uma favela, entrelaça memórias coletivas e individuais de opressão, marginalidade e solidariedade. Os becos simbolizam caminhos esquecidos da história negra e oferecem visibilidade a essas trajetórias."
+    ]
+  },
+  "legado": "Conceição Evaristo é referência na literatura afro-brasileira, com reconhecimento nacional e internacional. Criadora da 'escrevivência', recebeu o Prêmio Jabuti (2015), o troféu Juca Pato (2023), e teve obras traduzidas em diversos países. Sua produção acadêmica e literária impulsiona debates sobre raça, gênero e ancestralidade, sendo amplamente estudada em universidades e centros culturais."
+}
+
     ],
     "D" : 
     [
@@ -204,7 +190,7 @@
     "F" : 
     [
         {
-            "Nome": "Antônio Firmino Monteiro",
+            "Nome": "Firmino Monteiro",
             "Idade": "(1855 – 1888)",
             "Profissoes": ["Pintor", "Tipógrafo"],
             "Biografia": "Antônio Firmino Monteiro (22 de fevereiro de 1855 – 3 de julho de 1888) foi um pintor e tipógrafo brasileiro do século XIX, reconhecido por suas paisagens e cenas urbanas do Rio de Janeiro. De origem modesta, iniciou sua vida profissional como caixeiro, encadernador e tipógrafo antes de ingressar na Academia Imperial de Belas Artes (AIBA).",
@@ -222,22 +208,22 @@
             }
         ,
         {
-            "Nome": "Raimundo Fagner Cândido Lopes",
-            "Idade": "(1949)",
-            "Profissoes": ["Cantor", "Compositor", "Instrumentista", "Produtor"],
-            "Biografia": "Raimundo Fagner Cândido Lopes, conhecido artisticamente como Fagner, é um dos mais influentes nomes da música popular brasileira. Reconhecido por sua voz marcante, sua carreira de mais de cinco décadas mescla música nordestina, MPB, rock e poesia.",
-            "texto_obras": {
-                "obra1": [
-                "Início da Vida e Formação",
-                "Nasceu em 13 de outubro de 1949, em Fortaleza, Ceará. Filho de imigrante libanês, teve contato precoce com a música. Na adolescência formou grupos musicais e venceu o IV Festival de Música Popular do Ceará em 1968 com 'Nada Sou'."
-                ],
-                "obra2": [
-                "Ascensão Nacional",
-                "Mudou-se para Brasília em 1970 para estudar arquitetura, mas abandonou o curso para focar na música. Destacou-se em festivais locais com canções como 'Mucuripe' e 'Cavalo Ferro', ganhando reconhecimento nacional."
-                ]
-            },
-            "legado": "Fagner recebeu diversos prêmios e homenagens ao longo da carreira. Em 2019 lançou sua biografia, escrita pela jornalista Regina Echeverria. Continua ativo, realizando turnês e lançando novos trabalhos, com shows programados para 2025."
-            }
+        "Nome": "Fabiana Cozza dos Santos",
+        "Idade": "1976 - ",
+        "Profissoes": ["cantora", "pesquisadora", "escritora", "professora", "curadora"],
+        "Biografia": "Nascida em 16 de janeiro de 1976, em São Paulo, Fabiana Cozza é cantora, pesquisadora, escritora e intérprete. Começou no samba com influência de jazz e MPB. Formou-se em música pela Universidade Livre de Música Tom Jobim e jornalismo pela PUC-SP. Lançou seu primeiro álbum solo em 2004 ('O Samba É Meu Dom') e conquistou o cenário nacional com premiações como Prêmio da Música Brasileira (2012) e álbum premiado em categoria internacional (2018). É doutoranda em música na Unicamp e atua também como professora e curadora.",
+        "texto_obras": {
+            "obra1": [
+            "Título: O Samba É Meu Dom (2004)",
+            "Introduz sua presença refinada na MPB, valorizando o samba com interpretação precisa e timbre suave. Mistura instrumentos tradicionais e melodia sofisticada, abrindo espaço para novas vozes femininas negras no samba."
+            ],
+            "obra2": [
+            "Título: Dos Santos (2020)",
+            "Homenagem às matrizes africanas, o álbum une samba, percussão e ancestralidade, usando letras e arranjos que exaltam a cura simbólica e os ancestrais da cultura negra."
+            ]
+        },
+        "legado": "Fabiana é reconhecida como uma das vozes mais marcantes da nova geração da MPB, mesclando pesquisa e performance. É referência em curadoria (como a oficina 'O Corpo da Voz'), e seus álbuns têm presença internacional e premiações. Seu trabalho fortalece a visibilidade do samba e da cultura afro-brasileira, com destaque em festivais como Nuits d’Afrique e pelo álbum celebrado 'Dos Santos'."
+        }
     ],
     "G" : 
     [
@@ -295,23 +281,25 @@
             },
             "legado": "Horácio Hora produziu mais de 300 obras, que estão preservadas em instituições como o Museu Histórico de Sergipe, Museu Afro Brasil e Museu Mariano Procópio. Apesar de ter falecido jovem, aos 36 anos, seu legado artístico é celebrado e estudado até hoje, com eventos comemorativos realizados em seu sesquicentenário."
             }
-        ,{
-            "Nome": "Helen Mirren",
-            "Idade": "(1945)",
-            "Profissoes": ["Atriz"],
-            "Biografia": "Helen Lydia Mironoff, nascida em 26 de julho de 1945, em Hammersmith, Londres, é uma atriz britânica renomada por sua versatilidade e profundidade em papéis dramáticos e cômicos. Sua carreira abrange mais de seis décadas, destacando-se em cinema, televisão e teatro, especialmente por interpretações de figuras históricas.",
-            "texto_obras": {
-                "obra1": [
-                "A Rainha (2006)",
-                "Interpretação da rainha Elizabeth II, que lhe rendeu o Oscar de Melhor Atriz, além do BAFTA e Globo de Ouro."
-                ],
-                "obra2": [
-                "Prime Suspect (1991–2006)",
-                "Série de televisão na qual viveu a detetive Jane Tennison, conquistando três prêmios BAFTA e dois Emmys."
-                ]
-            },
-            "legado": "Helen Mirren é a única atriz a conquistar a Tríplice Coroa de Atuação nos EUA e no Reino Unido, vencendo Oscar, Emmy e Tony. Nomeada Dama Comandante da Ordem do Império Britânico e homenageada com a Calçada da Fama de Hollywood e o BAFTA Fellowship, é uma referência internacional nas artes cênicas."
-            }
+        ,
+    {
+        "Nome": "Helena Theodoro",
+        "Idade": "1943 -",
+        "Profissoes": ["filósofa", "historiadora", "radialista", "escritora"],
+        "Biografia": "Helena é filósofa, historiadora, radialista e escritora, nascida no Rio de Janeiro. Formou-se em Direito (UFRJ, 1967), Pedagogia (Uerj, 1970), mestre em Educação (UFRJ, 1978) e doutora em Filosofia (Gama Filho, 1985). Foi a primeira mulher negra no Brasil a obter doutorado em Filosofia. Trabalhou por décadas na Rádio MEC, onde criou programas como 'Com o samba na palma da mão' e 'Origens', dando voz à cultura e religiosidade afro-brasileira. Sua pesquisa acadêmica e obras literárias tratam de temas como religiosidade, ancestralidade e o protagonismo das mulheres negras.",
+        "texto_obras": {
+            "obra1": [
+                "Título: Mito e Espiritualidade: Mulheres Negras (1996)",
+                "Livro de ensaios que explora o papel das mulheres negras como guardiãs das tradições africanas no Brasil. Reflete sobre papéis sociais, diversidade de matriarcas negras e a construção de identidade por meio da religiosidade afro-brasileira."
+            ],
+            "obra2": [
+                "Título: Iansã: Rainha dos Ventos e da Tempestade (2009–2010)",
+                "Obra litúrgica e narrativa que aprofunda o estudo sobre a força de Iansã dentro do culto afro-brasileiro. Combina pesquisa acadêmica e poética para valorizar os elementos espirituais e filosóficos ligados a Iansã, exaltando o protagonismo feminino nas religiões de matriz africana."
+            ]
+        },
+        "legado": "Primeira doutora negra em Filosofia no Brasil, abrindo caminho para intelectuais negras. Radiofônica e escritora engajada, deu voz à cultura e auxílios negros por meio de programas inovadores. Recebeu Medalha Tiradentes e Medalha Chiquinha Gonzaga (2024), reconhecendo sua luta contra a intolerância religiosa e destaque na cultura afro-brasileira. Inspirou projetos culturais como a trilogia teatral 'Matriarcas' (CCBB) e segue sendo referência nos estudos sobre ancestralidade, filosofia e protagonismo feminino negro."
+}
+
 
     ],
     "I" : [
@@ -334,27 +322,28 @@
             }
         ,
         {
-            "Nome": "Iracema de Alencar",
-            "Idade": "(1900–1978)",
-            "Profissoes": ["Atriz"],
-            "Biografia": "Iracema de Alencar foi uma atriz brasileira pioneira do teatro e do cinema nacional, reconhecida por seu papel na valorização da cultura negra nas artes cênicas durante o início do século XX.",
+            "Nome": "Iléa Ferraz",
+            "Idade": "1960 - ",
+            "Profissoes": ["atriz", "diretora", "escritora", "cenógrafa", "artista multimídia"],
+            "Biografia": "Nascida no Rio de Janeiro em 27 de abril de 1960, Iléa Ferraz é atriz, diretora, escritora, cenógrafa e artista multimídia. Foi a primeira atriz negra indicada ao Prêmio Shell de Teatro, em 2003, pelo monólogo 'Nunca Pensei Que ia Ver Esse Dia'. Com uma carreira marcada pela versatilidade e engajamento, atuou em novelas como 'Tenda dos Milagres', 'Xica da Silva' e 'Império', além do filme 'Buena Sorte' (1997). Nos palcos, destacou-se com peças de impacto como 'Os Negros', 'Hamlet é Negro' e 'O Cheiro da Feijoada', esta última apresentada em espaços culturais no Brasil e em Angola.",
             "texto_obras": {
                 "obra1": [
-                "Trajetória Artística",
-                "Iniciou carreira no teatro e foi uma das primeiras atrizes afrodescendentes no cinema mudo brasileiro, atuando em peças importantes e abrindo caminho para artistas negros."
+                "Título: Nunca Pensei Que ia Ver Esse Dia (2003)",
+                "Monólogo teatral premiado e indicado ao Shell. A obra aborda as vivências e a trajetória de uma atriz negra no Brasil, revelando o enfrentamento cotidiano de racismo, identidade e resiliência — uma narrativa que mistura delicadeza e força cultural."
                 ],
                 "obra2": [
-                "Importância e Legado",
-                "Destacou-se pela coragem e talento em um contexto marcado por preconceitos, contribuindo para a valorização e visibilidade dos artistas negros na dramaturgia nacional."
+                "Título: O Cheiro da Feijoada (2010–)",
+                "Monólogo musical criado e interpretado por Iléa. Através da memória de uma lavadeira idosa, o espetáculo narra a origem da feijoada e celebra a cultura afro-brasileira, valorizando a ancestralidade, a história popular e o saber feminino – com apresentações em teatros, escolas e comunidades, no Brasil e em Angola."
                 ]
             },
-            "legado": "Iracema de Alencar é lembrada como uma figura fundamental na cultura afro-brasileira, inspirando discussões sobre inclusão racial nas artes até hoje."
+            "legado": "Pioneira no teatro negro, Iléa Ferraz ocupou espaços majoritariamente brancos com liderança criativa e autoral. Contribuiu para a valorização da cultura afro-brasileira por meio de espetáculos engajados e educativos, como 'O Cheiro da Feijoada'. Fundadora da Companhia Black e Preto no Rio de Janeiro, inspirou novas gerações de artistas negras, ampliando a representatividade nos palcos. Permanece ativa com produções cênico-musicais e literárias, reafirmando a força da arte negra nas artes cênicas brasileiras."
             }
+
     ],
     "J" : 
     [
         {
-            "Nome": "Jean-Michel Basquiat",
+            "Nome": "Jean Michel Basquiat",
             "Idade": "(1960–1988)",
             "Profissoes": ["Artista"],
             "Biografia": "Jean-Michel Basquiat foi um artista norte-americano de origem haitiana e porto-riquenha, reconhecido como um dos maiores nomes da arte contemporânea e do movimento neoexpressionista, conhecido por misturar grafite, arte primitiva e críticas sociais.",
@@ -467,22 +456,33 @@
     "M" : 
     [
         {
-            "Nome": "Maria Auxiliadora Lara Barcelos",
-            "Idade": "(1945–1976)",
-            "Profissoes": ["Militante Política", "Guerrilheira"],
-            "Biografia": "Conhecida como Dora, foi militante da Vanguarda Armada Revolucionária Palmares (VAR-Palmares) e participou da luta armada contra a ditadura militar no Brasil. Foi presa, torturada e exilada, denunciando abusos em documentário no Chile antes de sua morte na Alemanha Ocidental.",
+            "Nome": "Mestre Didi",
+            "Idade" : "1917–2013",
+            "Profissoes" : [
+                "Sacerdote (Alapini)",
+                "Escultor",
+                "Escritor",
+                "Artista plástico",
+                "Educador",
+                "Pesquisador da língua Iorubá",
+                "Tradutor"
+            ],
+            "Biografia": "Filho de Paizinho (Alagbá) e Mãe Senhora (ialorixá), cresceu na tradição Egungun no Candomblé desde os 8 anos. Após estudos religiosos, foi consagrado Alapini (sumo‑sacerdote) em 1975 e fundou o terreiro Ilê Asipá em 1980. Escultor autodidata, graduou-se como escritor, pesquisador da língua Iorubá (publicou seu primeiro dicionário em 1946) e publicador de contos africanos. Participou de exposições internacionais desde os anos 1960 e teve visibilidade global após a Bienal de São Paulo de 1996 (sala especial), Magiciens de la Terre (Paris, 1989) e mostra no Museu Afro Brasil em 2009.",
             "texto_obras": {
                 "obra1": [
-                "Formação e Trajetória",
-                "Iniciou Medicina na UFMG, abandonando para lutar contra a ditadura. Presa em 1969, sofreu torturas severas. Após sequestro do embaixador suíço, foi trocada e exilada no Chile, onde denunciou tortura em documentário. Posteriormente exilada na Alemanha Ocidental, onde faleceu em 1976."
+                    "Título: Ope Olodo Ejo – Palma da Serpente do Rio",
+                    "Óleo sobre nervura de palmeira, couro, búzios e miçangas (sem data), pertencente ao acervo MASP.",
+                    "Conceito: Obra rica em simbolismo nagô, dialoga com forças da natureza e ancestrais (Orixás), mantendo a sacralidade estética sem ritualizar. Representa equilíbrio entre sagrado/profano e ancestralidade/contemporaneidade."
                 ],
                 "obra2": [
-                "Legado e Homenagens",
-                "Sua história foi retratada no curta 'De Dora, por Sara' e na peça 'Dora', ambas de Sara Antunes, que exploram sua prisão, tortura e exílio, mantendo viva a memória da resistência contra a ditadura."
+                    "Título: Ejo Orun Ori Pupa",
+                    "Escultura dos anos 1980 feita com cultivos de classes cerimoniais: nervura de palmeira, couro pintado, búzios e contas.",
+                    "Conceito: Ilustra a presença mítica das serpentes divinas, unindo formas orgânicas e padrões sagrados — um totem moderno que evoca a ancestralidade yorubá."
                 ]
             },
-            "legado": "Dora é lembrada como símbolo de resistência e coragem contra a repressão do regime militar, com sua trajetória inspirando obras artísticas e debates sobre direitos humanos."
+            "legado": "Sacerdote-artista que articulou religiosidade (Candomblé) e arte contemporânea afro-brasileira. Transcendeu restrições etnocêntricas, levando esculturas litúrgicas ao reconhecimento artístico nacional e internacional. Fundador do Ilê Asipá, formador de sacerdotes e ativista cultural ao documentar a língua yorubá e contos africanos. Prêmios e exposições incluem Bienal de São Paulo, Pompidou, Guggenheim, e Order of Cultural Merit (1996). Hoje, suas esculturas estão nos acervos do MASP, Museu Afro Brasil, MAM, Guggenheim, além de recentes homenagens como a exposição “Mestre Didi: Spiritual Form” no El Museo del Barrio, NY (2025)."
             }
+
         ,
         {
             "Nome": "Moisés Patrício",
@@ -598,22 +598,24 @@
         }
         ,
         {
-            "Nome": "Panmela Castro",
-            "Idade": "(1981–)",
-            "Profissoes": ["Artista Visual", "Ativista"],
-            "Biografia": "Panmela Castro, também conhecida como Anarkia Boladona, é uma artista visual e ativista brasileira, pioneira no grafite feminino no Brasil. Seu trabalho aborda temas como violência contra a mulher, feminismo e direitos humanos, utilizando a arte urbana como forma de resistência e empoderamento.",
+            "Nome": "Preta Ferreira",
+            "Idade": "1984",
+            "Biografia": "Preta é publicitária de formação, mas também artista leve multiartista — cantora, atriz, produtora cultural e escritora. Tornou-se referência nacional no movimento por moradia como liderança da Ocupação 9 de Julho e da Frente de Luta por Moradia (MSTC/FLM) em São Paulo. Em junho de 2019, foi presa por 108‑109 dias, acusada injustamente de extorsão e associação criminosa, sem apresentação de provas, tornando‑se símbolo da criminalização de ativistas sociais no Brasil; recebeu apoio de figuras como Angela Davis e Papa Francisco. Após o cárcere, lançou o livro Minha Carne – Diário de uma prisão e continuou sua atuação artística e social.",
             "texto_obras": {
                 "obra1": [
-                "Carreira e Atuação",
-                "Iniciou no grafite no início dos anos 2000, tornando-se uma das primeiras mulheres a se destacar na arte urbana brasileira. Seu trabalho mistura arte, militância e engajamento social."
+                    "Título: Minha Carne – Diário de uma prisão (2021)",
+                    "Descrição: Relato autobiográfico em formato de diário escrito durante os 108 dias de cárcere. Combina narrativa em primeira pessoa, poemas, letras de música e depoimentos de outras presas.",
+                    "Conceito: A obra é um grito por liberdade e justiça, uma denúncia da violência do sistema prisional e uma celebração da resistência negra feminina."
                 ],
                 "obra2": [
-                "Temáticas e Impacto",
-                "Através da arte urbana, Panmela denuncia a violência contra a mulher e promove o feminismo, fortalecendo o empoderamento feminino e a luta por direitos humanos."
+                    "Título: Receita de Caranguejo (Curta, 2020)",
+                    "Descrição: Curta‑metragem em que Preta atua como atriz; recebeu o Kikito de melhor atuação no Festival de Gramado (2020).",
+                    "Conceito: Explora narrativas sobre corpo, raça e fome, inserindo a estética da negritude e demandas sociais em linguagem cinematográfica."
                 ]
             },
-            "legado": "Panmela Castro é reconhecida por impulsionar a presença feminina no grafite brasileiro e por usar a arte como ferramenta de transformação social e resistência."
+            "legado": "Tornou-se símbolo nacional da resistência aos processos de criminalização de diferentes movimentos sociais. Sua escrita sensibilizou sobre as condições carcerárias no Brasil e potencializou projetos de leitura em prisões, formando redes de solidariedade e denúncia. Reconhecida com o Prêmio Dandara da Assembleia Legislativa do RJ (2019) e o Kikito por atuação em cinema (2020), segue engajada em arte-ativismo — lançou música com Angela Davis e Conceição Evaristo, e integra série e filmes com discursos políticos e antirracistas."
             }
+
     ],
     "Q" : 
     [
@@ -693,40 +695,51 @@
     "S" :
     [
         {
-            "Nome": "Solange Almeida",
-            "Idade": "(1975– )",
-            "Profissoes": ["Cantora", "Compositora"],
-            "Biografia": "Solange Almeida é uma cantora e compositora brasileira, conhecida principalmente por seu trabalho no forró e na música popular brasileira. Com uma carreira consolidada, ela se destacou como vocalista da banda Aviões do Forró, contribuindo para popularizar o ritmo pelo Brasil.",
-            "texto_obras": {
-                "obra1": [
-                "Carreira Musical",
-                "Solange ganhou notoriedade como vocalista do Aviões do Forró, onde interpretou diversos sucessos que marcaram o gênero."
-                ],
-                "obra2": [
-                "Carreira Solo",
-                "Após deixar a banda, Solange lançou projetos solo que ampliaram seu repertório, explorando diferentes estilos musicais."
-                ]
-            },
-            "legado": "Solange Almeida é reconhecida por sua voz marcante e contribuição para a difusão do forró, influenciando gerações e valorizando a cultura nordestina."
-            }
+            "Nome": "Sabotage",
+            "Profissoes": ["Rapper", "Ator", "Compositor"],
+            "Idade": "(1973 - 2003)",
+            "Biografia": "Nasceu na favela do Canão, Zona Sul de São Paulo, e durante a infância participou do tráfico, chegando a ser interno da Febem. Em 2000, lançou Rap é Compromisso!, seu único disco em vida, que vendeu mais de 1,7 milhão de cópias e é considerado um clássico do rap nacional. Atuou como ator nos filmes O Invasor (2002) e Carandiru (2003), além de compor trilhas, participando do EP Revolusongs do Sepultura e em projetos com artistas como Rappin’ Hood, Chorão e Negra Li. Foi assassinado em 2003, após levar quatro tiros, poucos dias após se despedir da esposa para um evento; o crime permanece oficialmente sem solução.",
+            "obra1": [
+                "Título: Rap é Compromisso! (2000)",
+                "Descrição: Álbum de estreia, gravado ao lado de nomes como Negra Li, Black Alien, Chorão, Rappin’ Hood e RZO.",
+                "Conceito: Retrato visceral da vida periférica, misturando críticas sociais, denúncia, fé e resistência — o rap como compromisso com a realidade."
+            ],
+            "obra2": [
+                "Título: Projeto Sabotage 50 anos (2023–2024)",
+                "Descrição: Projeto celebrativo com lançamento de disco póstumo, documentário, livro ilustrado, exposição, série e coleções, idealizado pelos filhos Wanderson e Tamires e gravado pela Som Livre.",
+                "Conceito: Atualiza o legado ao manter sua mensagem viva por meio de colaborações com artistas da nova geração, promovendo representatividade e diálogo entre gerações."
+            ],
+            "Legado": 
+                "Fenômeno cultural: Conhecido como “Maestro do Canão”, revolucionou a cena do rap com autenticidade, humor, força poética e crítica social."
+
+        }
         ,
         {
-            "Nome": "Sérgio Vaz",
-            "Idade": "(1964– )",
-            "Profissoes": ["Poeta", "Artista", "Ativista Cultural"],
-            "Biografia": "Sérgio Vaz é um poeta, artista e ativista cultural brasileiro, conhecido por seu compromisso com a valorização da cultura periférica e a promoção da poesia marginal como instrumento de transformação social.",
-            "texto_obras": {
-                "obra1": [
-                "Movimento Poetas no Topo",
-                "Fundador do movimento Poetas no Topo, Sérgio Vaz promove a arte e a poesia nas periferias de São Paulo, incentivando a expressão cultural e a inclusão social."
-                ],
-                "obra2": [
-                "Publicações e Projetos",
-                "Autor de diversos livros de poesia, Vaz desenvolve projetos que conectam a literatura às comunidades marginalizadas, valorizando suas histórias e lutas."
-                ]
-            },
-            "legado": "Sérgio Vaz é reconhecido por seu papel na democratização da arte e da cultura, fortalecendo a voz das periferias brasileiras e inspirando novos artistas."
+            "Nome": "Sueli Carneiro",
+            "profissoes": [
+                "Filósofa",
+                "Militante negra",
+                "Militante feminista",
+                "Fundadora do Geledés",
+                "Coordenadora do Projeto SOS Racismo",
+                "Membro do Conselho Nacional da Condição Feminina",
+                "Autora"
+            ],
+            "Idade": "(1950 - )",
+            "Biografia": "Formada em Filosofia pela USP (1980) e doutora em Filosofia da Educação pela mesma instituição (2005), Sueli teve sua formação intelectual moldada por sua vivência na militância negra e feminista. Em 1988, fundou o Geledés – Instituto da Mulher Negra, primeira organização do gênero em SP, avançando a inclusão das mulheres negras em espaços institucionais. Coordenou o Projeto SOS Racismo, Programa Rappers, atuou no Conselho Nacional da Condição Feminina e foi membro do CDES no governo Lula, além de publicar mais de 150 artigos e 17 capítulos de livro.",
+            "obra1": [
+                "Título: A construção do outro como não‑ser como fundamento do ser (Doutorado, 2005; livro Zahar, 2023)",
+                "Conceito: Introduz o conceito de dispositivo de racialidade, baseado em Foucault e Mills, explicando como a branquitude é sustentada como norma cultural — destaca também o epistemicídio, o apagamento dos saberes negros."
+            ],
+            "obra2": [
+                "Título: Racismo, Sexismo e Desigualdade no Brasil (Selo Negro, 2011)",
+                "Conceito: Coletânea de artigos que abordam interseccionalidade racial e de gênero, defendendo políticas afirmativas como cotas e demarcação de terras quilombolas ― obra significativa na consolidação do feminismo negro no país."
+            ],
+            "Legado":
+                "Pioneira do feminismo negro no Brasil, fundadora do Geledés e voz ativa em políticas públicas, inclusive no Programa da Mulher Negra do Conselho Nacional da Condição Feminina."
             }
+
+
     ],
     "T" : 
     [
@@ -749,22 +762,21 @@
             }
         ,
         {
-            "Nome": "Tiago de Mello",
-            "Idade": "(1926–2022)",
-            "Profissoes": ["Poeta", "Ativista Cultural"],
-            "Biografia": "Tiago de Mello foi um poeta brasileiro conhecido por sua obra ligada à Amazônia e à defesa da natureza e das culturas indígenas. Seu trabalho expressa uma profunda conexão com a floresta e seus povos, combinando poesia e ativismo ambiental.",
-            "texto_obras": {
-                "obra1": [
-                "Poesia e Amazônia",
-                "Sua poesia celebra a beleza e a diversidade da Amazônia, ao mesmo tempo em que denuncia as ameaças à floresta e às comunidades indígenas."
-                ],
-                "obra2": [
-                "Ativismo Cultural",
-                "Tiago de Mello foi ativo na promoção da cultura amazônica, participando de projetos que valorizam as tradições locais e a proteção ambiental."
-                ]
-            },
-            "legado": "Tiago de Mello é reconhecido como uma voz essencial da literatura amazônica e um defensor incansável da preservação ambiental e dos direitos dos povos indígenas."
-        }
+            "Nome": "Tatau",
+            "Idade": "(1967 - )",
+            "Biografia": "Começou a cantar aos 14 anos e compor aos 16; venceu o Festival do Olodum com “Protesto do Olodum”. Aos 18, entrou para Araketu, conquistando grande sucesso com hits como “Araketu é Bom Demais”, “Pipoca,” e “Mal Acostumada”; foi eleito “Cantor Revelação” em 1994. Em 2008, partiu para carreira solo com o CD Formas e Formas (2008). Retornou brevemente a Araketu em 2012, mas segue carreira solo desde 2015. Reconhecido pelas composições interpretadas por grandes nomes nacionais (Ivete Sangalo, Claudia Leitte, Sorriso Maroto), conta hoje com 141 obras registradas no Ecad. Lançou recentemente o projeto Só As Minhas (EPs e álbum de arrocha), reafirmando suas raízes.",
+            "obra1": [
+                "Título: Protesto do Olodum (1985)",
+                "Descrição: Composição que venceu o Festival do Olodum; se tornou sucesso nacional e foi regravada por Margareth Menezes, Daniela Mercury e pela própria banda Araketu para o filme Ó Paí, Ó.",
+                "Conceito: Mistura crítica social e ancestralidade afro-baiana, denunciando temas como poluição e África, unindo o batuque ao diálogo político sobre identidade e resistência."
+            ],
+            "obra2": [
+                "Título: Projeto Só As Minhas (2024)",
+                "Descrição: Álbum/EP com 13 músicas no ritmo do arrocha, incluindo nomes como “Meu Amor é Maior”, “Problema Diário”, “Bilu Bilu” e releituras antigas em novo arranjo.",
+                "Conceito: Busca reafirmar suas raízes criativas, transformando composições autorais em obras duradouras, menos passageiras — “parte que fica”."
+            ],
+            "Legado": "Voz do Axé Social: Compositor essencial da música baiana e nacional, suas canções atravessam gerações e ritmos — samba, arrocha, pop e pagode — influenciam artistas como Simone & Simaria, Claudia Leitte, Ivete Sangalo. Obras duradouras: Seus trabalhos visam a permanência – como declara, “música passa, obra fica” — contabiliza centenas de composições com estrutura refinada e narrativa profunda. Respeito e contemporaneidade: Relembra clássicos da Bahia em shows como os “Ensaios de Tatau”, ressignificando cultura com energia, ressaltando que seu repertório acompanha e renova sempre. Reconhecimento sólido: Reconhecido pelo mercado e público, Tatau é figura constante no cenário musical, com carreira que transita entre legado e inovação."
+            }
     ],
     "U" : 
     [
@@ -787,23 +799,28 @@
             }
         ,
         {
-            "Nome": "Ubirajara Silva",
-            "Idade": "(Ativo contemporaneamente)",
-            "Profissoes": ["Artista Visual", "Educador"],
-            "Biografia": "Ubirajara Silva é um artista visual brasileiro cuja obra foca na valorização das culturas indígenas e afro-brasileiras, utilizando diferentes mídias para explorar identidade, ancestralidade e resistência cultural.",
-            "texto_obras": {
-                "obra1": [
-                "Produção Artística",
-                "Suas obras incorporam elementos tradicionais e contemporâneos, buscando dialogar com as histórias e os saberes ancestrais dos povos originários e afrodescendentes."
-                ],
-                "obra2": [
-                "Educação e Cultura",
-                "Além da arte, Ubirajara atua como educador, promovendo o ensino das culturas tradicionais e a valorização da diversidade cultural no Brasil."
-                ]
-            },
-            "legado": "Ubirajara Silva é reconhecido por sua contribuição para a preservação cultural e a promoção do respeito às identidades indígenas e afro-brasileiras através da arte e da educação."
+            "Nome": "Urias",
+            "Profissoes": [
+                "Cantora",
+                "Compositora",
+                "Artista trans",
+                "Militante LGBTQIA+"
+            ],
+            "Idade": "(1994 - )",
+            "Biografia": "Migrou da dança, teatro e moda para a música, ganhando reconhecimento em 2019 com o single “Diaba” — que venceu o Berlin Music Video Awards de Melhor Direção de Arte — e assumiu destaque nas cenas R&B, pop, eletrônico e experimental. Assinada pela gravadora Mataderos Projects, lançou EPs (“Urias” – 2019, “FÚRIA Pt1” – 2021, “HER MIND Pt.1” – 2022) e os álbuns de estúdio FÚRIA (2022) e HER MIND (2023), posicionando-se como uma das principais artistas trans e negras no Brasil. Artista trans e militante LGBTQIA+, atua em moda (Fashion Week) e advocacy, integrada ao projeto YouTube Black Voices 2021, com mentorias e suporte ao seu canal.",
+            "texto_obras" : {
+            "obra1": [
+                "Título: Diaba (single, 2019)",
+                "Descrição: Debut autoral em videoclipe marcante que lhe rendeu o Berlin Music Video Awards por Direção de Arte, e exposição em telões na Times Square e Los Angeles como parte do YouTube Black Voices.",
+                "Conceito: Afirmação de poder e identidade preta, com estética visual experimental que celebra corpos trans enquanto empodera através da música e da performance."
+            ],
+            "obra2": [
+                "Título: Álbum FÚRIA (2022)",
+                "Descrição: Primeiro disco completo, sucedendo o EP “FÚRIA Pt1”. Conta com colaborações de Vírus, Ebony, HODARI, entre outros, consolidou Urias ao atingir o topo do iTunes Brasil.",
+                "Conceito: Um manifesto sonoro que combina R&B, trap e pop eletrônico para explorar temas como identidade, empoderamento queer e desafios pessoais, em forte estética preto-branca, reafirmando autorresponsabilidade e resistência."
+            ]},
+            "Legado": "Pioneira LGBTQIA+ preta: Reconhecida como uma das vozes mais influentes da música contemporânea brasileira, elevou discursos sobre identidade, gênero e diversidade em várias plataformas institucionais e de massa. Premiada e influente: Vencedora no Berlin Music Video Awards, indicada ao Prêmio Multishow, MTV Miaw e Multishow 2022, ganhou visibilidade contínua com seu clip “Racha” e o álbum “HER MIND”. Visibilidade e ativismo: Carrega o ativismo em sua arte, participando de fashion weeks, festivais (como AFROPUNK Bahia), sendo pioneira trans no YouTube Black Voices e ampliando visibilidade de pessoas trans pretas na indústria musical."
             }
-
     ],
     "V" : 
     [
@@ -826,23 +843,23 @@
             }
         ,
         {
-            "Nome": "Vicente Ferreira da Silva",
-            "Idade": "(1916–1963)",
-            "Profissoes": ["Filósofo", "Lógico", "Matemático"],
-            "Biografia": "Vicente Ferreira da Silva foi um filósofo, lógico e matemático brasileiro, pioneiro na introdução da lógica matemática e da fenomenologia no Brasil. Formado em Direito pela Faculdade do Largo de São Francisco, dedicou-se inteiramente à filosofia, fundando o Colégio Livre de Estudos Superiores em 1945 e o Instituto Brasileiro de Filosofia em 1949.",
-            "texto_obras": {
-                "obra1": [
-                "Elementos de Lógica Matemática",
-                "Publicada em 1940, esta obra foi a primeira no Brasil a tratar de lógica matemática, estabelecendo Vicente como um dos pioneiros nesse campo no país."
-                ],
-                "obra2": [
-                "Ensaios Filosóficos",
-                "Lançada em 1948, esta obra marca sua transição para a filosofia existencialista e fenomenológica, influenciada por pensadores como Heidegger e Ortega y Gasset."
-                ]
-            },
-            "legado": "Vicente Ferreira da Silva é lembrado por sua contribuição fundamental à filosofia brasileira, especialmente por sua introdução da lógica matemática e da fenomenologia, e por seu papel na formação de uma geração de filósofos brasileiros."
+            "Nome": "Virgínia Leone Bicudo",
+            "Idade": "(1910 - 2003)",
+            "Profissoes" : ["Educadora sanitária", "Cientista social", "Psicanalista", "Pesquisadora", "Professora"],
+            "Biografia": "Filha de uma imigrante italiana e de um homem negro (descendente de ex-escravizado), Virgínia formou-se em magistério (1930) e, em 1932, atuou como educadora sanitária em São Paulo. Bacharelou-se em Ciências Sociais na Escola Livre de Sociologia e Política (1939), sendo a única mulher na turma. Em 1945, defendeu a dissertação pioneira Estudo de Atitudes Raciais de Pretos e Mulatos em São Paulo, primeira sobre racismo no Brasil, com abordagem interdisciplinar entre sociologia e psicanálise. Foi a primeira psicanalista não médica do país, após análise com Adelheid Koch, e lecionou Higiene Mental e Psicanálise na ELSP e em institutos de Brasília e São Paulo. Co-fundadora da Sociedade Brasileira de Psicanálise (SP) e do Instituto de Psicanálise de Brasília, dirigindo-o entre 1962–1975; manteve atividade clínica até 2000.",
+            "texto_obras" : {
+            "obra1": [
+                "Título: Estudo de Atitudes Raciais de Pretos e Mulatos em São Paulo (Dissertação, 1945)",
+                "Descrição: Pesquisa com entrevistas a grupos urbanos e ex-membros da Frente Negra, analisando percepções raciais utilizando conceitos sociológicos e psicológicos.",
+                "Conceito: Demonstrou que o preconceito persistia mesmo em classes sociais ascendentes, rejeitando o mito da democracia racial ao evidenciar mecanismos como branqueamento e sentimento de inferioridade."
+            ],
+            "obra2": [
+                "Título: Nosso Mundo Mental (Livro/coluna/rádio, 1956)",
+                "Descrição: Coletânea de 22 artigos e um programa radiofônico sobre saúde mental infantil, laços afetivos, sonhos, ciúmes e família.",
+                "Conceito: Levou a psicanálise ao grande público, especialmente pais e educadores, promovendo o autocuidado e a compreensão emocional — foi a primeira coluna psicanalítica em jornal de grande circulação."
+            ]},
+            "Legado": "Pioneira do estudo do racismo no Brasil, inaugurando uma análise científica das relações étnico-raciais. Primeira psicanalista não médica do país, com importante papel institucional na SBPSP (São Paulo, Brasília) e na introdução da psicanálise infantil. Divulgadora da psicanálise popular, por meio da mídia, alcançando públicos diversos. Referência para pesquisadores negros, intelectuais e feministas, homenageada com Google Doodle e um prêmio psicanalítico em seu nome."
             }
-
     ], 
     "W" : 
     [
@@ -864,26 +881,22 @@
             "legado": "Wilson Tibério é reconhecido por sua contribuição à arte afro-brasileira, sendo um dos pioneiros na representação da cultura negra em suas obras. Seu trabalho continua a inspirar artistas e estudiosos da arte brasileira."
             }
         ,{
-            "Nome": "Waly Salomão",
-            "Idade": "(1943–2003)",
-            "Profissoes": ["Poeta", "Compositor", "Escritor", "Ator", "Diretor Artístico"],
-            "Biografia": "Waly Dias Salomão nasceu em Jequié, Bahia, em 3 de setembro de 1943. Foi um dos principais nomes da poesia marginal brasileira e também atuou como letrista de destaque na música popular. Formado em Direito pela Universidade Federal da Bahia, nunca exerceu a profissão, dedicando-se à literatura, música e artes.",
-            "texto_obras": {
-                "obra1": [
-                "Me segura qu'eu vou dar um troço",
-                "Lançado em 1972, este foi o primeiro livro de Waly Salomão, reunindo versos escritos durante sua prisão por porte de drogas. A diagramação foi assinada por Hélio Oiticica."
-                ],
-                "obra2": [
-                "Algaravias",
-                "Publicada em 1996, esta obra lhe rendeu o Prêmio Jabuti de Literatura. O livro é uma coletânea de poemas que exploram a linguagem e a musicalidade."
-                ],
-                "obra3": [
-                "Pescados Vivos",
-                "Publicado postumamente em 2004, este livro reúne poemas inéditos e é considerado um dos mais importantes de sua carreira."
-                ]
-            },
-            "legado": "Waly Salomão é lembrado por sua contribuição à literatura e à música brasileira, sendo um dos principais nomes da poesia marginal e um letrista de destaque na MPB. Sua obra continua a influenciar gerações de artistas e leitores."
+            "Nome": "Wanda Chase",
+            "Profissoes" : ["Jornalista", "Repórter", "Comentarista", "Podcaster", "Colunista"],
+            "Idade": "(1952 - 2025)",
+            "Biografia": "Formada em Comunicação pela Universidade Federal do Amazonas (1974), iniciou como repórter no Jornal A Crítica, depois trabalhou em TV Amazonas, Rede Manchete, TV Cabo Branco, TV Globo Nordeste e, a partir de 1991, fixou-se em Salvador. Destacou-se como uma das primeiras jornalistas negras em telejornalismo baiano, com mais de 27 anos à frente da TV Bahia em reportagens culturais e cobertura do Carnaval. Militante pelos direitos do povo negro, participou de movimentos como a libertação de Nelson Mandela e foi assessora de imprensa do Olodum. Após deixar a televisão, seguiu ativa com coluna no Portal iBahia, podcasts como \"Bastidores com Wanda Chase\" e projetos literários sobre axé music.",
+            "texto_obras" : {
+            "obra1": [
+                "Título: Cobertura Cultural e do Carnaval",
+                "Descrição/Conceito: Por quase três décadas, foi comentarista e repórter oficial do Carnaval de Salvador, dando voz aos blocos afro, afoxés e à cultura popular baiana — valorizando narrativas negras e periféricas. Colocou temas afro-brasileiros no centro do jornalismo cultural, resgatando histórias muitas vezes ignoradas pela mídia tradicional."
+            ],
+            "obra2": [
+                "Título: Pioneirismo na Televisão e Comunicação Antirracista",
+                "Descrição/Conceito: Tornou-se uma das primeiras jornalistas negras da Bahia, adotando estética afro (afros, roupas fortes) e pautas que denunciaram o racismo estrutural e a exclusão midiática, promovendo diversidade e representatividade. Reverberou uma comunicação comprometida com justiça social, convidando as emissoras a refletirem sobre visibilidade negra."
+            ]},
+            "Legado": "Pioneira e ícone da televisão baiana: Reconhecida como uma das grandes inovadoras do jornalismo local. Militância cultural e antirracista: Sua vida foi entrelaçada ao Movimento Negro, com destaque para Olodum e ações de combate à desigualdade. Homenagens e reconhecimento: Recebeu os títulos de Cidadã Soteropolitana (2002) e póstumamente Cidadã Baiana (2025), além de cortejos com Olodum e banda Didá em seu enterro. Inspiração duradoura: Abriu espaço para jornalistas negras, inspirou artistas e comunicadores e transformou o olhar da mídia para a cultura afro-brasileira."
             }
+
     ]
     ,"X" : 
     [
@@ -927,25 +940,26 @@
     "Y" :
     [
         {
-            "Nome": "Yuri de Souza",
-            "Idade": "(1985– )",
-            "Profissoes": ["Cantor", "Compositor", "Instrumentista"],
-            "Biografia": "Yuri de Souza é um cantor e compositor brasileiro nascido em Salvador, Bahia. Começou sua carreira na adolescência tocando violão em rodas de samba e eventos culturais locais. Influenciado por nomes como João Nogueira e Cartola, desenvolveu um estilo próprio que mistura samba tradicional com elementos da MPB e da bossa nova.",
+            "Nome": "Yzalú",
+            "Idade": "(1982)",
+            "Profissoes": ["Cantora", "Compositora", "Rapper", "Instrumentista"],
+            "Biografia": "Começou a tocar violão aos 14 anos em Salvador e militou no rap feminista em São Paulo com o grupo Essência Black. Seu destaque veio em 2012 com a interpretação de 'Mulheres Negras', que se tornou um hino do feminismo negro no Brasil. Formada em marketing, voltou à música em 2008 após uma pausa, lançando clipes caseiros que viralizaram e, em 2016, lançou seu primeiro álbum solo.",
             "texto_obras": {
                 "obra1": [
-                    "Álbum de Estreia",
-                    "Em 2010, Yuri lançou seu primeiro álbum, 'Raiz e Voz', que foi aclamado pela crítica e abriu espaço para apresentações em festivais de música por todo o país."
+                "Single 'Mulheres Negras' (2012)",
+                "Interpretação poderosa do rap de Eduardo, com vocal grave e solo de violão — marcou a entrada de Yzalú no cenário nacional, expondo a opressão interseccional contra mulheres negras."
                 ],
                 "obra2": [
-                    "Projeto Colaborativo",
-                    "Em 2015, liderou o projeto 'Samba de Todos', reunindo artistas de diferentes regiões do Brasil em um disco que celebrava a diversidade do samba contemporâneo."
+                "Álbum 'Minha Bossa É Treta' (2016)",
+                "Disco de estreia produzido por Marcelo Sanches, que mescla rap, MPB, samba jazz, afrobeat e bossa nova, incluindo a música 'Figura Difícil' com letra de Sabotage, expondo resistência e empoderamento."
                 ]
             },
-            "legado": "Yuri de Souza é considerado um dos renovadores do samba na nova geração, mantendo viva a tradição ao mesmo tempo em que incorpora novas influências. Seu trabalho é estudado em projetos de música popular brasileira e sua voz continua ecoando nos palcos e nos corações dos amantes do samba."
-        }
+            "legado": "Voz ativa na representatividade e interseccionalidade no rap, orgulho da comunidade periférica e pessoas com deficiência. Reconhecida como uma das 7 mulheres negras mais influentes (Revista Planeta, 2016), premiada no Palco MP3 e com destaque internacional. Inovou ao unir violão e rap com sofisticação, protagonizando documentários e continuando a lançar trabalhos autorais."
+            }
+
         ,
         {
-            "Nome": "Mãe Stella de Oxóssi",
+            "Nome": "Yalorixá Mãe Stella de Oxóssi",
             "Idade": "(1925–2018)",
             "Profissoes": ["Yalorixá", "Escritora", "Líder Religiosa"],
             "Biografia": "Maria Stella de Azevedo Santos, conhecida como Mãe Stella de Oxóssi, foi uma das mais importantes ialorixás do Brasil e uma defensora ativa da cultura e religião afro-brasileira. Nascida em Salvador, Bahia, foi iniciada no Candomblé e, em 1981, tornou-se yalorixá do Ilê Axé Opô Afonjá, um dos mais tradicionais terreiros do país.",
