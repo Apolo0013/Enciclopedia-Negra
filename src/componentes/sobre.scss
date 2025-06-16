@@ -92,6 +92,8 @@ $cor-text-nav: #3f4144;
 
 .cabeçalho > section > p {
     color: $cor-text-head;
+    text-align: justify;
+    hyphens: auto;
     font-family: Arial, Helvetica, sans-serif ;
 }
 
@@ -187,7 +189,7 @@ $cor-text-nav: #3f4144;
         font-size: font(50);
         margin-bottom: font(5);
     }
-    p {
+    p, h2 {
         color: $cor-text-head;
         margin-bottom: font(5);
     }   
@@ -206,10 +208,73 @@ $cor-text-nav: #3f4144;
             li {
                 color: $cor-text-head;
                 padding-left: font(5);
+                font-size: font(20);
             }
         }
     }
 }
+
+/*area desenvolvedores do site*/
+#Criacao {
+    span {
+        ul {
+            list-style-type: none;
+        }
+    }
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    img {
+        width: 80%;
+        height: auto;
+        object-fit: contain;
+    }}
+}
+
+/*parte dos pesquisadores*/
+#pesquisa-artista, #pesquisa-conceito, #org {
+    span {
+        ul {
+            list-style: none;
+        }
+    }
+}
+
+#pesquisa-artista {
+    span {
+        ul {
+            li::before {
+                content: "📚";
+                margin: font(8);
+            }
+        }
+    }
+}
+
+#org {
+    span {
+        ul {
+            li::before {
+                content: '🛠️';
+                margin: font(8);
+            }
+        }
+    }
+}
+
+#pesquisa-conceito {
+    span {
+        ul {
+            li::before {
+                content: '🖋️';
+                margin: font(8);
+            }
+        }
+    }
+}
+
+
 
 
 @media (max-width: 1100px) {
@@ -228,6 +293,19 @@ $cor-text-nav: #3f4144;
         height: 8vh;
     }
 }
+
+@media (max-width: 800px) {
+    #pesquisa-artista {
+        span {
+            flex-direction: column;
+            gap: font(5);
+            ul {
+                gap: font(5);
+            }
+        }
+    }
+}
+
 
 @media (max-width: 680px) {
     .Nav-Sobrenos > span {
@@ -270,5 +348,17 @@ $cor-text-nav: #3f4144;
 @media (max-width: 550px) {
     .cabeçalho {
         width: 100%
+    }
+
+    #Criacao {
+        span {
+            ul {
+                gap: font(10);
+                li {
+                    gap: font(10);
+                    font-size: font(19);
+                }
+            }
+        }
     }
 }

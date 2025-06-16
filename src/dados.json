@@ -436,22 +436,23 @@
             }
         ,
         {
-            "Nome": "Lourival Cuquinha",
-            "Idade": "(1975–)",
-            "Profissoes": ["Artista Visual"],
-            "Biografia": "Lourival Cuquinha é um artista visual brasileiro reconhecido por obras que exploram as relações entre arte, política e sociedade, usando elementos como cédulas de dinheiro e contratos para questionar sistemas de poder.",
+            "Nome": "Lélia Gonzalez",
+            "Idade": "(1935–1994)",
+            "Profissoes": ["Historiadora", "Geógrafa", "Filósofa", "Antropóloga", "Professora", "Ativista"],
+            "Biografia": "Lélia Gonzalez foi uma intelectual e ativista brasileira, formada em História, Geografia e Filosofia, com mestrado em Comunicação e doutorado em Antropologia. Atuou como professora em instituições como UERJ, PUC-Rio e Parque Lage, onde criou o primeiro curso de Cultura Negra no Brasil. Foi uma das fundadoras de importantes movimentos e instituições do ativismo negro, como o IPCN, o MNU e o Coletivo Nzinga.",
             "texto_obras": {
                 "obra1": [
-                "Obras e Projetos Significativos",
-                "Destaque para 'Varal', uma instalação com cédulas costuradas que questiona o valor do trabalho; 'Transição de Fase', que aborda experiências de imigrantes com fotografias em cédulas e áudio; e 'Crapulocracia', exposição sobre crise democrática e corrupção."
+                "Lugar de Negro (1982)",
+                "Livro escrito em parceria com Carlos Hasenbalg, que analisa a inserção dos negros na sociedade e economia brasileira pós-1964. Introduz o conceito de 'pretuguês' e desconstrói o mito da democracia racial."
                 ],
                 "obra2": [
-                "Trajetória e Reconhecimento",
-                "Iniciou sua trajetória no coletivo Submarino e tem obras exibidas em importantes instituições como MAM-RJ e MASP. Foi indicado ao Prêmio PIPA diversas vezes e integra galerias renomadas, explorando temas de poder, identidade e valor em sua prática."
+                "Por um Feminismo Afro-Latino-Americano (1988)",
+                "Coletânea de textos que propõe um feminismo interseccional negro na América Latina, articulando raça, gênero, classe e ancestralidade com base nas experiências das mulheres negras."
                 ]
             },
-            "legado": "Lourival Cuquinha destaca-se por sua abordagem crítica e poética, provocando reflexões sobre liberdade, poder e as narrativas históricas que moldam a sociedade contemporânea."
+            "legado": "Lélia Gonzalez é referência central do pensamento negro e feminista no Brasil. Desenvolveu conceitos como 'amefricanidade' e 'pretuguês' e influenciou teorias decoloniais e interseccionais. Participou da Constituinte, foi homenageada com prêmio, escola e Google Doodle, e seus escritos seguem fundamentais nos debates sobre raça, cultura e gênero."
             }
+
     ], 
     "M" : 
     [
@@ -696,9 +697,10 @@
     [
         {
             "Nome": "Sabotage",
-            "Profissoes": ["Rapper", "Ator", "Compositor"],
+            "Profissoes" : ["Rapper", "Ator", "Compositor"],
             "Idade": "(1973 - 2003)",
             "Biografia": "Nasceu na favela do Canão, Zona Sul de São Paulo, e durante a infância participou do tráfico, chegando a ser interno da Febem. Em 2000, lançou Rap é Compromisso!, seu único disco em vida, que vendeu mais de 1,7 milhão de cópias e é considerado um clássico do rap nacional. Atuou como ator nos filmes O Invasor (2002) e Carandiru (2003), além de compor trilhas, participando do EP Revolusongs do Sepultura e em projetos com artistas como Rappin’ Hood, Chorão e Negra Li. Foi assassinado em 2003, após levar quatro tiros, poucos dias após se despedir da esposa para um evento; o crime permanece oficialmente sem solução.",
+            "texto_obras" : {
             "obra1": [
                 "Título: Rap é Compromisso! (2000)",
                 "Descrição: Álbum de estreia, gravado ao lado de nomes como Negra Li, Black Alien, Chorão, Rappin’ Hood e RZO.",
@@ -708,15 +710,15 @@
                 "Título: Projeto Sabotage 50 anos (2023–2024)",
                 "Descrição: Projeto celebrativo com lançamento de disco póstumo, documentário, livro ilustrado, exposição, série e coleções, idealizado pelos filhos Wanderson e Tamires e gravado pela Som Livre.",
                 "Conceito: Atualiza o legado ao manter sua mensagem viva por meio de colaborações com artistas da nova geração, promovendo representatividade e diálogo entre gerações."
-            ],
-            "Legado": 
+            ]},
+            "legado": 
                 "Fenômeno cultural: Conhecido como “Maestro do Canão”, revolucionou a cena do rap com autenticidade, humor, força poética e crítica social."
 
         }
         ,
         {
             "Nome": "Sueli Carneiro",
-            "profissoes": [
+            "Profissoes" : [
                 "Filósofa",
                 "Militante negra",
                 "Militante feminista",
@@ -727,6 +729,7 @@
             ],
             "Idade": "(1950 - )",
             "Biografia": "Formada em Filosofia pela USP (1980) e doutora em Filosofia da Educação pela mesma instituição (2005), Sueli teve sua formação intelectual moldada por sua vivência na militância negra e feminista. Em 1988, fundou o Geledés – Instituto da Mulher Negra, primeira organização do gênero em SP, avançando a inclusão das mulheres negras em espaços institucionais. Coordenou o Projeto SOS Racismo, Programa Rappers, atuou no Conselho Nacional da Condição Feminina e foi membro do CDES no governo Lula, além de publicar mais de 150 artigos e 17 capítulos de livro.",
+            "texto_obras" : {
             "obra1": [
                 "Título: A construção do outro como não‑ser como fundamento do ser (Doutorado, 2005; livro Zahar, 2023)",
                 "Conceito: Introduz o conceito de dispositivo de racialidade, baseado em Foucault e Mills, explicando como a branquitude é sustentada como norma cultural — destaca também o epistemicídio, o apagamento dos saberes negros."
@@ -734,8 +737,8 @@
             "obra2": [
                 "Título: Racismo, Sexismo e Desigualdade no Brasil (Selo Negro, 2011)",
                 "Conceito: Coletânea de artigos que abordam interseccionalidade racial e de gênero, defendendo políticas afirmativas como cotas e demarcação de terras quilombolas ― obra significativa na consolidação do feminismo negro no país."
-            ],
-            "Legado":
+            ]},
+            "legado":
                 "Pioneira do feminismo negro no Brasil, fundadora do Geledés e voz ativa em políticas públicas, inclusive no Programa da Mulher Negra do Conselho Nacional da Condição Feminina."
             }
 
@@ -764,7 +767,9 @@
         {
             "Nome": "Tatau",
             "Idade": "(1967 - )",
+            "Profissoes" : ["Cantor", "Compositor", "Percussionista", "Instrumentista"],
             "Biografia": "Começou a cantar aos 14 anos e compor aos 16; venceu o Festival do Olodum com “Protesto do Olodum”. Aos 18, entrou para Araketu, conquistando grande sucesso com hits como “Araketu é Bom Demais”, “Pipoca,” e “Mal Acostumada”; foi eleito “Cantor Revelação” em 1994. Em 2008, partiu para carreira solo com o CD Formas e Formas (2008). Retornou brevemente a Araketu em 2012, mas segue carreira solo desde 2015. Reconhecido pelas composições interpretadas por grandes nomes nacionais (Ivete Sangalo, Claudia Leitte, Sorriso Maroto), conta hoje com 141 obras registradas no Ecad. Lançou recentemente o projeto Só As Minhas (EPs e álbum de arrocha), reafirmando suas raízes.",
+            "texto_obras" : {
             "obra1": [
                 "Título: Protesto do Olodum (1985)",
                 "Descrição: Composição que venceu o Festival do Olodum; se tornou sucesso nacional e foi regravada por Margareth Menezes, Daniela Mercury e pela própria banda Araketu para o filme Ó Paí, Ó.",
@@ -774,7 +779,7 @@
                 "Título: Projeto Só As Minhas (2024)",
                 "Descrição: Álbum/EP com 13 músicas no ritmo do arrocha, incluindo nomes como “Meu Amor é Maior”, “Problema Diário”, “Bilu Bilu” e releituras antigas em novo arranjo.",
                 "Conceito: Busca reafirmar suas raízes criativas, transformando composições autorais em obras duradouras, menos passageiras — “parte que fica”."
-            ],
+            ]},
             "Legado": "Voz do Axé Social: Compositor essencial da música baiana e nacional, suas canções atravessam gerações e ritmos — samba, arrocha, pop e pagode — influenciam artistas como Simone & Simaria, Claudia Leitte, Ivete Sangalo. Obras duradouras: Seus trabalhos visam a permanência – como declara, “música passa, obra fica” — contabiliza centenas de composições com estrutura refinada e narrativa profunda. Respeito e contemporaneidade: Relembra clássicos da Bahia em shows como os “Ensaios de Tatau”, ressignificando cultura com energia, ressaltando que seu repertório acompanha e renova sempre. Reconhecimento sólido: Reconhecido pelo mercado e público, Tatau é figura constante no cenário musical, com carreira que transita entre legado e inovação."
             }
     ],

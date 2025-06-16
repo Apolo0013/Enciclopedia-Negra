@@ -25,12 +25,12 @@ import imgfotobruno from './img/artista/Bruno Baptistelli/foto.webp'
 import imgobra1bruno from './img/artista/Bruno Baptistelli/1.webp'
 import imgobra2bruno from './img/artista/Bruno Baptistelli/2.webp'
 //Clara Nunes
-import imgfotoChica from './img/artista/Chica Xavier/Chica Xavier.jpeg'
+import imgfotoChica from './img/artista/Chica Xavier/Chica Xavier.webp'
 import imgobra1Chica from './img/artista/Chica Xavier/1.jpeg'
 import imgobra2Chica from './img/artista/Chica Xavier/2.jpeg'
 
 //Caetano Dias
-import imgfotoConceicao from './img/artista/Conceição Evaristo/Conceição Evaristo.png'
+import imgfotoConceicao from './img/artista/Conceição Evaristo/Conceição Evaristo.webp'
 import imgobra1Conceicao from './img/artista/Conceição Evaristo/Ponciá Vicêncio1.png'
 import imgobra2Conceicao from './img/artista/Conceição Evaristo/Becos da Memória2.png'
 
@@ -120,9 +120,9 @@ import imgobra1Liniker from './img/artista/Liniker de Barros Ferreira Campos/1.w
 import imgobra2Liniker from './img/artista/Liniker de Barros Ferreira Campos/2.webp'
 
 //Lourival Cuquinha
-import imgfotoLourival from './img/artista/Lourival Cuquinha/Lourival Cuquinha.webp'
-import imgobra1Lourival from './img/artista/Lourival Cuquinha/1.webp'
-import imgobra2Lourival from './img/artista/Lourival Cuquinha/2.webp'
+import imgfotolelia from './img/artista/Lélia Gonzalez/img.webp'
+import imgobra1lelia from './img/artista/Lélia Gonzalez/1.webp'
+import imgobra2lelia from './img/artista/Lélia Gonzalez/2.webp'
 
 //Maria Auxiliadora Lara Barcelos
 import imgfotoMestre from './img/artista/Mestre Didi/Mestre Didi.webp'
@@ -160,7 +160,7 @@ import imgobra1Paulo from './img/artista/Paulo Nazareth/1.webp'
 import imgobra2Paulo from './img/artista/Paulo Nazareth/2.webp'
 
 //Panmela Castro
-import imgfotoPreta from './img/artista/Preta Ferreira/Preta Ferreira.jpeg'
+import imgfotoPreta from './img/artista/Preta Ferreira/Preta Ferreira.webp'
 import imgobra1Preta from './img/artista/Preta Ferreira/1.jpeg'
 import imgobra2Preta from './img/artista/Preta Ferreira/2.jpeg'
 
@@ -185,12 +185,12 @@ import imgobra1Robinho from './img/artista/Robinho Santana/1.webp'
 import imgobra2Robinho from './img/artista/Robinho Santana/2.webp'
 
 //Solange Almeida
-import imgfotoSobotage from './img/artista/Sabotage/Sabotage.jpeg'
+import imgfotoSobotage from './img/artista/Sabotage/Sabotage.webp'
 import imgobra1Sobotage from './img/artista/Sabotage/1.jpeg'
 import imgobra2Sobotage from './img/artista/Sabotage/2.jpeg'
 
 //Sérgio Vaz
-import imgfotoSueli from './img/artista/Sueli Carneiro/Sueli Carneiro.jpeg'
+import imgfotoSueli from './img/artista/Sueli Carneiro/img.webp'
 import imgobra1Sueli from './img/artista/Sueli Carneiro/1.jpeg'
 import imgobra2Sueli from './img/artista/Sueli Carneiro/2.jpeg'
 
@@ -200,9 +200,9 @@ import imgobra1Tia from './img/artista/Tia Ciata/1.webp'
 import imgobra2Tia from './img/artista/Tia Ciata/2.webp'
 
 //Tiago de Mello
-import imgfotoTatau from './img/artista/Tatau/Tatau.jpeg'
-import imgobra1Tatau from './img/artista/Tatau/1.jpeg'
-import imgobra2Tatau from './img/artista/Tatau/2.jpeg'
+import imgfotoTatau from './img/artista/Tatau/Tatau.webp'
+import imgobra1Tatau from './img/artista/Tatau/1.webp'
+import imgobra2Tatau from './img/artista/Tatau/2.webp'
 
 //Úrsula de Jesus
 import imgfotoÚrsula from './img/artista/Úrsula de Jesus/Úrsula de Jesus.webp'
@@ -210,7 +210,7 @@ import imgobra1Úrsula from './img/artista/Úrsula de Jesus/1.webp'
 import imgobra2Úrsula from './img/artista/Úrsula de Jesus/2.webp'
 
 //Ubirajara Silva
-import imgfotoUrias from './img/artista/Urias Reis/Lorena Urias Martins da Silva.jpeg'
+import imgfotoUrias from './img/artista/Urias Reis/Lorena Urias Martins da Silva.webp'
 import imgobra1Urias from './img/artista/Urias Reis/1.jpeg'
 import imgobra2Urias from './img/artista/Urias Reis/2.jpeg'
 
@@ -220,7 +220,7 @@ import imgobra1Virgínia from './img/artista/Virgínia Rodrigues/1.webp'
 import imgobra2Virgínia from './img/artista/Virgínia Rodrigues/2.webp'
 
 //Vicente Ferreira da Silva
-import imgfotoVl from './img/artista/Virgínia Leone Bicudo/Virgínia Leone Bicudo.jpeg'
+import imgfotoVl from './img/artista/Virgínia Leone Bicudo/Virgínia Leone Bicudo.webp'
 import imgobra1Vl from './img/artista/Virgínia Leone Bicudo/1.jpeg'
 import imgobra2Vl from './img/artista/Virgínia Leone Bicudo/2.jpeg'
 
@@ -230,7 +230,7 @@ import imgobra1Wilson from './img/artista/Wilson Tibério/1.jpeg'
 import imgobra2Wilson from './img/artista/Wilson Tibério/1.jpeg'
 
 //Waly Salomão
-import imgfotoWanda from './img/artista/Wanda Chase da Silva/Wanda Chase da Silva.jpeg'
+import imgfotoWanda from './img/artista/Wanda Chase da Silva/Wanda Chase da Silva.webp'
 import imgobra1Wanda from './img/artista/Wanda Chase da Silva/1.jpeg'
 import imgobra2Wanda from './img/artista/Wanda Chase da Silva/2.jpeg'
 
@@ -245,9 +245,9 @@ import imgobra1Xangô from './img/artista/Xangô da Mangueira/1.webp'
 import imgobra2Xangô from './img/artista/Xangô da Mangueira/2.webp'
 
 //Yuri de Souza
-import imgfotoYza from './img/artista/Yzalú/Yzalú.jpeg'
-import imgobra1Yza from './img/artista/Yzalú/1.jpg'
-import imgobra2Yza from './img/artista/Yzalú/2.jpeg'
+import imgfotoYza from './img/artista/Yzalú/Yzalú.webp'
+import imgobra1Yza from './img/artista/Yzalú/1.webp'
+import imgobra2Yza from './img/artista/Yzalú/2.webp'
 
 //Mãe Stella de Oxóssi
 import imgfotoMãe from './img/artista/Y Mãe Stella de Oxóssi/Yalorixá Mãe Stella de Oxóssi.webp'
@@ -389,8 +389,8 @@ function AppRotas() {
                 obras: [imgobra1Liniker, imgobra2Liniker]
             },
             artista2: {
-                foto: imgfotoLourival,
-                obras: [imgobra1Lourival, imgobra2Lourival]
+                foto: imgfotolelia,
+                obras: [imgobra1lelia, imgobra2lelia]
             }
         },
         M: {

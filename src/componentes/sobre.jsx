@@ -3,6 +3,7 @@ import './sobre.scss'
 //cabeça
 import headimg from '../img/sobre/head.webp'
 import sobreimg from '../img/sobre/sobre.webp.png'
+import devimg from '../img/sobre/dev.webp'
 import { useRef } from 'react'
 
 function Sobre() {
@@ -34,7 +35,7 @@ function Sobre() {
             <header id="Inicio" className="cabeçalho fonth1h2" ref={RefInicio}>
                 <section>
                     <h1>NOSSA EQUIPE E PROJETO</h1>
-                    <p>Conheça as mentes por trás da nossa plataforma e descubra como o Projeto de Eletiva impulsiona a inovação.</p>
+                    <p>Conheça as mentes por trás da nossa plataforma e descubra como o Projeto da Enciclopédia Negra, desenvolvido na disciplina de Eletiva, valoriza a história e a cultura afro-brasileira através da educação e da representatividade.</p>
                 </section>
                 <img src={headimg} alt="" />
             </header>
@@ -42,24 +43,24 @@ function Sobre() {
                 <div>
                     <span class="head-sobre">
                         <h1 className="fonth1h2">O PROJETO DE ELETIVA</h1>
-                        <p>A disciplina eletiva articula-se à Formação Geral Básica do Ensino Médio Potiguar. É norteada por Eixos Estruturantes, que flexibilizam o currículo.</p>
+                        <p>A disciplina eletiva se conecta à Formação Geral Básica do Ensino Médio Potiguar. Em nosso caso, está sendo aplicada através do projeto <strong>Enciclopédia Negra</strong>, que valoriza a cultura afro-brasileira e contribui para uma educação mais justa e representativa.</p>
                     </span>
                     <div className="Card-Sobre-Conteiner">
                         <span className="Card-Sobre">
                             <h3 className="fonth1h2">INVESTIGAÇÃO CIENTÍFICA</h3>
-                            <h4>Exploração e análise de fenômenos.</h4>
+                            <h4>Estudo e análise da contribuição de personalidades negras na história e na sociedade.</h4>
                         </span>
                         <span className="Card-Sobre">
                             <h3 className="fonth1h2">PROCESSOS CRIATIVOS</h3>
-                            <h4>Estimula a inovação e soluções originais.</h4>
+                            <h4>Criação de conteúdos autorais que expressem a cultura, arte e identidade afro-brasileira.</h4>
                         </span>
                         <span className="Card-Sobre">
                             <h3 className="fonth1h2">MEDIAÇÃO E INTERVENÇÃO SOCIOCULTURAL</h3>
-                            <h4>Promove a participação cidadã e impacto social.</h4>
+                            <h4>Ações que promovem o combate ao racismo e incentivam a valorização da diversidade.</h4>
                         </span>
                         <span className="Card-Sobre">
                             <h3 className="fonth1h2">EMPREENDEDORISMO</h3>
-                            <h4>Desenvolve habilidades para criar e gerenciar.</h4>
+                            <h4>Desenvolvimento de ideias e projetos que fortaleçam a representatividade negra na educação e na comunidade</h4>
                         </span>
                     </div>
                 </div>
@@ -67,18 +68,19 @@ function Sobre() {
             </section>
             <section id="Criacao" className="Dev" ref={RefCriacao}>
                 <h1 className="fonth1h2">CRIACÃO DA PLATAFORMA</h1>
-                <p>Nossa plataforma foi desenvolvida por uma equipe dedicada. Eles tranformaram a visão em realidade digital.</p>
+                <p>Nossa plataforma foi desenvolvida por uma equipe dedicada e criativa. Eles transformaram a ideia da Enciclopédia Negra em uma experiência digital acessível e inovadora.</p>
                 <span>
                     <ul>
-                        <li>Apolônio</li>
-                        <li>Aristófanes</li>
-                        <li>Vinícius</li>
+                        <li>👨‍💻 Apolônio – Back-End e funcionalidades</li>
+                        <li>🎨 Aristófanes – Design e experiência do usuário</li>
+                        <li>🧠 Vinícius – Conteúdo e pesquisa histórica</li>
                     </ul>
                 </span>
+                <div><img src={devimg} alt="" /></div>
             </section>
             <section id="pesquisa-artista" className="Dev" ref={RefpesA}>
                 <h1>PESQUISA DE ARTISTAS E OBRAS</h1>
-                <p>Os seguintes alunos pesquisaram artistas e suas biografias. Eles também selecionaram duas obras de arte para a exposição.</p>
+                <p>Durante o desenvolvimento da Enciclopédia Negra, os alunos listados abaixo pesquisaram artistas e elaboraram biografias detalhadas. Cada um também selecionou duas obras de arte para compor a exposição final do projeto.</p>
                 <span>
                     <ul>
                         <li>Emile Vitória</li>
@@ -95,7 +97,9 @@ function Sobre() {
             </section>
             <section id="pesquisa-conceito" className="Dev" ref={RefpesC}>
                 <h1>PESQUISA DO CONCEITO DAS OBRAS</h1>
-                <p>Esta equipe foi responsável por aprofundar o significado das obras. Eles exploraram os conceitos por trás de cada criação artística.</p>
+                <p>Essa equipe foi responsável por investigar e interpretar os significados por trás das obras selecionadas.
+                    Eles mergulharam nos <strong>valores culturais, sociais e simbólicos</strong> presentes em cada criação artística.</p>
+                <h2>🧠 Pesquisadores do conceito</h2>
                 <span>
                     <ul>
                         <li>Fagner</li>
@@ -110,7 +114,9 @@ function Sobre() {
             </section>
             <section id="org" className="Dev" ref={Reforg}>
                 <h1>ORGANIZAÇÃO DA EXPOSIÇÃO</h1>
-                <p>A equipe de exposição garantiu que as obras fossem apresentadas. Eles cuidaram da logística e montagem.</p>
+                <p> equipe foi braba e garantiu que as obras fossem vistas como devem: com presença, estrutura e impacto.
+Responsáveis pela <strong>logística, montagem e organização</strong> geral do espaço.</p>
+                <h2>👷🏽‍♂️ Time da missão</h2>
                 <span>
                     <ul>
                         <li>Lívia</li>

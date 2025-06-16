@@ -5,7 +5,7 @@
 $font-base: 16;
 
 @function font($size-px) {
-    @return ($size-px / $font-base) * 1em;
+    @return ($size-px / $font-base) * 1rem;
 }
 
 
@@ -149,6 +149,10 @@ $font-base: 16;
 }
 
 @media (max-width: 550px) {
+    .Conteiner > h1 {
+        font-size: font(60);
+    }
+
     .Conteiner > button {
         width: 70%;
     }
@@ -241,7 +245,9 @@ $font-base: 16;
 }
 
 
-@media (hover: none) and (pointer: coarse) and (max-width: 600px) {
+/*Dispositivo em pe*/
+
+@media (pointer: coarse) and (max-width: 600px) {
     .Rodape > p {
         user-select: none;
         width: 100%;
@@ -251,7 +257,6 @@ $font-base: 16;
         align-items: center;
         background: rgba(255, 255, 255, 0.243);
     }
-
 
     .Rodape {
         padding-top: 5%;
@@ -297,7 +302,15 @@ $font-base: 16;
 }
 
 
-@media (hover: none) and (pointer: coarse) and (max-width: 550px) {
+@media (pointer: coarse) and (max-width: 550px) {
+    .Conteiner {
+        margin-top: 20%;
+        h1 {
+            font-size: font(50);
+        }
+    }
+
+
     .Rodape  {
         p {
             font-size: 1.1rem;
@@ -310,13 +323,18 @@ $font-base: 16;
 }
 
 
-@media (hover: none) and (pointer: coarse) and (max-width: 440px) {
+@media (pointer: coarse) and (max-width: 440px) {
     .Conteiner {
+        margin-top: 10%;
+
         h1 {
-            font-size: font(50);
+            font-size: font(40);
         }
     }
 
+    .Conteiner > button {
+        width: 80%;
+    }
 
     .menu-mobile {
         left: 105%;
@@ -324,13 +342,13 @@ $font-base: 16;
 }
 
 
-@media (hover: none) and (pointer: coarse) and (max-width: 350px) {
+@media (pointer: coarse) and (max-width: 350px) {
     .Conteiner > h1 {
-        font-size: font(40);
+        font-size: font(38);
     }
 
     .Conteiner > p {
-        font-size: font(15);
+        font-size: font(17);
     }
 
     .Conteiner > button {
@@ -338,7 +356,7 @@ $font-base: 16;
     }
 
     .Conteiner {
-        margin-top: 50%;
+        margin-top: 20%;
     }
 
     .Rodape {
@@ -347,4 +365,37 @@ $font-base: 16;
     }
 }
 
+/*Dispositivos deitado*/
 
+@media (orientation: landscape) and (pointer: coarse) and (max-height: 430px) and (max-width: 930px) {
+    .Conteiner {
+        margin-top: 0;
+    }
+}
+
+
+@media (orientation: landscape) and (pointer: coarse) and (max-height: 320px) and (max-width: 570px) {
+    .Rodape {
+        width: 20%;
+        left: -20%;
+        gap: 10%;
+        p {
+            height: auto;
+        }
+    }
+
+    .menu-mobile {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .Conteiner {
+        margin-top: 0;
+        gap: font(5);
+
+        h1 {
+            font-size: font(50);
+        }
+        
+    }
+}
