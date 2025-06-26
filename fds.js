@@ -1,6 +1,10 @@
-const nomeCompleto = "apolonio guilherme lima da silva";
-const busca = "larrisa";
+import json
+import pyperclip
+with open(r'src\dados.json', mode='r', encoding="UTF-8") as file:
+    dados = json.loads(file.read())
 
-const contem = nomeCompleto.toLowerCase().includes(busca.toLowerCase());
-
-console.log(contem); // true
+lista = []
+for c,fds in dados.items():
+    if c not in ('A','B'):
+        for n in fds:
+            lista.append(n['Nome'])

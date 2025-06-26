@@ -15,12 +15,12 @@ $cor-text-head: #55575a;
 $cor-card: #d8d9d2;
 $cor-text-nav: #3f4144;
 
-
 .Nav-Sobrenos {
     position: sticky;
     display: flex;
     min-height: 6vh;
     width: 100%;
+    height: 30%;
     top: 0px;
     z-index: 100;
 }
@@ -44,10 +44,17 @@ $cor-text-nav: #3f4144;
     }
 }
 
-.MainSobre {
+.wraperMainSobre {
+    width: 100vw;
+    height: 100vh;
     position: relative;
     scroll-behavior: smooth;
     scroll-margin-top: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.MainSobre {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -55,8 +62,6 @@ $cor-text-nav: #3f4144;
     gap: 30vh;
     width: 100%; 
     height: auto;
-    overflow-y: scroll;
-    overflow-x: hidden;
     background: $cor-main;
     padding: 0;
     padding-bottom: 10vh;
@@ -99,6 +104,7 @@ $cor-text-nav: #3f4144;
 
 .cabeçalho > img {
     object-fit: contain;
+    width: 30%;
     flex: 1;  
 }
 
@@ -209,7 +215,17 @@ $cor-text-nav: #3f4144;
                 color: $cor-text-head;
                 padding-left: font(5);
                 font-size: font(20);
+                transition: 0.5s;
+                border-radius: font(5);
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.1) translateX(1vw);
+                    background: #b9b9b441;
+                }
             }
+
+            
         }
     }
 }

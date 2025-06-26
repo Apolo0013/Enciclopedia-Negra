@@ -7,247 +7,315 @@ $font-base: 16;
     @return ($size-px / $font-base) * 1em;
 }
 
-.CardArtista {
-    overflow-x: hidden;
+.wraper-cardartista {
     width: 100%;
-    height: 100vh;
+    position: relative;
+}
+
+
+.CardArtista {
+    overflow: hidden;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    overflow: hidden;
+    gap: 5vh;
     transition: 0.5s;
     border-radius: 0.1vw;
     font-family: 'Roboto Mono' ,Arial;
-    cursor: text;
-    transition: 0.5s;
+    transition: 0.5s !important;
+    background: #4d2a16;
+    color: #dfb58b;
+    box-shadow: inset 1px -20px 20px 0px rgba(0, 0, 0, 0.227);
+    position: relative;
+    z-index: 101;
 }
 
 
-.infoArtista {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 25%;
-    flex-direction: column;
-    padding-left: 1%;
-    height: 100%;
-    max-height: 100% !important;
-    overflow-y: auto;
-    background: var(--card-left);
-    box-shadow: inset 0px -10px 16px 0px var(--card-left) !important;
-    color: var(--card-left-text);
+.fun-vermais {
+    min-height: 84vh !important;
 }
 
-.infoArtista > img {
-    margin-top: 10%;
-    width: 90%;
-    height: auto;
-    object-fit: cover;
+.fun-vermenos {
+    height: 84vh !important;
 }
 
-.infoArtista > span {
+
+.infoartista {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
-    gap: 1vh;
-    padding: 1vw;
-}
-
-.infoArtista > span > div {
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
-    width: 100%;
-    gap: 1%;
+    padding: font(10);
+    gap: font(10);
+
+    h2 {
+        font-size: font(25);
+    }
+
+    img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        height: 35vh;
+        border-radius: 50%;
+        border: font(4) solid #42293f;
+    }
+
+    span {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: font(10);
+
+        div {
+            padding: font(5);
+            font-size: font(20);
+            background: #42293f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: font(3);
+            font-weight: bolder;
+            transition: 0.3s;
+
+            &:hover {
+                transform: scale(1.1);
+                filter: brightness(0.9);
+            }
+        }
+    }
 }
 
-.infoArtista > span > div:nth-child(2) {
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    transition: 0.4s;
-}
-
-.infoArtista > span div:nth-child(2) > ul {
-    margin-left: 15%;
-}
-
-
-.infoArtista > span > div > h2, h3 {
+.BioEObras {
+    padding: font(20);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.bio {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 83%;
-    height: 100%;
-    background: var(--card-right-back-ler   );
-    box-shadow: inset 0px -10px 16px 0px var(--card-right);
-    color: var(--card-right-text);
-    padding: 1%;
-    padding-left: font(10);
-    gap: 5%;
-    transition: 0.4s;
-}
-
-.bio > div > h2  {
-    width: 100%;
-    font-size: font(60);
-}
-
-.bio > div {
-    width: 99%;
-    padding-right: 1vw;
-    max-height: 100%;
-}
-
-.bio > div {
-    overflow-y: auto;
-}
-
-.biografia > p, .obras > section > p {
-    text-align: justify;
-    hyphens: auto;
-    width: 100%;
-    font-size: 1.5rem;
-}
-
-.obras {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    width: 100%;
-    padding: 0.5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 10vh;
-}
-
-.obras > section {
-    width: 100%;
-    min-height: 200px;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3vh;
-    width: 100%;
-}
-
-
-.obras > section > h3 {
-    text-align: start;
-    font-size: 3rem;
-    display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-}
-
-.obras > section > p, div, h3 {
     width: 100%;
+
+    h1 {
+        font-size: font(70);
+    }
+
+    .biografia {
+        p {
+            font-size: font(30);
+            text-align: justify;
+            hyphens: auto;
+        }
+    }
 }
 
-.obras > section > p {
-    width: 100%;
-    font-size: 1.4em;
-    text-align: justify;
-    text-indent: 10%;
-}
 
-.obras > section > div {
+.Ver {
+    position: absolute;
+    z-index: 100;
+    max-width: 10vw;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background: var(--card-right-img-back);
-    padding: 5%;
-    border-radius: 5%;
-    height: 100vh;
+    align-items: center;
+    padding-top: font(5);
+    padding-left: font(10);
+    padding-right: font(10);
+    height: 6vh;
+    background: #42293f;
+    color: #dfb58b;
+    font-size: font(20);
+    top: 100%;
+    border-bottom-left-radius: font(7);
+    border-bottom-right-radius: font(7);
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        color: #8a7056;
+    }
 }
 
-.obras > section > div > img {
+.Obras {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20vh;
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+
+        h3 {
+            font-size: font(50);
+        }
+
+        p {
+            font-size: font(25);
+            text-indent: 5vw;
+            text-align: justify;
+            hyphens: auto;
+        }
+
+        div {
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            img {
+                object-fit: contain;
+                height: 100%;
+            }
+        }
+    }
 }
 
-@media (max-width: 1100px) {
-    .bio > div > h2 {
-        font-size: font(60);
+
+@media (max-width: 1210px) {
+    .Ver {
+        max-width: 15vw;
     }
 
-    .obras > section > h3 {
-        font-size: font(60);
-    }
+    .BioEObras {
+        h1 {
+            font-size: font(60);
+        }
 
-    .biografia > p, .obras > section > p{
-        font-size: font(20);
+        .biografia {
+            p {
+                font-size: font(25);
+            }
+        }
+
+        .Obras {
+            section {
+                h3 {
+                    font-size: font(40);
+                }
+
+                p {
+                    font-size: font(20);
+                }
+            }
+        }
     }
 }
 
-@media (max-width: 900px) {
-    .bio > div > h2 {
-        font-size: font(40);
+@media (max-width: 815px) {
+    .infoartista {
+        img {
+            height: 30vh;
+        }
+
+        h2 {
+            font-size: font(23);
+        }
+
+        span {
+            div {
+                font-size: font(17);
+            }
+        }
     }
 
-    .obras > section > h3 {
-        font-size: font(30);
-    }
-
-    .biografia > p, .obras > section > p {
+    .Ver {
         font-size: font(18);
+        max-width: 20vw;
+    }
+
+    .Obras {
+        section {
+            div {
+                height: 70vh;
+            }
+        }
     }
 }
 
-@media (max-width: 850px) {
-    .infoArtista > span > div {
-        font-size: font(13);
+@media (max-width: 640px) {
+
+    .Obras {
+        section {
+            div {
+                height: 50vh;
+            }
+        }
     }
-}
+} 
+
 
 @media (max-width: 550px) {
-    .infoArtista > span > div {
-        font-size: font(12);
-    }
-}
-
-@media (max-width: 500px) {
-    .infoArtista > span > div {
-        font-size: font(10);
-    }
-}
-
-
-@media (max-width: 400px) {
-    .infoArtista > span > div {
-        font-size: font(9);
-    }
-
-    .biografia > p, .obras > section > p {
+    .Ver {
         font-size: font(15);
     }
+}
 
-    .bio > div > h2 {
-        font-size: font(30);
+//Celular ==========================================================================================
+
+@media (pointer: coarse) and (orientation: portrait) and (max-width: 500px){
+    .infoartista {
+        span {
+            width: 90%;
+
+            div {
+                font-size: font(20);
+            }
+        }
     }
 
-    .obras > section > h3 {
-        font-size: font(20);
+    .BioEObras {
+        gap: 5vh;
+
+        .biografia {
+            p {
+                font-size: font(20);
+            }
+        }
+        h1 {
+            font-size: font(50); 
+        }
+
+        .Obras {
+            gap: 10vh;
+            section {
+                h3 {
+                font-size: font(30);
+                }
+
+                div {
+                    img {
+                        width: 80%;
+                    }
+                }
+            }
+        }
     }
 }
 
 
-@media (max-width: 350px) {
-    .infoArtista > span > div {
-        font-size: font(8);
+@media (pointer: coarse) and (orientation: portrait) and (max-width: 400px) {
+    .infoartista {
+        span {
+            width: 100%;
+        }
+    }
+
+
+    .Ver {
+        max-width: 25vw;
+    }
+
+    .BioEObras {
+        h1 {
+            font-size: font(35);
+        }
     }
 }

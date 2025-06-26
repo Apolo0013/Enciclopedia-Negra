@@ -5,10 +5,10 @@ import { useRef, useState } from 'react'
 import dados from '../dados.json'
 import { GetValores } from '../Context'
 import PesquisaCard from './Artista/cardpesquisa.jsx'
+import Rodape from './rodape.jsx'
 import HomeExit from './exithome'
 
 function Pesquisa() {
-    
     function Ondenar(lista, entrada, chave) {
         return lista.sort((a, b) => {
             const aValor = a[chave].toLowerCase();
@@ -64,20 +64,22 @@ function Pesquisa() {
     const [PesquisaResultado, SetPesquisa] = useState([])
     //navegador
     return (
-        <div className="pesquisa-conteiner">
-            <HomeExit></HomeExit>
-            <div className="pesquisawrapper">
-                <div className="pesquisa">
-                    <img src={imglupa} alt="lupa" onClick={() => InputRef.current.focus()}/>
-                    <input type="text" placeholder='Pesquisa por artista' onChange={(e) => Pesquisa(e)} ref={InputRef} />
+        <div className="wrapperPesquisa-Conteiner">
+            <Rodape></Rodape>
+            <div className="pesquisa-conteiner">
+                <div className="pesquisawrapper">
+                    <div className="pesquisa">
+                        <img src={imglupa} alt="lupa" onClick={() => InputRef.current.focus()}/>
+                        <input type="text" placeholder='Pesquisa por artista' onChange={(e) => Pesquisa(e)} ref={InputRef} />
+                    </div>
                 </div>
-            </div>
-            <div className="resultado">
-                {
-                    PesquisaResultado.map((valor, i) => (
-                        <PesquisaCard key={i} letra={valor.letra} img={valor.img} nome={valor.ValorExbir} />
-                    ))
-                }
+                <div className="resultado">
+                    {
+                        PesquisaResultado.map((valor, i) => (
+                            <PesquisaCard key={i} letra={valor.letra} img={valor.img} nome={valor.ValorExbir} />
+                        ))
+                    }
+                </div>
             </div>
         </div>
     )

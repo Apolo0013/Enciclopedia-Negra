@@ -1,9 +1,9 @@
 import './conteinerartista.css'
-import imgfecha from '../../img/fechaimg.webp'
 import CardArtista from './cardartista.jsx'
 import { useEffect, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { GetValores } from '../../Context.jsx'
+import Rodape from '../rodape.jsx'
 
 function ConteinerArtista(props) {
     const nv = useNavigate()
@@ -29,7 +29,7 @@ function ConteinerArtista(props) {
             conteiner = (
                 <CardArtista
                     ref={RefConteiner}
-                    fotoartista={dadosimg?.[letra]?.[`artista${index + 1}`].foto}
+                    fotoartista={dadosimg?.[letra]?.[`artista${index + 1}`].card}
                     nome={dadosinfo?.[letra]?.[index]?.Nome}
                     idade={dadosinfo?.[letra]?.[index]?.Idade}
                     profissoes={dadosinfo?.[letra]?.[index]?.Profissoes}
@@ -56,7 +56,7 @@ function ConteinerArtista(props) {
 
     return (
         <div className="ConteinerArtista" ref={RefConteiner}>
-            <img src={imgfecha} onClick={() => local.state.url ? nv(local.state.url) : nv('/home/artistas/')} alt="" />
+            <Rodape></Rodape>
             <div className="ConteinerCards">
                 {Conteines}
             </div>
