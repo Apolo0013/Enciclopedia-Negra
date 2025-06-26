@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projeto_escola/static/css/main.54008fe3.css",
-    "main.js": "/projeto_escola/static/js/main.162b5385.js",
+    "main.css": "/projeto_escola/static/css/main.c18571c3.css",
+    "main.js": "/projeto_escola/static/js/main.adafd271.js",
     "static/js/453.dc02bd2d.chunk.js": "/projeto_escola/static/js/453.dc02bd2d.chunk.js",
     "static/media/2.webp": "/projeto_escola/static/media/2.9f401b02d7a265619836.webp",
     "static/media/1.webp": "/projeto_escola/static/media/1.31675afecab7442218df.webp",
@@ -118,12 +118,12 @@
     "static/media/lupa.webp": "/projeto_escola/static/media/lupa.5ac08ca14e1ff1511b26.webp",
     "index.html": "/projeto_escola/index.html",
     "static/media/menu.webp": "/projeto_escola/static/media/menu.7e800a83c87463f07670.webp",
-    "main.54008fe3.css.map": "/projeto_escola/static/css/main.54008fe3.css.map",
-    "main.162b5385.js.map": "/projeto_escola/static/js/main.162b5385.js.map",
+    "main.c18571c3.css.map": "/projeto_escola/static/css/main.c18571c3.css.map",
+    "main.adafd271.js.map": "/projeto_escola/static/js/main.adafd271.js.map",
     "453.dc02bd2d.chunk.js.map": "/projeto_escola/static/js/453.dc02bd2d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54008fe3.css",
-    "static/js/main.162b5385.js"
+    "static/css/main.c18571c3.css",
+    "static/js/main.adafd271.js"
   ]
 }
