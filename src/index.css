@@ -8,8 +8,8 @@
 body, html, .ConteinerMain , #root{
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100svw;
+    height: 100svh;
     overflow-x: hidden;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

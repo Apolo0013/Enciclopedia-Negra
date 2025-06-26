@@ -25,7 +25,7 @@ function Sobre() {
 
     return (
         <div className="wraperMainSobre">
-            <Rodape></Rodape>
+            <Rodape classop_menu="TopPosition"></Rodape>
             <div className="MainSobre">
                 <nav className="Nav-Sobrenos">
                     <span onClick={() => Scroll(RefInicio.current)}>Inicio</span>

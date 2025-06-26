@@ -4,13 +4,13 @@ import { useNavigate } from 'react-router-dom'
 import lupa from '../img/lupa.webp'
 import MenuImg from '../img/menu.webp'
 
-function Rodape() {
+function Rodape({classop_menu}) { // classop: class opcional, como uma class que alterar a posicao
     const RefRodape = useRef()
     const RefRodapeState = useRef(false) // ele vai verificar se o rodape esta aberto ounao
     const nv = useNavigate()
     return (
         <div className="Rodape" ref={RefRodape}>
-            <div className="menu-mobile" onClick={() => {
+            <div className={`menu-mobile ${classop_menu}`} onClick={() => {
                 if (!RefRodapeState.current) {
                     RefRodapeState.current = true
                     RefRodape.current.classList.add('show-rodape')
