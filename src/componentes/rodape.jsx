@@ -22,10 +22,10 @@ function Rodape({classop_menu}) { // classop: class opcional, como uma class que
             }}>
                 <img src={MenuImg} alt="" />
             </div>
+            <h3>ENCICLOPÉDIA NEGRA</h3>
             <p onClick={() => {nv('/home/')}}>Inicio</p>
             <p onClick={() => {nv('/home/artistas/')}}>Artista</p>
             <p onClick={() => nv('/home/sobre-nós/')}>Sobre Nós</p>
-            
             <span onClick={() => nv('/home/pesquisa')}><img src={lupa} alt="" /></span>
         </div>
     )

@@ -1,58 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Proporcional</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      padding: 20px;
-      background: #f4f4f4;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
 
-    #box {
-      background: #4caf50;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 20px;
-      border-radius: 10px;
-    }
+        h1 {
+            font-size: 100px;
+            text-align: center;
+        }
 
-    input {
-      padding: 10px;
-      width: 150px;
-    }
-  </style>
+        button {
+            font-size: 50px;
+        }
+    </style>
 </head>
 <body>
+    <h1>Sait Porno, veirifca se teu pc tá ligaado e funciando direito mermo</h1>
+    <button>Clica ai pae</button>
+    <script>
+        const b = window.document.querySelector('button')
 
-  <label for="largura">Digite a largura (px): </label>
-  <input type="number" id="largura" placeholder="Ex: 400" />
-  <select name="" id="">
-    <option value=""></option>
-    <option value=""></option>
-    <option value=""></option>
-    <option value=""></option>
-  </select>
-    <p></p>
-
-  <script>
-    const input = document.getElementById('largura');
-    const box = document.querySelector('p');
-
-    // Define a proporção desejada (por exemplo, altura = largura * 1.25)
-    const proporcao = 3 / 4; // você pode mudar para 9/16 ou o que quiser
-
-    input.addEventListener('input', () => {
-      const largura = parseInt(input.value);
-      if (!isNaN(largura)) {
-        const altura = Math.round(largura * proporcao);
-        box.textContent = `${largura}px × ${altura}px`;
-      }
-    });
-  </script>
-
+        b.addEventListener("click", () => {
+            b.textContent = 'null'
+        })
+    </script>
 </body>
 </html>

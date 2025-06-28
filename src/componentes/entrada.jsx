@@ -23,13 +23,10 @@ function Entrada() {
             <Rodape></Rodape>
             <img src={imgnegros1370} alt="" />
             <div className="Conteiner Opshow" >
-                <h1>ENCICLOPÉDIA NEGRA</h1>
                 <p>Um espaço para descobrir artistas negros de A a Z.
                     Histórias, obras e representatividade em um só lugar.</p>
-                <button onClick={
-                    Explorar
-                }
-                >Explorar agora</button>
+                <button onClick={Explorar}
+                >Explorar Agora</button>
             </div>
             
         </div>

@@ -55,7 +55,7 @@
     position: relative;
     z-index: 2;
     font-size: 7em;
-    text-align: top start;
+    color: #1b1a17;
     animation: dilata 5s ease-in-out infinite alternate ;
 }
 

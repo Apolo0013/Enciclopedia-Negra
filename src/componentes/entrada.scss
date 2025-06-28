@@ -66,18 +66,10 @@ $font-base: 16;
     to {filter: blur(5px);}
 }
 
-.Conteiner > h1 {
-    font-size: font(100);
-    font-family: 'Linux Libertine';
-    padding: 0.01em;
-    color: #a49689;
-    text-align: center;
-}
-
 .Conteiner > p {
     width: 60%;
     text-align: center;
-    font-size: font(17);
+    font-size: font(25);
     color: #f0e6d2 ;
     margin-bottom: 2%;
 }
@@ -86,12 +78,13 @@ $font-base: 16;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Linux Libertine';
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0.5%;
     width: 25%;
-    height: 20%;
+    height: 50%;
     background: rgb(174, 174, 174);
     font-size: font(35);
+    font-weight: bolder;
     border: 0;
     outline: 0;
     border-radius: 0.1em;
@@ -107,10 +100,6 @@ $font-base: 16;
 }
 
 @media (max-width: 1050px) {
-    .Conteiner > h1{
-        font-size: font(80);
-    }
-
     .Conteiner > button {
         width: 40%;
     }
@@ -121,20 +110,12 @@ $font-base: 16;
 }
 
 @media (max-width: 844px) {
-    .Conteiner > h1 {
-        font-size: font(70);
-    }
-
     .Rodape > span {
         width: 7% !important;
     }
 }
 
 @media (max-width: 750px) {
-    .Conteiner > h1 {
-        font-size: font(65);
-    }
-
     .Conteiner > button {
         width: 50%;
     }
@@ -150,10 +131,6 @@ $font-base: 16;
 }
 
 @media (max-width: 550px) {
-    .Conteiner > h1 {
-        font-size: font(60);
-    }
-
     .Conteiner > button {
         width: 70%;
     }
@@ -203,6 +180,19 @@ $font-base: 16;
     padding-bottom: 0;
     gap: 3%;
 }
+
+
+.Rodape > h3 {
+    font-size: font(30);
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    text-align: start;
+    padding: 0.01em;
+    color: white;
+    padding-left: font(10);
+    font-style: italic;
+}
+
 
 .Rodape > p {
     font-size: 1.4rem;
@@ -311,9 +301,6 @@ $font-base: 16;
 @media (pointer: coarse) and (max-width: 550px) {
     .Conteiner {
         margin-top: 20%;
-        h1 {
-            font-size: font(50);
-        }
     }
 
 
@@ -332,10 +319,6 @@ $font-base: 16;
 @media (pointer: coarse) and (max-width: 440px) {
     .Conteiner {
         margin-top: 10%;
-
-        h1 {
-            font-size: font(40);
-        }
     }
 
     .Conteiner > button {
@@ -350,10 +333,6 @@ $font-base: 16;
 
 
 @media (pointer: coarse) and (max-width: 350px) {
-    .Conteiner > h1 {
-        font-size: font(38);
-    }
-
     .Conteiner > p {
         font-size: font(17);
     }
@@ -399,10 +378,5 @@ $font-base: 16;
     .Conteiner {
         margin-top: 0;
         gap: font(5);
-
-        h1 {
-            font-size: font(50);
-        }
-        
     }
 }

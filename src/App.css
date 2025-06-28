@@ -11,12 +11,11 @@
     --cabeca-hover: #76482e;
     --text-cabeca: #E2B13C;
 
-    --card-back: #A6653F;
-    --card-back-border: #623b25; 
-    --card-back-2: #a38675;
-    --card-button: #dca424;
-    --card-button-hover: #977b38; 
-
+    --card-back: #e45826; /*fundo*/
+    --card-back-border: #5e2511; /**/
+    --card-back-2: #e6d5b8; /*segundo*/
+    --card-button: #fda500; /*button*/
+    --card-button-hover: #a06800; 
     --back-backartista: #b37046;
 
     --card-left: #d9b76e;

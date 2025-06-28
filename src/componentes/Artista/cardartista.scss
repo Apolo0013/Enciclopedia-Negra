@@ -26,7 +26,7 @@ $font-base: 16;
     font-family: 'Roboto Mono' ,Arial;
     transition: 0.5s !important;
     background: #4d2a16;
-    color: #dfb58b;
+    color: #E6D5B8;
     box-shadow: inset 1px -20px 20px 0px rgba(0, 0, 0, 0.227);
     position: relative;
     z-index: 101;
@@ -100,7 +100,11 @@ $font-base: 16;
     width: 100%;
 
     h1 {
+        width: 100%;
+        letter-spacing: font(1);
         font-size: font(70);
+        font-family: 'Anton', sans-serif;
+        text-align: center;
     }
 
     .biografia {
