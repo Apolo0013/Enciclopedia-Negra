@@ -8,7 +8,7 @@ function ConteinerCards() {
 
     return (
         <div className="wrapermain">
-            <Rodape></Rodape>
+            <Rodape rodape_outros={true}></Rodape>
             <main>                
                 {
                     letras.map((letra, i) => (

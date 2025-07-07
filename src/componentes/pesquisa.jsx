@@ -65,7 +65,7 @@ function Pesquisa() {
     //navegador
     return (
         <div className="wrapperPesquisa-Conteiner">
-            <Rodape></Rodape>
+            <Rodape rodape_outros={true}></Rodape>
             <div className="pesquisa-conteiner">
                 <div className="pesquisawrapper">
                     <div className="pesquisa">

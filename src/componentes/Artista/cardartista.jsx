@@ -26,7 +26,7 @@ function CardArtista(props) {
             <div className="CardArtista fun-vermenos" ref={RefCardConteiner}>
                 <div className="infoartista">
                     <img src={props.fotoartista} alt="Arisita" />
-                    <h2>{props.idade}</h2>
+                    <h1>{props.nome}</h1>
                     <span>
                         {
                             props.profissoes.map((valor, i) => (
@@ -34,11 +34,9 @@ function CardArtista(props) {
                             ))
                         }
                     </span>
+                    <h2>{props.idade}</h2>
                 </div>
                 <div className="BioEObras">
-                    <h1>
-                        {props.nome}
-                    </h1>
                     <section className="biografia">
                         <p>
                             {props.biografia}

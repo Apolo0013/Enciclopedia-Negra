@@ -56,7 +56,7 @@ function ConteinerArtista(props) {
 
     return (
         <div className="ConteinerArtista" ref={RefConteiner}>
-            <Rodape></Rodape>
+            <Rodape rodape_outros={true}></Rodape>
             <div className="ConteinerCards">
                 {Conteines}
             </div>
