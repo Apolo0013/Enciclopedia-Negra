@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
-// Define a base para conversão (ex: 16px = 1rem)
-$font-base: 16;
-
-@function font($size-px) {
-    @return ($size-px / $font-base) * 1em;
-}
+@use '../../App.scss' as *;
 
 .wraper-cardartista {
     width: 100%;
@@ -227,6 +220,7 @@ $font-base: 16;
         }
 
         span {
+            width: 70%;
             div {
                 font-size: font(17);
             }
@@ -247,6 +241,14 @@ $font-base: 16;
     }
 }
 
+@media (max-width: 700px) {
+    .infoartista {
+        h1 {
+            font-size: font(60);
+        }
+    }
+}
+
 @media (max-width: 640px) {
 
     .Obras {
@@ -256,10 +258,22 @@ $font-base: 16;
             }
         }
     }
+
+    .infoartista {
+        h1 {
+            font-size: font(50);
+        }
+    }
 } 
 
 
 @media (max-width: 550px) {
+    .infoartista {
+        span {
+            width: 90%;
+        }
+    }
+
     .Ver {
         font-size: font(15);
     }
@@ -270,11 +284,15 @@ $font-base: 16;
 @media (pointer: coarse) and (orientation: portrait) and (max-width: 500px){
     .infoartista {
         span {
-            width: 90%;
+            width: 70%;
 
             div {
                 font-size: font(20);
             }
+        }
+
+        h1 {
+            font-size: font(40);
         }
     }
 
@@ -285,9 +303,6 @@ $font-base: 16;
             p {
                 font-size: font(20);
             }
-        }
-        h1 {
-            font-size: font(50); 
         }
 
         .Obras {
@@ -312,6 +327,10 @@ $font-base: 16;
     .infoartista {
         span {
             width: 100%;
+        }
+        
+        img {
+            height: 25vh;
         }
     }
 

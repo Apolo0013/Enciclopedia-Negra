@@ -6,7 +6,6 @@ import dados from '../dados.json'
 import { GetValores } from '../Context'
 import PesquisaCard from './Artista/cardpesquisa.jsx'
 import Rodape from './rodape.jsx'
-import HomeExit from './exithome'
 
 function Pesquisa() {
     function Ondenar(lista, entrada, chave) {
@@ -55,7 +54,6 @@ function Pesquisa() {
         }
         SetPesquisa(listanome)
     }
-
 
 
     const {dadosimg} = GetValores()

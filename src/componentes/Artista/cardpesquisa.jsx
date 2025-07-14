@@ -3,7 +3,6 @@ import './cardpesquisa.scss'
 import { useNavigate } from 'react-router-dom'
 
 function PesquisaCard({ letra, img, nome }) {
-    
     const RefCard = useRef()
 
     useEffect(() => {
@@ -19,7 +18,7 @@ function PesquisaCard({ letra, img, nome }) {
     const nv = useNavigate()
 
     return (
-        <div className="cardpesquisa hidden" ref={RefCard} onClick={() => nv(`/home/artistas/artista/${letra}`, { state: { letra: letra, url: '/home/pesquisa/' }})}>
+        <div className="cardpesquisa hidden" ref={RefCard} onClick={() => nv(`/home/artistas/artista/${letra}`, { state: { letra: letra}})}>
             <img src={img} alt={nome} />
             <h2>{nome}</h2>
         </div>

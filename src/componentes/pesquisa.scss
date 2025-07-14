@@ -1,8 +1,4 @@
-$font-base: 16;
-
-@function font($size-px) {
-  @return ($size-px / $font-base) * 1em;
-}
+@use '../App.scss' as *;
 
 
 .wrapperPesquisa-Conteiner {
@@ -29,7 +25,8 @@ $font-base: 16;
     justify-content: flex-end;
     align-items: center;
     padding: font(10);
-    border-bottom: font(5) solid rgb(172, 172, 172);
+    background: #76482e;
+    border-bottom: font(5) solid #4a2e1d;
 }
 
 .pesquisa {
@@ -40,7 +37,7 @@ $font-base: 16;
     align-items: center;
     width: 30%;
     height: 90%;
-    background: rgba(164, 161, 158, 0.999);
+    background: #d48252;
     transition: 0.3s;
 }
 
@@ -66,15 +63,15 @@ $font-base: 16;
     }
 }
 
-
-
-
 .pesquisa:hover {
-    background: rgba(221, 219, 217, 0.999);
-}
+    background: #906953;
 
-.pesquisa:hover > input {
-    color: black;
+    input {
+        color: black;
+        &::placeholder {
+            color: rgb(40, 40, 40);
+        }
+    }
 }
 
 .pesquisa > img {
@@ -109,8 +106,5 @@ $font-base: 16;
     gap: font(20);
     justify-content: center;
     align-items: flex-start;
-    background: rgb(227, 217, 217);
+    background: #b16e47;
 }
-
-
-

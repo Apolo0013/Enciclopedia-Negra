@@ -1,5 +1,5 @@
 import { useRef} from 'react';
-import './App.css'
+import './App.scss'
 //compenentes
 import AppRotas from './AppRotas';
 

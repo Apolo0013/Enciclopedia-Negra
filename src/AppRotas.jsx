@@ -4,6 +4,7 @@ import Entrada from "./componentes/entrada";
 import ConteinerCards from "./componentes/conteinercards";
 import ConteinerArtista from "./componentes/Artista/conteinerartista";
 import Sobre from './componentes/sobre'
+import Jogo from './componentes/jogo_memoria/jogo_da_memoria'
 import dadosinfo from './dados.json'
 import { MeuContexto } from "./Context";
 //imagens dos artista e obras pae
@@ -274,7 +275,7 @@ import imgobra2Vl from './img/artista/Virgínia Leone Bicudo/2.jpeg'
 import imgfotoWilson from './img/artista/Wilson Tibério/Wilson Tibério.jpeg'
 import imgcardWilson from './img/artista/Wilson Tibério/Wilson Tibério_card.webp'
 import imgobra1Wilson from './img/artista/Wilson Tibério/1.jpeg'
-import imgobra2Wilson from './img/artista/Wilson Tibério/1.jpeg'
+import imgobra2Wilson from './img/artista/Wilson Tibério/2.jpeg'
 
 //Waly Salomão
 import imgfotoWanda from './img/artista/Wanda Chase da Silva/Wanda Chase da Silva.webp'
@@ -644,12 +645,13 @@ function AppRotas() {
     return (
         <MeuContexto.Provider value={{dadosimg, dadosinfo}}>
             <Routes>
-                <Route path='/' element={<Navigate to='/home/pesquisa/' />}></Route>
+                <Route path='/' element={<Navigate to='/home/' />}></Route>
                 <Route path='/home/pesquisa/' element={<Pesquisa />}></Route>
                 <Route path='/home/sobre-nós/' element={<Sobre/>}></Route>
                 <Route path='/home/' element={<Entrada />}></Route>
                 <Route path='/home/artistas/' element={<ConteinerCards />}></Route>
-                <Route path='/home/artistas/artista/:id' element={<ConteinerArtista/>}></Route>
+                <Route path='/home/artistas/artista/:id' element={<ConteinerArtista />}></Route>
+                <Route path="/home/jogo/jogo-da-momoria/" element={<Jogo />}></Route>
                 <Route path='*' element={<Navigate to='/home/'/>}></Route>
             </Routes>
         </MeuContexto.Provider>

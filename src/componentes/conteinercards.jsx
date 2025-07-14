@@ -1,6 +1,5 @@
 import './conteinercards.css'
 import Card from './card.jsx'
-import HomeExit from './exithome.jsx'
 import Rodape from './rodape.jsx'
 
 function ConteinerCards() {

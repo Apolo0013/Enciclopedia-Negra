@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import './card.css'
+import './card.scss'
 import { useEffect, useRef } from 'react'
 
 function Card(props) {
