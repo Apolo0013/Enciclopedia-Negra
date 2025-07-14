@@ -42,7 +42,7 @@ const Menu = forwardRef(({tenta, final, EndGame, TempoExbir},ref) => {
                 clearInterval(loop)
                 return
             }
-        }, 110)
+        }, 1000)
     }
 
     const [tempostate, setTempo] = useState()
