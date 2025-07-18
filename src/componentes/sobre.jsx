@@ -55,6 +55,24 @@ function Sobre() {
                         <p>No nosso caso, essa disciplina está sendo desenvolvida por meio do <strong>Projeto Enciclopédia Negra</strong>, que valoriza a <strong>cultura afro-brasileira</strong> e contribui para uma <strong>educação mais justa, diversa e representativa</strong>.</p>
 
                         <p>O projeto é guiado pelos <strong>Eixos Estruturantes</strong>, que desempenham um papel essencial na <strong>flexibilização do currículo</strong>. São eles: (apresentar em seguida a tabela que já se encontra no site)</p>
+                        <div className="Card-Sobre-Conteiner">
+                            <div className="Card-Sobre">
+                                <h3 className="fonth1h2">INVESTIGAÇÃO CIENTÍFICA</h3>
+                                <h4>Exploração e análise de fenômenos.</h4>
+                            </div>
+                            <div className="Card-Sobre">
+                                <h3 className="fonth1h2">PROCESSOS CRIATIVOS</h3>
+                                <h4>Estimula a inovação e soluções originais.</h4>
+                            </div>
+                            <div className="Card-Sobre">
+                                <h3 className="fonth1h2">MEDIAÇÃO E INTERVENÇÃO SOCIOCULTURAL</h3>
+                                <h4>Promove a participação cidadã e impacto social.</h4>
+                            </div>
+                            <div className="Card-Sobre">
+                                <h3 className="fonth1h2">EMPREENDEDORISMO</h3>
+                                <h4>Desenvolve habilidades para criar e gerenciar.</h4>
+                            </div>
+                        </div>
                     </section>
                     <section id="Criacao" className="Dev" ref={RefCriacao}>
                         <h1 className="fonth1h2">CRIACÃO DA PLATAFORMA</h1>

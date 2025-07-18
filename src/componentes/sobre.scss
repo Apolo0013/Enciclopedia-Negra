@@ -13,7 +13,7 @@ $cor-main: #72441d;
 $cor-conteiner: #502805;
 $cor-text-titulo: rgb(219, 219, 219);
 $cor-text-head: #f1f1f1;
-$cor-card: #d8d9d2;
+$cor-card: #b36521;
 $cor-text-nav: #f9fbff;
 $cor-fundo-nav:#d78c4b;
 
@@ -132,6 +132,8 @@ $cor-fundo-nav:#d78c4b;
     flex: 1;  
 }
 
+
+//desenvolmento, é os estilo padrao
 .Dev {
     width: 100%;
     gap: font(15);
@@ -194,6 +196,42 @@ $cor-fundo-nav:#d78c4b;
             
         }
     }
+}
+
+//sobre o projeto
+.Card-Sobre-Conteiner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: font(10);
+}
+
+.Card-Sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: $cor-card;
+    color: $cor-text-titulo;
+    padding: font(10);
+    gap: font(20);
+    width: 100%;
+    border-radius: font(5);
+}
+
+.Card-Sobre > h3, h4 {
+    width: 100%;
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Card-Sobre > h3 {
+    font-size: font(25);
 }
 
 /////////////////////////////////////////////////////////////////////////"
