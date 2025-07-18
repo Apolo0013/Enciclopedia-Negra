@@ -34,8 +34,7 @@ function Sobre() {
                     <span onClick={() => Scroll(Reforg.current)}>Organização da Exposição</span>
                 </nav>
                 <div className="conteudo-text">
-                    
-                    <header id="Inicio" className="cabeçalho fonth1h2" ref={RefInicio}>
+                    <header id="Inicio" className="cabeçalho Dev fonth1h2" ref={RefInicio}>
                         <section>
                             <h1>NOSSA EQUIPE E PROJETO</h1>
                             <span>
@@ -138,6 +137,13 @@ function Sobre() {
                                 <li>Jackson Felipe</li>
                             </ul>
                         </span>
+                    </section>
+                    <section className="SuperVisao Dev">
+                        <h1>SUPERVISÃO E ORIENTAÇÃO</h1>
+                        <div className="supervisao-info-professor">
+                            <h2>Victor Oliveira da Mota</h2>
+                            <p>Professor de Arte da Escola Estadual Professora Ana Júlia de Carvalho Mousinho Mestre em Ensino de Arte e Especialista em Práticas Assertivas</p>
+                        </div>
                     </section>
                 </div>
             </div>

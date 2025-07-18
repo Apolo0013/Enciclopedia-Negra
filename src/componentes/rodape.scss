@@ -124,7 +124,7 @@
     //parte do rodap outros
     .rodape-outros {
         h3 {
-            font-size: font(120);
+            font-size: font(18) !important;
         }
 
         hr {
@@ -140,11 +140,17 @@
         }
 
         p {
-            font-size: font(17);
+            font-size: font(15);
         }
 
         h3 {
             font-size: font(15);
+        }
+    }
+
+    .rodape-outros {
+        h3 {
+            font-size: font(15) !important;
         }
     }
 }
@@ -262,4 +268,5 @@
         width: 7vw;
         height: 7vw;
     }
+
 }

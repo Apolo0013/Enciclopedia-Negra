@@ -101,17 +101,6 @@ $cor-fundo-nav:#d78c4b;
     font-family: 'FontBa', sans-serif;
 }
 
-.cabeçalho > section > h1 {
-    font-size: font(50);
-    color: $cor-text-titulo;
-    width: 100%;
-    letter-spacing: -4px;
-    font-family: 'Oswald', Arial, Helvetica, sans-serif;
-    font-style: oblique;
-    text-transform: uppercase;
-    text-align: center;
-}
-
 .cabeçalho > section > span {
     width: 100%;
     display: flex;
@@ -146,12 +135,14 @@ $cor-fundo-nav:#d78c4b;
         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     }
 
+    h1, h2 {
+        color: $cor-text-titulo;
+        font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    }
     h1 {
         font-size: font(50);
         margin-bottom: font(5);
-        color: $cor-text-titulo;
         letter-spacing: -2px;
-        font-family: 'Oswald', Arial, Helvetica, sans-serif;
         font-style: oblique;
         text-transform: uppercase;
         text-align: center;
@@ -235,6 +226,19 @@ $cor-fundo-nav:#d78c4b;
 }
 
 /////////////////////////////////////////////////////////////////////////"
+//supervisao pae
+.SuperVisao {
+    h1, h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .supervisao-info-professor {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
 /*area desenvolvedores do site*/
 #Criacao {
     span {
@@ -315,17 +319,6 @@ $cor-fundo-nav:#d78c4b;
     }
 }
 
-@media (max-width: 800px) {
-    #pesquisa-artista {
-        span {
-            flex-direction: column;
-            gap: font(5);
-            ul {
-                gap: font(5);
-            }
-        }
-    }
-}
 
 
 @media (max-width: 680px) {
@@ -380,6 +373,58 @@ $cor-fundo-nav:#d78c4b;
                     font-size: font(19);
                 }
             }
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+//Celular na Vertical pae 
+///////////////////////////////////////////////
+//400px
+@media (pointer: coarse) and (max-width: 400px) {
+    .Dev {
+        h1 {
+            font-size: font(40);
+        }
+        p {
+            font-size: font(15);
+        }
+        span {
+            flex-direction: column;
+            ul {
+                gap: font(5);
+                li {
+                    font-size: font(15) !important;
+                }
+            }
+        }
+    }
+
+    .Card-Sobre {
+        h3 {
+            font-size: font(17);
+        }
+        
+        h4 {
+            font-size: font(13);
+        }
+    }
+
+    .conteudo-text {
+        width: 90%;
+        padding: font(10);
+    }
+}
+
+//350px////////////////////////////////////////
+@media (pointer: coarse) and (max-width: 350px) {
+    .conteudo-text{
+        width: 100%;
+    }
+
+    .Dev {
+        h1 {
+            font-size: font(30);
         }
     }
 }
