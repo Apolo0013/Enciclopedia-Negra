@@ -2,9 +2,8 @@ import { useEffect, useRef } from 'react'
 import './cardpesquisa.scss'
 import { useNavigate } from 'react-router-dom'
 
-function PesquisaCard({ letra, img, nome }) {
+function PesquisaCard({ letra, img, nome}) {
     const RefCard = useRef()
-
     useEffect(() => {
         const ob = new IntersectionObserver(([entrada]) => {
             if (entrada.isIntersecting) {

@@ -5,15 +5,8 @@ import Menu from './menu.jsx';
 import AvisoCom from './aviso.jsx';
 import Botoes from './botoes.jsx';
 import Escolher from '../EscolherDificuldade.jsx';
-//imagens cads
-import img1 from '../../img-jogo/img1.webp'
-import img2 from '../../img-jogo/img2.webp'
-import img3 from '../../img-jogo/img3.webp'
-import img4 from '../../img-jogo/img4.webp'
-import img5 from '../../img-jogo/img5.webp'
-import img6 from '../../img-jogo/img6.webp'
-import img7 from '../../img-jogo/img7.webp'
-import img8 from '../../img-jogo/img8.webp'
+//context
+import { GetValores } from '../../../../Context.jsx'; 
 
 
 function App({SetCon ,SetAvi, RefBg, tempo, tenta}) {
@@ -26,6 +19,26 @@ function App({SetCon ,SetAvi, RefBg, tempo, tenta}) {
         return array.filter((_, i) => i !== index)
     }
 
+    //funcao que vai sortea as imagem que estara no jogo
+    function GetImgRandom() {
+        function SortList(listimg) { // sorteado
+            let ObjSort = {} // criando um objetc para aramazanar os escolhidos
+            for (let i = 1; i < 9; i++) { // de 1 ate 8
+                const indexsort = getRandomInt(0, listimg.length - 1) // sorteando um indice
+                ObjSort[`img${i}`] = listimg[indexsort] // pegando a imagem que esta nesse indice
+                listimg = Deleta(listimg, indexsort) // deletando o mesmo para nao ter risco de  pega-lo novamente
+            }
+            return ObjSort
+        }
+
+        let ImgCards = []
+        for (const info of Object.entries(dadosimg)) { // dadosimg vem diretamente do contexto
+            for (const img of Object.entries(info[1])) {
+                ImgCards.push(img[1].card) // pegando a imagem 1x1
+            }
+        }
+        return SortList(ImgCards)
+    }
 
     function SorteaMatriz() {
         let numeros = [
@@ -34,6 +47,8 @@ function App({SetCon ,SetAvi, RefBg, tempo, tenta}) {
             5, 5, 6, 6,
             7, 7, 8, 8
         ]
+        //imagem
+        const img = GetImgRandom()
         let MatrizMemoria = []
         const max = numeros.length
         let indexsort = null
@@ -50,28 +65,28 @@ function App({SetCon ,SetAvi, RefBg, tempo, tenta}) {
 
             switch (value) {
                 case 1:
-                    imagem = img1
+                    imagem = img.img1
                     break
                 case 2:
-                    imagem = img2
+                    imagem = img.img2
                     break
                 case 3:
-                    imagem = img3
+                    imagem = img.img3
                     break
                 case 4:
-                    imagem = img4
+                    imagem = img.img4
                     break
                 case 5:
-                    imagem = img5
+                    imagem = img.img5
                     break
                 case 6:
-                    imagem = img6
+                    imagem = img.img6
                     break
                 case 7:
-                    imagem = img7
+                    imagem = img.img7
                     break
                 case 8:
-                    imagem = img8
+                    imagem = img.img8
                     break
                 default:
                     break
@@ -87,13 +102,12 @@ function App({SetCon ,SetAvi, RefBg, tempo, tenta}) {
     function ReniciarJogo() {
         SetTenta(Number(tenta)) // zerando o numero de tentatvias pae
         setTimeout(() => {
-            SorteaMatriz()
-
+            ReviarTodasAsCartas() // revirando todas as cartas pae
+            setTimeout(() => SorteaMatriz(), 1500) // dando um tempinho para sortea, antes de  revirar  as cartas
             setTimeout(RefConteinerGame.current.classList.remove("notoque") // removendo o notoque: class responsavel por tirar eventos e etc)
-                , 2000)
+                , 3000)
         }, 1000) // sorteando uma matriz depois de um segundos
         EndGameVar.current = false // zerando a varriavel
-        ReviarTodasAsCartas() // revirando todas as cartas pae
         ListCardTemp.current = [] // resetando a variavel que guardar os card.
         RefToquesValue.current = { // Variavel responsavel por manipular os click do usuario
             'toque1': { 'click': false, 'value': null, id: null },
@@ -295,6 +309,8 @@ function App({SetCon ,SetAvi, RefBg, tempo, tenta}) {
     const RefListCards = useRef([])
     //lista de conteiner
     const RefListConteiner = useRef([])
+    //contexto
+    const {dadosimg} = GetValores() // contexto
     useEffect(() => {
         SorteaMatriz()
     }, [])

@@ -39,7 +39,6 @@ $font-base: 16;
 }
 
 
-
 body:hover {
     filter: brightness(0.99);
 }
@@ -76,4 +75,30 @@ body:hover {
 .noscroll {
     overflow-y: hidden;
     pointer-events: none;
+}
+
+
+/* ===== Chrome, Edge, Safari (WebKit) ===== */
+::-webkit-scrollbar {
+  width: font(10);        /* largura da barra vertical */
+  height: font(10);       /* altura da barra horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;  /* fundo da trilha */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;      /* parte que se move */
+  border-radius: 5px;    /* borda arredondada */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #afafaf;      /* cor quando passa o mouse */
+}
+
+/* ===== Firefox ===== */
+* {
+  scrollbar-width: thin;          /* thin | auto | none */
+  scrollbar-color: #555 rgba(0, 0, 0, 0.344) ;  /* thumb track */
 }

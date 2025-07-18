@@ -46,7 +46,7 @@ function CardArtista(props) {
                         <section>
                             <h3>{props.textos_obras.obra1[0]}</h3>
                             <div><img src={props.imgobras[0]} alt="img" /></div>
-                            <p>{props.textos_obras.obra2[1]}</p>
+                            <p>{props.textos_obras.obra1[1]}</p>
                         </section>
                         <section>
                             <h3>{props.textos_obras.obra2[0]}</h3>

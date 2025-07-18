@@ -45,11 +45,28 @@
     .pesquisa {
         width: 40%;
     }
+    
+    .botao-voltar-cima-resultado {
+        width: 7vw !important;
+        height: 7vw !important;
+    }
 }
 
 @media (max-width: 700px) {
     .pesquisa {
         width: 50%;
+    }
+
+    .botao-voltar-cima-resultado {
+        width: 8vw !important;
+        height: 8vw !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .botao-voltar-cima-resultado {
+        width: 15vw !important;
+        height: 15vw !important;
     }
 }
 
@@ -57,6 +74,14 @@
 //========================================================================================
 //Celular na vertical
 //========================================================================================
+
+//adpitando o botao de voltar apra cima para celular
+@media (pointer: coarse) {
+    .botao-voltar-cima-resultado { // colocando o mesmo o pouco para baixo, pq o Menu do rodape esta la pae.
+        top: 15vw !important;
+    }
+}
+
 @media (max-width: 430px) and (pointer: coarse) and (orientation: portrait){
     .pesquisa {
         width: 55%;
@@ -108,3 +133,52 @@
     align-items: flex-start;
     background: #b16e47;
 }
+
+//botao de voltar para cima pae
+.botao-voltar-cima-resultado {
+    position: fixed;
+    z-index: 1000;
+    top: 1vh;
+    left: 1vw;
+    width: 5vw;
+    height: 5vw;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+    &:hover {
+        filter: blur(1px) brightness(0.9) grayscale(20%);
+        transform: scale(1.1);
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+//class que vai desabilitar a ativar o botao de  voltar para cima pae.
+// Desativa //////////////////////////////////////////////////////////////
+.disabled-elemento {
+    display: none !important; 
+}
+//////////////////////////////////////////////////////////
+// Ativa /////////////////////////////////////////////////
+@keyframes active-botao-anima {
+    from {
+        display: flex;
+        opacity: 0;
+        transform: scale(0.50);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1.0);
+    }
+}
+
+.active-botao-voltar-anima-class {
+    animation: active-botao-anima 0.5s ease 1 forwards !important;
+}
+///////////////////////////////////////////////////////
