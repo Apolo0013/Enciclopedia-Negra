@@ -302,8 +302,8 @@ import imgobra1Yza from './img/artista/Yzalú/1.webp'
 import imgobra2Yza from './img/artista/Yzalú/2.webp'
 
 //Mãe Stella de Oxóssi
-import imgfotoMãe from './img/artista/Y Mãe Stella de Oxóssi/Yalorixá Mãe Stella de Oxóssi.webp'
-import imgcardMãe from './img/artista/Y Mãe Stella de Oxóssi/Yalorixá Mãe Stella de Oxóssi_card.webp'
+import imgfotoMãe from './img/artista/Y Mãe Stella de Oxóssi/Mãe Stella.webp'
+import imgcardMãe from './img/artista/Y Mãe Stella de Oxóssi/Mãe Stella_card.webp'
 import imgobra1Mãe from './img/artista/Y Mãe Stella de Oxóssi/1.webp'
 import imgobra2Mãe from './img/artista/Y Mãe Stella de Oxóssi/2.webp'
 
