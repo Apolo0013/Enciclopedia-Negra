@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projeto_escola/static/css/main.b6713d1f.css",
-    "main.js": "/projeto_escola/static/js/main.342b5729.js",
+    "main.css": "/projeto_escola/static/css/main.e199fa93.css",
+    "main.js": "/projeto_escola/static/js/main.b6077806.js",
     "static/js/453.dc02bd2d.chunk.js": "/projeto_escola/static/js/453.dc02bd2d.chunk.js",
     "static/media/2.webp": "/projeto_escola/static/media/2.9f401b02d7a265619836.webp",
     "static/media/1.webp": "/projeto_escola/static/media/1.31675afecab7442218df.webp",
@@ -27,18 +27,13 @@
     "static/media/loop.png": "/projeto_escola/static/media/loop.87b4a64233cdbe26c2eb.png",
     "static/media/Bathrind.otf": "/projeto_escola/static/media/Bathrind.848fe0c7c57cd6b829e5.otf",
     "static/media/2.jpg": "/projeto_escola/static/media/2.86fe051c47c4c0fb59f2.jpg",
-    "static/media/img6.webp": "/projeto_escola/static/media/img6.df65c54ac882bb9fe494.webp",
-    "static/media/img3.webp": "/projeto_escola/static/media/img3.b10beee5de1e7e1b3f9f.webp",
     "static/media/Helena Theodoro.webp": "/projeto_escola/static/media/Helena Theodoro.17d71eeef0f93bd0f5a6.webp",
     "static/media/Virgínia Leone Bicudo.webp": "/projeto_escola/static/media/Virgínia Leone Bicudo.f42bda3e61c59ce24366.webp",
-    "static/media/img1.webp": "/projeto_escola/static/media/img1.b4a88024542ba9e8e930.webp",
-    "static/media/img7.webp": "/projeto_escola/static/media/img7.5b8f0ce8b178e2149d03.webp",
     "static/media/Jean-Michel Basquiat.webp": "/projeto_escola/static/media/Jean-Michel Basquiat.43aa9e3448e4c82fb7a8.webp",
     "static/media/abdias.webp": "/projeto_escola/static/media/abdias.05eb0cdf714d623e1a5c.webp",
     "static/media/home.png": "/projeto_escola/static/media/home.57b207721816a39dae23.png",
     "static/media/Gal Costa.webp": "/projeto_escola/static/media/Gal Costa.fd02040c2b600f6ba579.webp",
     "static/media/Yalorixá Mãe Stella de Oxóssi_card.webp": "/projeto_escola/static/media/Yalorixá Mãe Stella de Oxóssi_card.ec77c00abd13f3bc8237.webp",
-    "static/media/img2.webp": "/projeto_escola/static/media/img2.d84ec4957ff9918835ea.webp",
     "static/media/Yalorixá Mãe Stella de Oxóssi.webp": "/projeto_escola/static/media/Yalorixá Mãe Stella de Oxóssi.847ac2a8390c5b84ca0c.webp",
     "static/media/2.jpeg": "/projeto_escola/static/media/2.038cee66a1dc2703906f.jpeg",
     "static/media/Tatau.webp": "/projeto_escola/static/media/Tatau.4dd4aada2b543fd54b2f.webp",
@@ -57,7 +52,6 @@
     "static/media/Horácio Hora.webp": "/projeto_escola/static/media/Horácio Hora.f4829f30e4d01e935878.webp",
     "static/media/Gerson King Combo.webp": "/projeto_escola/static/media/Gerson King Combo.dc1ba80f846df8d5e01f.webp",
     "static/media/Preta Ferreira.webp": "/projeto_escola/static/media/Preta Ferreira.b3b86cb8d2752453e132.webp",
-    "static/media/img4.webp": "/projeto_escola/static/media/img4.86ebb6983ebc33fbb4af.webp",
     "static/media/Jean Michel Basquiat_card.webp": "/projeto_escola/static/media/Jean Michel Basquiat_card.d04f18ce598df8b1fac0.webp",
     "static/media/Virgínia Rodrigues_card.webp": "/projeto_escola/static/media/Virgínia Rodrigues_card.3e250d0aa0934b08ac6e.webp",
     "static/media/game.png": "/projeto_escola/static/media/game.79e887ad7ffc20331c25.png",
@@ -68,7 +62,6 @@
     "static/media/Quelynah_card.webp": "/projeto_escola/static/media/Quelynah_card.f5b180cf92fac649b1ea.webp",
     "static/media/emanoel-araujo.webp": "/projeto_escola/static/media/emanoel-araujo.e3b140f09b2bbcfb5541.webp",
     "static/media/quelynah.webp": "/projeto_escola/static/media/quelynah.90334a42b394d127b134.webp",
-    "static/media/img5.webp": "/projeto_escola/static/media/img5.5f9bdaf5a028e5940582.webp",
     "static/media/Mestre Didi.webp": "/projeto_escola/static/media/Mestre Didi.0ba918dfa9e27a9d9b96.webp",
     "static/media/Paulo Nazareth.webp": "/projeto_escola/static/media/Paulo Nazareth.157a56e9493e910a4a1d.webp",
     "static/media/Quinho.webp": "/projeto_escola/static/media/Quinho.1b87b389695c5700244a.webp",
@@ -121,7 +114,6 @@
     "static/media/Oga Mendonça.webp": "/projeto_escola/static/media/Oga Mendonça.58c5abd14ace128a648c.webp",
     "static/media/Úrsula de Jesus.webp": "/projeto_escola/static/media/Úrsula de Jesus.1add8842ad76b93f735d.webp",
     "static/media/Preta Ferreira_card.webp": "/projeto_escola/static/media/Preta Ferreira_card.d8bed47e9d2c813ce6ae.webp",
-    "static/media/img8.webp": "/projeto_escola/static/media/img8.ff253994680fbf513ec5.webp",
     "static/media/Úrsula de Jesus_card.webp": "/projeto_escola/static/media/Úrsula de Jesus_card.ad94d3a2380d0b0ec7f9.webp",
     "static/media/Liniker de Barros Ferreira Campos_card.webp": "/projeto_escola/static/media/Liniker de Barros Ferreira Campos_card.cf5281e2ad9fab46f093.webp",
     "static/media/Virgínia Rodrigues.webp": "/projeto_escola/static/media/Virgínia Rodrigues.72649bc96b2e7edbf60d.webp",
@@ -132,12 +124,12 @@
     "static/media/lupa.webp": "/projeto_escola/static/media/lupa.5ac08ca14e1ff1511b26.webp",
     "index.html": "/projeto_escola/index.html",
     "static/media/menu.webp": "/projeto_escola/static/media/menu.7e800a83c87463f07670.webp",
-    "main.b6713d1f.css.map": "/projeto_escola/static/css/main.b6713d1f.css.map",
-    "main.342b5729.js.map": "/projeto_escola/static/js/main.342b5729.js.map",
+    "main.e199fa93.css.map": "/projeto_escola/static/css/main.e199fa93.css.map",
+    "main.b6077806.js.map": "/projeto_escola/static/js/main.b6077806.js.map",
     "453.dc02bd2d.chunk.js.map": "/projeto_escola/static/js/453.dc02bd2d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6713d1f.css",
-    "static/js/main.342b5729.js"
+    "static/css/main.e199fa93.css",
+    "static/js/main.b6077806.js"
   ]
 }
