@@ -1,0 +1,113 @@
+@use '../EscolherDificuldade.scss' as *;
+
+
+@keyframes mexer {
+    0% {
+        background-position: 100% 0%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% { 
+        background-position: 0% 100%;
+    }
+}
+
+.conteinermain-wraper {
+    margin-top: 5vh;
+    position: relative;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.conteinermain {
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1fr, 4); 
+    gap: 1%;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 0.3rem;
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////
+/// Responsividade
+/// //////////////////////////////////////////////////////////////////////////////////////
+//PC
+
+@media (max-width: 1000px) {
+    .conteinermain-wraper {
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .conteinermain-wraper {
+        margin-left: 10vw;
+        width: 60%;
+        height: 70%;
+    }
+
+    .Menu-Info > h3 {
+        font-size: rem(17);
+    }
+
+    .App-jogo {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+    .conteinermain-wraper {
+        width: 55%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 550px) {
+    .conteinermain-wraper {
+        width: 60%;
+        height: 60%;
+    }
+
+    .Menu-Info > h3 {
+        font-size: rem(15);
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////
+/// Celular /////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////
+
+@media (max-width: 500px) and (pointer: coarse) {
+    .conteinermain-wraper {
+        width: 60%;
+        height: 50%;
+    }
+
+    .App-jogo {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 440px) and (pointer: coarse) {
+    .conteinermain-wraper {
+        width: 55%;
+        height: 40%;
+    }
+}
+
+@media (max-width: 360px) and (pointer: coarse) {
+    .conteinermain-wraper {
+        width: 56%;
+        height: 40%;
+    }
+}
+
+

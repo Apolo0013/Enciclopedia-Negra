@@ -1,3 +1,5 @@
+@use '../EscolherDificuldade.scss' as *;
+
 .carta-conteiner {
     perspective: 1000px;
     width: 100%;
@@ -41,7 +43,7 @@
 }
 
 .carta-conteinersub > div:nth-child(1) {
-    font-size: 5rem;
+    font-size: rem(60);
 }
 
 .carta-conteinersub > div:nth-child(2) > img {
@@ -60,4 +62,25 @@
 .notoque > * {
     pointer-events: none;
     user-select: none;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/// Responvidade
+/////////////////////////////////////////////////////////////////////////////////////////
+/// PC
+
+@media (max-width: 800px) {
+    .carta-conteinersub > div:nth-child(1) {
+        font-size: rem(40)
+    }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+/// Celular ////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+
+@media (max-width: 500px) and (pointer: coarse) {
+    .carta-conteinersub  > div:nth-child(1) {
+        font-size: rem(35);
+    }
 }

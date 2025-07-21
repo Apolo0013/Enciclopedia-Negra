@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, useImperativeHandle, forwardRef } from 'react'
-import './menu.css'
+import './menu.scss'
 
 const Menu = forwardRef(({tenta, final, EndGame, TempoExbir},ref) => {
     function TempoFormat(s) {

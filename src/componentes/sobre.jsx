@@ -28,7 +28,7 @@ function Sobre() {
                 <nav className="Nav-Sobrenos">
                     <span onClick={() => Scroll(RefInicio.current)}>Nossa Equipe</span>
                     <span onClick={() => Scroll(RefSobreP.current)}>Sobre Projeto</span>
-                    <span onClick={() => Scroll(RefCriacao.current)}>Crianção do Site</span>
+                    <span onClick={() => Scroll(RefCriacao.current)}>Criação do Site</span>
                     <span onClick={() => Scroll(RefpesA.current)}>Pesquisa dos Artista</span>
                     <span onClick={() => Scroll(RefpesC.current)}>Pesquisa dos Conceito</span>
                     <span onClick={() => Scroll(Reforg.current)}>Organização da Exposição</span>

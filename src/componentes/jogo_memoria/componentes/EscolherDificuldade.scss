@@ -26,6 +26,7 @@ $extremo-borda: #ab47bc;    // roxo médio
 
 .Escolher-wraper {
     position: relative;
+    overflow-y: auto;
     width: 100%;
     height: 100%;
     display: flex;
@@ -34,55 +35,65 @@ $extremo-borda: #ab47bc;    // roxo médio
 }
 
 .Escolher {
+    //botao
     font-family: "Press Start 2P", sans-serif;
     display: flex;
     flex-direction: column;
     gap: 1vh;
     margin-top: 3vh;
     width: 30%; 
-    height: auto;
+    height: 100%;
     position: relative;
 
-    button {
-        position: relative;
+    .botao-wraper{
         width: 100%;
-        height: 15vh;   
-        cursor: pointer;
-        border-radius: rem(5);
-        font-size: rem(30);
-        font-family: "Press Start 2P", sans-serif;
-        transition: 0.5s;
+        display: flex;
+        position: relative;
 
-        &:hover {
-            z-index: 1000;
-            transform: scale(1.1) translateY(-2svh);
+        button {
+            position: relative;
+            width: 100%;
+            height: 15vh;   
+            cursor: pointer;
+            border-radius: rem(5);
+            font-size: rem(30);
+            font-family: "Press Start 2P", sans-serif;
+            transition: 0.5s;
+
+            &:hover {
+                z-index: 1000;
+                transform: scale(1.1) translateY(-2svh);
+            }
+        }        
+        .botao-facil-dificuldade {
+            background: $facil-back;
+            color: $facil-color;
+            border: rem(5) solid $facil-borda;
+        }
+
+        .botao-medio-dificuldade {
+            background: $medio-back;
+            color: $medio-color;
+            border: rem(5) solid $medio-borda;
+        }
+
+        .botao-dificil-dificuldade {
+            background: $dificil-back;
+            color: $dificil-color;
+            border: rem(5) solid $dificil-borda;
+        }
+
+        .botao-extremo-dificuldade{
+            background: $extremo-back;
+            color: $extremo-color;
+            border: rem(5) solid $extremo-borda;
         }
     }
-
-    button:nth-child(1) {
-        background: $facil-back;
-        color: $facil-color;
-        border: rem(5) solid $facil-borda;
-    }
-
-    button:nth-child(2) {
-        background: $medio-back;
-        color: $medio-color;
-        border: rem(5) solid $medio-borda;
-    }
-
-    button:nth-child(3) {
-        background: $dificil-back;
-        color: $dificil-color;
-        border: rem(5) solid $dificil-borda;
-    }
-
-    button:nth-child(4) {
-        background: $extremo-back;
-        color: $extremo-color;
-        border: rem(5) solid $extremo-borda;
-    }
 }
+
+
+
+//////////
 
 
 .ConteinerInfo {
@@ -113,4 +124,96 @@ h1 {
     font-family: "Oswald", sans-serif;
     font-size: 4rem;
     color: white;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/// Responsividade///////////////////////////////////////////////////////////////////////
+/// /////////////////////////////////////////////////////////////////////////////////////
+/// PC
+
+@media (max-width: 950px) {
+    .Escolher {
+        width: 40%;
+    }   
+
+    .ConteinerInfo {
+        left: 105%;
+    }
+}
+
+@media (max-width: 750px) {
+    .Escolher-wraper {
+        align-items: flex-start;
+    }
+
+    .Escolher {
+        padding: rem(1);
+        padding-left: rem(10);
+    }
+
+    h1 {
+        margin-top: 5vh;
+    }
+
+    .ConteinerInfo {
+        left: 110%;
+    }
+}
+
+
+@media (max-width: 670px) {
+    .Escolher {
+        .botao-wraper > button {
+            font-size: rem(20);
+        }
+    }
+
+    h1 {
+        font-size: rem(50);
+    }
+
+    .ConteinerInfo {
+        span {
+            h3 {
+                font-size: rem(15);
+            }
+            h2 {
+                font-size: rem(20);
+            }
+        }
+    }
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////// Celular ////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+@media (max-width: 440px) and (pointer: coarse) {  
+    .ConteinerInfo {
+        span {
+            h2 {
+                font-size: rem(15);
+            }
+
+            h3 {
+                font-size: rem(13);
+            }
+        }
+    }
+
+    h1 {
+        font-size: rem(40);
+    }
+
+    .Escolher   {
+        .botao-wraper > button {
+            font-size: rem(15);
+        }
+    }
+}
+
+@media (max-width: 350px) and (pointer: coarse) {
+    h1 {
+        font-size: rem(30);
+    }
 }

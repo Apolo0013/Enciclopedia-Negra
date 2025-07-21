@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import './jogo.css';
+import './jogo.scss';
 import Carta from './cartas.jsx';
 import Menu from './menu.jsx';
 import AvisoCom from './aviso.jsx';

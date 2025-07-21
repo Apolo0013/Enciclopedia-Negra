@@ -33,3 +33,22 @@
     filter: blur(1px) grayscale(100%);
     pointer-events: none;
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/// Responsiviade
+/// ///////////////////////////////////////////////////////////////////////////////////////////
+/// Celular
+
+@media (max-width: 500px) and (pointer: coarse) {
+    .Conteiner-Botao {
+        flex-direction: row;
+        top: 102%;
+        left: 0;
+        height: 15%;
+        width: 40%;
+    }
+
+    .Conteiner-Botao > img {
+        filter: brightness(1);
+    }
+}

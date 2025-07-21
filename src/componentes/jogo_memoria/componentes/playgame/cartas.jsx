@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import './cartas.css'
+import './cartas.scss'
 
 function Carta({ img, value, Toque, id, RefGetCard, RefGetConteinerCard}) {
     const RefCard = useRef() // ref do card
