@@ -4,49 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .progress-wraper {
-            width: 30%;
-            height: 5vh;
-            border-radius: 50px;
-            background: rgb(182, 177, 177);
-            background: repeating-linear-gradient(45deg, black 0,
-            black 10px,
-            white 10px,
-            white 20px);
-            background-size: 300% 100%;
-            animation: fds 10s linear infinite;
+        body {
+            width: 100vw;
+            height: 100vh;
             overflow: hidden;
-        }
-
-        @keyframes fds {
-            from {
-                background-position: 0% 0%;
-            }
-            to {
-                background-position: 100% 0%;
-            }
-        }
-
-        .bar-progress {
-            max-width: 100%;
-            width: 1%;
-            height: 100%;
-            background-color: rgba(178, 27, 27, 0.604);
-            transition: 0.5s;
         }
     </style>
 </head>
 <body>
-    <div class="progress-wraper">
-        <div class="bar-progress"></div>
-    </div>
-    <script>
-        const textprogress = window.document.querySelector('.bar-progress')
-        let poncentagem = 1
-        setInterval(() => {
-            textprogress.style.width = `${poncentagem}%`
-            poncentagem ++
-        }, 250)
-    </script>
+    <svg width="1300" height="600">
+        <path width="100%" height="100%" 
+        stroke="black"
+        fill="blue"
+        d=
+        "
+        M0,0
+        C0,300 800,100 1300,100
+        L1300,0
+        Z
+        "
+        />
+    </svg>
 </body>
 </html>
+

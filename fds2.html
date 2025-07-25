@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            
+        }
+
+        .conteiner {
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            background: rgb(172, 172, 172);
+            padding: 0.5rem;
+        }
+
+        .conteiner-input {
+            padding: 1rem;
+            width: 100%;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.1rem;
+            background: rgb(131, 128, 128);
+        }
+
+        input {
+            width: 10%;
+        }
+
+        .conteinerposition {
+            position: relative;
+            background: white;
+            width: 100%;
+            height: 75%;
+            overflow: hidden;
+        }
+
+        .pointer {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            border: 1px solid black;
+            background: red;
+            left: 0;
+            position: absolute;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="conteiner-input">
+            <h4>Altura</h4>
+            <input type="text" placeholder="digite a altura" class="eixoY" value="300">
+            <h4>Largura</h4>
+            <input type="text" placeholder="digite a largura" class="eixoX" value="300">
+        </div>
+        <p>Tamanho: </p>
+        <p class="xey">X: || Y: </p>
+        <div class="conteinerposition">
+            <span class="pointer"></span>
+        </div>
+    </div>
+
+    <script>
+
+        function Mudartamanho() {
+            conteinerposicao.style.width = inputX.value + 'px'
+            conteinerposicao.style.height = inputY.value + 'px'
+
+            const box_conteiner = conteinerposicao.getBoundingClientRect()
+            const tamanhotext = `Tamanho ${Math.floor(box_conteiner.width)} x ${Math.floor(box_conteiner.height)}`
+            ptexttam.innerText = tamanhotext
+        }
+        
+        const conteinerposicao = document.querySelector('.conteinerposition')
+        const ptexttam = document.querySelector('p')
+        const textposicao = document.querySelector('.xey')
+        const pointerdiv = document.querySelector('.pointer')
+
+        const inputX = document.querySelector('.eixoX')
+        const inputY = document.querySelector('.eixoY')
+
+        inputX.addEventListener('input', Mudartamanho)
+        inputY.addEventListener('input', Mudartamanho)
+        console.log(inputX)
+        console.log(inputY)
+        Mudartamanho()
+        ///evento
+        conteinerposicao.addEventListener('mousemove', function(e) {
+            //pegando a posicao do mouse dentro do elemento pae.
+            const rect = this.getBoundingClientRect()
+            const x = Math.floor(e.clientX - rect.left)
+            const y = Math.floor(e.clientY - rect.top)
+            //se for menor do que zero apens mostre 0
+            if (y < 0) {
+                y = '0'
+            }
+            else if (x < 0) {
+                x = '0'
+            }
+            //add as posicao no texto a cima desse conteiner
+            textposicao.textContent = `X: ${x} || Y: ${y}` 
+            //add a posicao no pointer
+            pointerdiv.style.left = x+'px'
+            pointerdiv.style.top = y+'px'
+            
+        })
+
+    </script>
+</body>
+</html>

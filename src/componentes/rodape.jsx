@@ -6,10 +6,24 @@ import lupa from '../img/lupa.webp'
 import GameImg from '../img/game.png'
 import MenuImg from '../img/menu.webp'
 
-function Rodape({classop_menu, classop, rodape_outros}) { // classop: class opcional, como uma class que alterar a posicao
+function Rodape({classop_menu, classop, rodape_outros}) { // classop: class opcional,
+    //como uma class que alterar a posicao
+    
+    function MoveSeletorNav(e) {
+        const el = e.target
+        const leftpx = el.offsetLeft
+        const widthel = el.offsetWidth
+        //style
+        RefSeletor.current.style.transform = `translateX(${leftpx}px) scaleX(1.2)`
+        RefSeletor.current.style.width = widthel+'px'
+    }
+
     const RefRodape = useRef()
-    const RefRodapeState = useRef(false) // ele vai verificar se o rodape esta aberto ounao
+    const RefRodapeState = useRef(false) // ele vai verificar se o rodape esta aberto 
+    //ou nao
     const nv = useNavigate()
+    //Ref do saletor nav, apenas um seletor pra fica bonitinho.
+    const RefSeletor = useRef()
 
     useEffect(() => {
         if (!classop_menu) {classop_menu = ''}
@@ -35,11 +49,14 @@ function Rodape({classop_menu, classop, rodape_outros}) { // classop: class opci
                 <h3 onClick={() => nv('/home/')}>ENCICLOPÉDIA NEGRA</h3>
                 <hr />
             </div>
-            <span onClick={() => nv('/home/jogo/jogo-da-momoria/')}><img src={GameImg} alt="" /></span>
-            <p onClick={() => {nv('/home/')}}>Inicio</p>
-            <p onClick={() => {nv('/home/artistas/')}}>Artista</p>
-            <p onClick={() => nv('/home/sobre-nós/')}>Sobre Nós</p>
-            <span className='left-magin-radape' onClick={() => nv('/home/pesquisa')}><img src={lupa} alt="" /></span>
+            <nav>
+                <span onClick={() => nv('/home/jogo/jogo-da-momoria/')} onMouseEnter={(e) => MoveSeletorNav(e)}><img src={GameImg} alt="" /></span>
+                <p onClick={() => {nv('/home/')}} onMouseEnter={(e) => MoveSeletorNav(e)}>Inicio</p>
+                <p onClick={() => {nv('/home/artistas/')}} onMouseEnter={(e) => MoveSeletorNav(e)}>Artista</p>
+                <p onClick={() => nv('/home/sobre-nós/')} onMouseEnter={(e) => MoveSeletorNav(e)}>Sobre Nós</p>
+                <span onClick={() => nv('/home/pesquisa')} onMouseEnter={(e) => MoveSeletorNav(e)}><img src={lupa} alt="" /></span>
+                <div className='seletor-nav' ref={RefSeletor}></div>
+            </nav>
         </div>
     )
 }

@@ -53,46 +53,66 @@
     }
 }
 
-.Rodape > p {
+.Rodape > nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: font(50);
+    align-items: center;
+    height: 100%;
+    margin-right: font(30);
+    position: relative ;
+
+    &:hover {
+        .seletor-nav {
+            opacity: 1;
+        }
+    }
+}
+
+.seletor-nav {
+    z-index: 1;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    border-bottom: font(5) solid white;
+    box-shadow: inset 0px 0px 7px 1px #ddba203d;
+    transition: 0.2s cubic-bezier(0, 0, 0.71, 1.11);
+    transform: scaleX(1.2) translate(100px);
+}
+
+.Rodape > nav > p {
+    z-index: 2  ;
+    text-wrap: nowrap;
     font-size: font(20);
     color: rgb(255, 255, 255);
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
 
-.Rodape > p:hover {
+.Rodape > nav > p:hover {
     transform: scale(1.05) translateY(-10%);
 }
 
-.Rodape > span {
+.Rodape > nav > span {
+    position: relative;
+    z-index: 2;
     border-radius: 50%;
     transition: 0.5s;
     padding: font(5);
-    width: 4%;
-    min-width: 4%;
-    height: 90%;
+    width: auto;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 
-.left-magin-radape {
-    margin-right: 3%;
-}
-
-.Rodape > span > img {
+.Rodape > nav > span > img {
     object-fit: contain;
     height: 100%;
 }
-
-.Rodape {
-    span:hover {
-        background: rgba(255, 255, 255, 0.246);
-        transform: scale(1.05);
-    }
-}
-
 
 .menu-mobile {
     display: none;
@@ -104,20 +124,26 @@
 
 //normal
 @media (max-width: 1050px) {
-    .Rodape > span {
-        width: 5.5% !important;
+    .Rodape > nav {
+        gap: font(35);
     }
 }
 
 @media (max-width: 844px) {
-    .Rodape > span {
-        width: 7% !important;
+    .Rodape > nav {
+        margin-right: 0;
+        justify-content: center;
+        gap: font(25);
     }
 }
 
 @media (max-width: 750px) {
-    .Rodape > span {
-        width: 8% !important;
+    .Rodape > nav {
+        gap: font(15);
+
+        p {
+            font-size: font(17);
+        }
     }
 
     
@@ -134,17 +160,19 @@
 }
 
 @media (max-width: 550px) {
-    .Rodape { 
-        span {
-            width: 10% !important;
-        }
+    .Rodape {
+        nav { 
+            span {
+                width: 10% !important;
+            }
 
-        p {
-            font-size: font(15);
-        }
+            p {
+                font-size: font(15);
+            }
 
-        h3 {
-            font-size: font(15);
+            h3 {
+                font-size: font(15);
+            }
         }
     }
 
@@ -156,7 +184,7 @@
 }
 
 @media (max-width: 500px) {
-    .Rodape > span {
+    .Rodape > nav > span {
         width: 11% !important;
     }
 }
@@ -170,7 +198,7 @@
     }
 
 
-    .Rodape > p {
+    .Rodape > nav > p {
         user-select: none;
         width: 100%;
         height: 5%;
@@ -201,8 +229,15 @@
     .show-rodape {
         left: 0 !important;
     }
+    
+    .Rodape > nav {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: 100%;
+    }
 
-    .Rodape > span {
+    .Rodape > nav > span {
         width: 60% !important;
         height: 10%;
 
