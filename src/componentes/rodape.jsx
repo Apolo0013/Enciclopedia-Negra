@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import './rodape.scss'
 import { useNavigate } from 'react-router-dom'
+import { useMediaQuery } from '../utils/mediaquery'
 //imagem
 import lupa from '../img/lupa.webp'
 import GameImg from '../img/game.png'
@@ -24,13 +25,20 @@ function Rodape({classop_menu, classop, rodape_outros}) { // classop: class opci
     const nv = useNavigate()
     //Ref do saletor nav, apenas um seletor pra fica bonitinho.
     const RefSeletor = useRef()
+    //adaptacao com js.
+    const UserCelular = useMediaQuery('(pointer: coarse)')
 
     useEffect(() => {
-        if (!classop_menu) {classop_menu = ''}
-    }, [])
+        if (UserCelular) {
+            RefSeletor.current.style.display = 'none'
+        }
+        else {
+            RefSeletor.current.style.display = 'block'
+        }
+    }, [UserCelular])
     return (
-        <div className={`Rodape ${classop} ${rodape_outros ? 'rodape-outros' : ''}`} ref={RefRodape}>
-            <div className={`menu-mobile ${classop_menu}`} onClick={() => {
+        <div className={`Rodape ${classop ? classop : ''} ${rodape_outros ? 'rodape-outros' : ''}`} ref={RefRodape}>
+            <div className={`menu-mobile ${classop_menu ? classop_menu : ''}`} onClick={() => {
                 if (!RefRodapeState.current) {
                     RefRodapeState.current = true
                     RefRodape.current.classList.add('show-rodape')

@@ -9,6 +9,7 @@ import './jogo_da_memoria.scss'
 import Escolher from './componentes/EscolherDificuldade.jsx'
 //rodape
 import Rodape from '../rodape.jsx'
+import AvisoCom from './componentes/playgame/aviso.jsx'
 
 function App() {
     const BgRef = useRef()
@@ -16,8 +17,7 @@ function App() {
     //State Conteiner
     const [Conteiner, SetConteiner] = useState()
     useEffect(() => {
-        SetConteiner(<Escolher SetConteiner={SetConteiner} BgRef={BgRef} SetAviso={SetAviso}/>)
-        //
+        SetConteiner(<Escolher SetConteiner={SetConteiner} BgRef={BgRef} SetAviso={SetAviso} />)
     }, [])
     return (
         <div className="App-jogo">

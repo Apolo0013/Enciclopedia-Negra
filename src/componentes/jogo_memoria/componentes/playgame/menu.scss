@@ -38,3 +38,22 @@
         width: 50%;
     }
 }
+
+//////////////////////////////////////////////////////////////////////////////
+/// Celular Horizontal
+///////////////////////////////////////////////////////////////////////
+/// 
+
+@media (orientation: landscape) and (pointer: coarse) and (max-height: 400px) {
+    .Menu-Info {
+        width: 50%;
+    }
+}
+
+@media (orientation: landscape) and (pointer: coarse) and (max-height: 340px) {
+    .Menu-Info {
+        h3 {
+            font-size: rem(13);
+        }
+    }
+}

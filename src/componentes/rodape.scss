@@ -202,6 +202,7 @@
         user-select: none;
         width: 100%;
         height: 5%;
+        font-size: font(20);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -288,8 +289,7 @@
 
 //dispositivos deitado
 
-
-@media (orientation: landscape) and (pointer: coarse) and (max-height: 320px) and (max-width: 570px) {
+@media (orientation: landscape) and (pointer: coarse) and (max-width: 570px) {
     .Rodape {
         width: 20%;
         left: -20%;
@@ -303,5 +303,10 @@
         width: 7vw;
         height: 7vw;
     }
+}
 
+@media (orientation: landscape) and (pointer: coarse) and (max-height: 400px) {
+    .Rodape {
+        height: 15%;
+    }
 }

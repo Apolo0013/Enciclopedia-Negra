@@ -41,53 +41,6 @@
     transition: 0.3s;
 }
 
-@media (max-width: 930px) {
-    .pesquisa {
-        width: 40%;
-    }
-    
-    .botao-voltar-cima-resultado {
-        width: 7vw !important;
-        height: 7vw !important;
-    }
-}
-
-@media (max-width: 700px) {
-    .pesquisa {
-        width: 50%;
-    }
-
-    .botao-voltar-cima-resultado {
-        width: 8vw !important;
-        height: 8vw !important;
-    }
-}
-
-@media (max-width: 550px) {
-    .botao-voltar-cima-resultado {
-        width: 15vw !important;
-        height: 15vw !important;
-    }
-}
-
-
-//========================================================================================
-//Celular na vertical
-//========================================================================================
-
-//adpitando o botao de voltar apra cima para celular
-@media (pointer: coarse) {
-    .botao-voltar-cima-resultado { // colocando o mesmo o pouco para baixo, pq o Menu do rodape esta la pae.
-        top: 15vw !important;
-    }
-}
-
-@media (max-width: 430px) and (pointer: coarse) and (orientation: portrait){
-    .pesquisa {
-        width: 55%;
-    }
-}
-
 .pesquisa:hover {
     background: #906953;
 
@@ -181,4 +134,73 @@
 .active-botao-voltar-anima-class {
     animation: active-botao-anima 0.5s ease 1 forwards !important;
 }
-///////////////////////////////////////////////////////
+
+
+//Adpitacao
+/////////////////////////////////////////////////////////////////////////////////////////
+/// PC
+/////////////////////////////////////////////////////////////////////////////////////////
+
+@media (max-width: 930px) {
+    .pesquisa {
+        width: 40%;
+    }
+    
+    .botao-voltar-cima-resultado {
+        width: 7vw !important;
+        height: 7vw !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .pesquisa {
+        width: 50%;
+    }
+
+    .botao-voltar-cima-resultado {
+        width: 8vw !important;
+        height: 8vw !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .botao-voltar-cima-resultado {
+        width: 15vw !important;
+        height: 15vw !important;
+    }
+}
+
+
+//========================================================================================
+//Celular na vertical
+//========================================================================================
+
+//adpitando o botao de voltar apra cima para celular
+@media (pointer: coarse) {
+    .botao-voltar-cima-resultado { // colocando o mesmo o pouco para baixo, pq o Menu do rodape esta la pae.
+        top: 15vw !important;
+    }
+}
+
+@media (max-width: 430px) and (pointer: coarse) and (orientation: portrait){
+    .pesquisa {
+        width: 55%;
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+/// Celular na Horizontal
+/////////////////////////////////////////////////////////////////////////////////////////
+
+@media (orientation: landscape) and (pointer: coarse) and (max-height: 390px) {
+    .pesquisawrapper {
+        padding: font(3);
+    }
+}
+
+@media (orientation: landscape) and (pointer: coarse) and (max-height: 350px) {
+    .pesquisawrapper {
+        height: 15vh;
+    }
+}
+//////////////////////////////////////////////////////////////////////////

@@ -139,7 +139,7 @@
 }
 
 @media (max-width: 1050px) {
-    .Conteiner > h1{
+    .Conteiner > h1 {
         font-size: font(80);
     }
 
@@ -208,7 +208,7 @@
 
 @media (pointer: coarse) and (max-width: 600px) {
     .Conteiner {
-        margin-top: 30%;
+        margin: 25%;
     }
 }
 
@@ -234,6 +234,10 @@
         }
     }
 
+    .Conteiner > p {
+        font-size: font(20);
+    }
+
     .Conteiner > button {
         width: 80%;
         font-size: font(30);
@@ -247,7 +251,7 @@
     }
 
     .Conteiner > p {
-        font-size: font(17);
+        font-size: font(15);
     }
 
     .Conteiner > button {

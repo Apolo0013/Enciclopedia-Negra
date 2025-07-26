@@ -50,7 +50,7 @@ function Escolher({SetConteiner, BgRef, SetAviso}) {
             SetAvi={SetAviso} RefBg={BgRef} tempo={tempo} tenta={tenta} />)
     }
     //Adpitacao pae
-    const UserCelular = useMediaQuery('(max-width: 500px) and (pointer: coarse)')
+    const UserCelular = useMediaQuery('(max-width: 500px) and (pointer: coarse) and (orientation: landscape)')
 
     const [InfoDifi, SetInfo] = useState() // state, que vai exbir as informacao pos passa o mouse por cima pae
     //lista de info

@@ -109,5 +109,25 @@
         height: 40%;
     }
 }
+//////////////////////////////////////////////////////////////////////////////
+/// Celular Horizontal
+///////////////////////////////////////////////////////////////////////
+/// 
 
+@media (orientation: landscape) and (pointer: coarse) and (max-height: 400px) {
+    .App-jogo {
+        align-items: center;
+    }
 
+    .conteinermain-wraper {
+        margin-right: 25%;
+        width: 50%;
+        height: 77%;
+    }
+}
+
+@media (orientation: landscape) and (pointer: coarse) and (max-height: 340px) {
+    .conteinermain-wraper {
+        width: 40%;
+    }
+}
