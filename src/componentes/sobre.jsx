@@ -1,9 +1,14 @@
 import './sobre.scss'
 import Rodape from './rodape'
-//imagens
-
 //cabeça
 import { useRef } from 'react'
+//imagens
+import nossaequipeimg from '../img/sobre nos/users.svg'
+import sobreprojetoimg from '../img/sobre nos/sobre-projeto.svg'
+import criarimg from '../img/sobre nos/code.svg'
+import pesquisaartistaimg from '../img/sobre nos/pesquisa-artista.svg'
+import pesquisaconceitoimg from '../img/sobre nos/pesquisa-conceito.svg'
+import exposicaoimg from '../img/sobre nos/ex.svg'
 
 function Sobre() {
     function Scroll(e) {
@@ -26,13 +31,25 @@ function Sobre() {
             <Rodape classop_menu="TopPosition" rodape_outros={true}></Rodape>
             <div className="MainSobre">
                 <nav className="Nav-Sobrenos">
-                    <span onClick={() => Scroll(RefInicio.current)}>Nossa Equipe</span>
-                    <span onClick={() => Scroll(RefSobreP.current)}>Sobre Projeto</span>
-                    <span onClick={() => Scroll(RefCriacao.current)}>Criação do Site</span>
-                    <span onClick={() => Scroll(RefpesA.current)}>Pesquisa dos Artista</span>
-                    <span onClick={() => Scroll(RefpesC.current)}>Pesquisa dos Conceito</span>
-                    <span onClick={() => Scroll(Reforg.current)}>Organização da Exposição</span>
-                </nav>
+                    <span onClick={() => Scroll(RefInicio.current)}>
+                        <img src={nossaequipeimg} alt="Nossa Equipe" />
+                    </span>
+                    <span onClick={() => Scroll(RefSobreP.current)}>
+                        <img src={sobreprojetoimg} alt="Sobre Projeto" />
+                    </span>
+                    <span onClick={() => Scroll(RefCriacao.current)}>
+                        <img src={criarimg} alt="Criação do Site" />
+                    </span>
+                    <span onClick={() => Scroll(RefpesA.current)}>
+                        <img src={pesquisaartistaimg} alt="Pesquisa dos Artista" />
+                    </span>
+                    <span onClick={() => Scroll(RefpesC.current)}>
+                        <img src={pesquisaconceitoimg} alt="Pesquisa dos Conceito" />
+                    </span>
+                    <span onClick={() => Scroll(Reforg.current)}>
+                        <img src={exposicaoimg} alt="Organização da Exposição" />
+                    </span>
+                </nav> 
                 <div className="conteudo-text">
                     <header id="Inicio" className="cabeçalho Dev fonth1h2" ref={RefInicio}>
                         <section>

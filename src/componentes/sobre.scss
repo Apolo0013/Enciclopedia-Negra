@@ -20,36 +20,83 @@ $cor-fundo-nav:#d78c4b;
 .Nav-Sobrenos {
     position: sticky;
     display: flex;
+    align-items: center;
+    height: 6vh;
     min-height: 6vh;
     width: 100%;
     height: 30%;
     top: 0px;
     z-index: 100;
+    background: $cor-fundo-nav;
 }
 
+
 .Nav-Sobrenos > span {
-    color: $cor-text-nav;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: font(15);
-    text-decoration: none;
     background: $cor-fundo-nav;
-    flex: 1;
+    color: white;
+    height: 6vh;
     transition: 0.2s ease-in-out;
     cursor: pointer;
     user-select: none;
+    padding: font(5);
+    flex: 1;
+
+
+    //parte de passa a mouse por cima do icone e mostrar oq se trata pae.
+    &::before {
+        opacity: 0;
+        position: absolute;
+        z-index: 100;
+        display: inline;
+        padding: font(5);
+        background: $cor-fundo-nav;
+        border-radius: font(5);
+        font-size: font(20);
+        text-align: start;
+        text-wrap: wrap;
+        left: 0%;
+        top: 110%;
+        transition: 0.5s ease-out;
+    }
+
 
     &:hover {
-        transform: scale(1.1);
-        filter: brightness(0.8);
+        transform: scale(1.05);
+        filter: brightness(0.9);
+
+        //geral, todos qualquer um, terar  opacidade no 1, ou seja irar aparece suavemente.
+        &::before { opacity: 1; }
+
+        //Nossa Equipe
+        &:nth-child(1):before { content: 'Nossa Equipe'; }
+        //Sobre Projeto
+        &:nth-child(2):before { content: 'Sobre Projeto'; }
+        //Criação do Site
+        &:nth-child(3)::before { content: 'Criação do Site'; }
+        //Pesquisa dos Artista
+        &:nth-child(4)::before { content: 'Pesquisa dos Artista'; }
+        //Pesquisa dos Conceito
+        &:nth-child(5)::before {content: 'Pesquisa dos Conceito';}
+        //Organização da Exposição
+        &:nth-child(6)::before { content: 'Organização da Exposição'; }
     }
+
+    img {
+        object-fit: contain;
+        width: auto;
+        height: 100%; 
+    }
+
 }
 
 .wraperMainSobre {
     width: 100vw;
     height: 100vh;
     position: relative;
+    z-index: 0;
     scroll-behavior: smooth;
     scroll-margin-top: 0;
     overflow-y: scroll;
@@ -63,11 +110,13 @@ $cor-fundo-nav:#d78c4b;
     flex-direction: column;
     width: 100%; 
     height: auto;
-    background: $cor-main;
     padding: 0;
+    position: relative;
 }
 
 .conteudo-text {
+    position: relative;
+    z-index: 5;
     width: 85%;
     display: flex;
     flex-direction: column;
@@ -300,8 +349,8 @@ $cor-fundo-nav:#d78c4b;
 }
 
 
-
-
+//Responsividade
+//PC
 @media (max-width: 1100px) {
     .Card-Sobre {
         h3 {
@@ -316,6 +365,10 @@ $cor-fundo-nav:#d78c4b;
     .Nav-Sobrenos > span {
         font-size: font(13);
         height: 8vh;
+
+        &::before {
+            font-size: font(15);
+        }
     }
 }
 
@@ -356,6 +409,10 @@ $cor-fundo-nav:#d78c4b;
         .Card-Sobre-Conteiner {
             width: 100%;
         }
+    }
+
+    .Nav-Sobrenos > span::before {
+        font-size: font(13)
     }
 }
 
@@ -414,6 +471,14 @@ $cor-fundo-nav:#d78c4b;
         width: 90%;
         padding: font(10);
     }
+
+    .Nav-Sobrenos {
+        span {
+            img {
+                height: 90%;
+            }
+        }
+    }
 }
 
 //350px////////////////////////////////////////
@@ -425,6 +490,14 @@ $cor-fundo-nav:#d78c4b;
     .Dev {
         h1 {
             font-size: font(30);
+        }
+    }
+
+    .Nav-Sobrenos {
+        span {
+            img {
+                height: 80%;
+            }
         }
     }
 }

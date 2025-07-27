@@ -111,6 +111,7 @@
 
 .Rodape > nav > span > img {
     object-fit: contain;
+    flex: 1;
     height: 100%;
 }
 
@@ -161,9 +162,9 @@
 
 @media (max-width: 550px) {
     .Rodape {
-        nav { 
+        nav {
             span {
-                width: 10% !important;
+                padding: font(2);
             }
 
             p {
@@ -182,13 +183,6 @@
         }
     }
 }
-
-@media (max-width: 500px) {
-    .Rodape > nav > span {
-        width: 11% !important;
-    }
-}
-
 
 /*Dispositivo em pe*/
 

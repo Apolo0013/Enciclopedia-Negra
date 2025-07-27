@@ -1,4 +1,4 @@
-import './conteinerartista.css'
+import './conteinerartista.scss'
 import CardArtista from './cardartista.jsx'
 import { useEffect, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'

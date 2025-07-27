@@ -8,12 +8,13 @@ import { useRef } from 'react';
 import './App.scss'
 //compenentes
 import AppRotas from './AppRotas';
-
+import FundoSvg from './img/fundo';
 function App() {
     //ref
     const RefConteinerCards = useRef()
     return (
         <div className="main" ref={RefConteinerCards}>
+            <FundoSvg />
             <AppRotas></AppRotas>
         </div>
     )

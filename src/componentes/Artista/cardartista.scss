@@ -62,7 +62,8 @@
     img {
         aspect-ratio: 1 / 1;
         object-fit: cover;
-        height: 35vh;
+        width: auto;
+        height: 50%;
         border-radius: 50%;
         border: font(4) solid #42293f;
     }
@@ -123,7 +124,7 @@
     padding-top: font(5);
     padding-left: font(10);
     padding-right: font(10);
-    height: 6vh;
+    min-height: 6vh;
     background: #42293f;
     color: #dfb58b;
     font-size: font(20);
@@ -281,18 +282,17 @@
 
 //Celular ==========================================================================================
 
-@media (pointer: coarse) and (orientation: portrait) and (max-width: 500px){
+@media (pointer: coarse) and (orientation: portrait) and (max-width: 450px){
     .infoartista {
         span {
-            width: 70%;
-
+            width: 100%;
             div {
                 font-size: font(20);
             }
         }
 
         h1 {
-            font-size: font(40);
+            font-size: font(30);
         }
     }
 
@@ -344,4 +344,9 @@
             font-size: font(35);
         }
     }
+}
+
+//Celular na Horizontal.
+@media (orientation: landscape) and (pointer: coarse) and (max-height: 400px) { 
+
 }

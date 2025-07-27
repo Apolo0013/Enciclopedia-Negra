@@ -5,6 +5,8 @@
     width: 100vw;
     height: 100vh;
     overflow-y: auto;
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -15,7 +17,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: white;
 }
 
 .pesquisawrapper {
@@ -84,7 +85,6 @@
     gap: font(20);
     justify-content: center;
     align-items: flex-start;
-    background: #b16e47;
 }
 
 //botao de voltar para cima pae
