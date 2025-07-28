@@ -58,11 +58,15 @@ function Rodape({classop_menu, classop, rodape_outros}) { // classop: class opci
                 <hr />
             </div>
             <nav>
-                <span onClick={() => nv('/home/jogo/jogo-da-momoria/')} onMouseEnter={(e) => MoveSeletorNav(e)}><img src={GameImg} alt="" /></span>
+                <span onClick={() => nv('/home/jogo/jogo-da-momoria/')}
+                    onMouseEnter={(e) => MoveSeletorNav(e)}
+                ><img src={GameImg} alt="" /></span>
                 <p onClick={() => {nv('/home/')}} onMouseEnter={(e) => MoveSeletorNav(e)}>Inicio</p>
                 <p onClick={() => {nv('/home/artistas/')}} onMouseEnter={(e) => MoveSeletorNav(e)}>Artista</p>
                 <p onClick={() => nv('/home/sobre-nós/')} onMouseEnter={(e) => MoveSeletorNav(e)}>Sobre Nós</p>
-                <span onClick={() => nv('/home/pesquisa')} onMouseEnter={(e) => MoveSeletorNav(e)}><img src={lupa} alt="" /></span>
+                <span onClick={() => nv('/home/pesquisa')}
+                    onMouseEnter={(e) => MoveSeletorNav(e)}
+                ><img src={lupa} alt="" /></span>
                 <div className='seletor-nav' ref={RefSeletor}></div>
             </nav>
         </div>

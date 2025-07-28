@@ -61,12 +61,6 @@
     height: 100%;
     margin-right: font(30);
     position: relative ;
-
-    &:hover {
-        .seletor-nav {
-            opacity: 1;
-        }
-    }
 }
 
 .seletor-nav {
@@ -82,9 +76,19 @@
     transform: scaleX(1.2) translate(100px);
 }
 
+.Rodape > nav {
+    span:hover ~ .seletor-nav { opacity: 1; }
+    p:hover ~ .seletor-nav {opacity: 1;} 
+}
+
 .Rodape > nav > p {
     z-index: 2  ;
     text-wrap: nowrap;
+    display: flex;
+    //usei o flex para centralizar esse texto pq, por algum motivo o text-aling nao ta fucionando aqui pae, E fds, se esta fucionando deixa ai.
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     font-size: font(20);
     color: rgb(255, 255, 255);
     cursor: pointer;
