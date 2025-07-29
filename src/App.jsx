@@ -7,8 +7,9 @@
 import { useRef } from 'react';
 import './App.scss'
 //compenentes
-import AppRotas from './AppRotas';
-import FundoSvg from './img/fundo';
+import AppRotas from './AppRotas'
+import FundoSvg from './img/fundo'
+
 function App() {
     //ref
     const RefConteinerCards = useRef()

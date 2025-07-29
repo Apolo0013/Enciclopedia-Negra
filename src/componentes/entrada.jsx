@@ -16,6 +16,7 @@ import Back10 from '../img/back_home/10.webp'
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Rodape from './rodape'
+import Rodape_bottom from './rodape-bottom'
 
 
 function Entrada() {
@@ -132,7 +133,6 @@ function Entrada() {
                 <button onClick={Explorar}
                 >Explorar Agora</button>
             </div>
-            
         </div>
     )
 }

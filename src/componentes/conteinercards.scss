@@ -1,23 +1,24 @@
+@use '../App.scss' as *;
+
 .wrapermain {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
+    gap: font(20);
     z-index: 1;
-    overflow: auto;
+    overflow-y: auto;
 }
 
 main {
-    overflow-y: visible;
+    overflow: visible;
     width: 100%;
     display: grid;
     justify-items: center;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20% 20% 20%;
+    grid-template-columns: repeat(5, 20%);
+    grid-auto-rows: minmax(font(260), auto);
     row-gap: 1vw;
     column-gap: 1vw;
-    padding: 1vh;
     padding-top: 4%;
     padding-left: 1vw;
     padding-right: 5vw;

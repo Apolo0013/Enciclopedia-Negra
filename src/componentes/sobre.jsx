@@ -1,5 +1,7 @@
 import './sobre.scss'
+//componentes
 import Rodape from './rodape'
+import Rodape_bottom from './rodape-bottom'
 //cabeça
 import { useRef } from 'react'
 //imagens
@@ -32,22 +34,22 @@ function Sobre() {
             <div className="MainSobre">
                 <nav className="Nav-Sobrenos">
                     <span onClick={() => Scroll(RefInicio.current)}>
-                        <img src={nossaequipeimg} alt="Nossa Equipe" />
+                        Nossa Equipe
                     </span>
                     <span onClick={() => Scroll(RefSobreP.current)}>
-                        <img src={sobreprojetoimg} alt="Sobre Projeto" />
+                        Sobre Projeto
                     </span>
                     <span onClick={() => Scroll(RefCriacao.current)}>
-                        <img src={criarimg} alt="Criação do Site" />
+                        Criação do Site
                     </span>
                     <span onClick={() => Scroll(RefpesA.current)}>
-                        <img src={pesquisaartistaimg} alt="Pesquisa dos Artista" />
+                        Pesquisa dos Artista
                     </span>
                     <span onClick={() => Scroll(RefpesC.current)}>
-                        <img src={pesquisaconceitoimg} alt="Pesquisa dos Conceito" />
+                        Pesquisa dos Conceito
                     </span>
                     <span onClick={() => Scroll(Reforg.current)}>
-                        <img src={exposicaoimg} alt="Organização da Exposição" />
+                        Organização da Exposição
                     </span>
                 </nav> 
                 <div className="conteudo-text">
@@ -163,6 +165,7 @@ function Sobre() {
                         </div>
                     </section>
                 </div>
+                <Rodape_bottom/>
             </div>
         </div>
     )

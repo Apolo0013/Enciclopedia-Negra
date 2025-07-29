@@ -41,11 +41,13 @@ $cor-fundo-nav:#d78c4b;
     transition: 0.2s ease-in-out;
     cursor: pointer;
     user-select: none;
+    font-size: font(15);
     padding: font(5);
     flex: 1;
 
 
     //parte de passa a mouse por cima do icone e mostrar oq se trata pae.
+    /*
     &::before {
         opacity: 0;
         position: absolute;
@@ -61,12 +63,14 @@ $cor-fundo-nav:#d78c4b;
         top: 110%;
         transition: 0.5s ease-out;
     }
+    */
 
 
     &:hover {
         transform: scale(1.05);
         filter: brightness(0.9);
 
+        /*
         //geral, todos qualquer um, terar  opacidade no 1, ou seja irar aparece suavemente.
         &::before { opacity: 1; }
 
@@ -82,6 +86,7 @@ $cor-fundo-nav:#d78c4b;
         &:nth-child(5)::before {content: 'Pesquisa dos Conceito';}
         //Organização da Exposição
         &:nth-child(6)::before { content: 'Organização da Exposição'; }
+        */
     }
 
     img {
@@ -108,6 +113,7 @@ $cor-fundo-nav:#d78c4b;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    background: $cor-main;
     width: 100%; 
     height: auto;
     padding: 0;
@@ -365,10 +371,6 @@ $cor-fundo-nav:#d78c4b;
     .Nav-Sobrenos > span {
         font-size: font(13);
         height: 8vh;
-
-        &::before {
-            font-size: font(15);
-        }
     }
 }
 
@@ -409,10 +411,6 @@ $cor-fundo-nav:#d78c4b;
         .Card-Sobre-Conteiner {
             width: 100%;
         }
-    }
-
-    .Nav-Sobrenos > span::before {
-        font-size: font(13)
     }
 }
 

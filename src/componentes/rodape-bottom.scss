@@ -1,0 +1,130 @@
+@use '../App.scss' as *;
+
+.rodape-bottom {
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: rgba(55, 37, 21, 0.9);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 0.1%;
+    position: relative;
+}
+
+.wraper-conteiner-info {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    padding: font(10);
+    gap: 5vw;
+
+    .conteiner-info {
+        color: white;
+        height: 100%;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: font(5);
+
+        h3 {
+            font-size: font(20);
+        }
+
+        h4 {
+        font-style: italic;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            width: fit-content;
+            flex-direction: column;
+            gap: 5px;
+
+            li {
+                &:hover {
+                    background: rgba(255, 255, 255, 0.409);
+                    a {
+                        color: black !important;
+                    }
+                }
+
+                transition: 0.5s ease-in-out;
+                padding: font(5);
+                border-radius: font(5);
+                cursor: pointer;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: font(5);
+
+                    img {
+                        object-fit: contain;
+                        width: 2.0rem;
+                        height: auto;
+                    }   
+                }
+            }
+        }
+    }
+
+    //algumas alteracao de cada conteiner
+    .conteiner-info:nth-child(3) {
+        ul {
+            li {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: font(10);
+
+                &:hover {
+                    background: rgba(255, 255, 255, 0.409);
+                    span, p {
+                        color: black !important;
+                    }
+                }
+
+                span {
+                    display: flex;
+                    align-items: center;
+                    gap: font(5);
+
+                    img {
+                        width: 2.0rem;
+                    }
+                }
+
+                p {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+
+.Direitos-Reservados {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    border-top: font(0.1) solid rgb(197, 197, 197);
+
+    p {
+        color: white;
+    }
+}
+
+.rodape-bottom-diviso {
+    height: 95%;
+    width: font(1);  
+    background: rgba(175, 175, 175, 0.738);
+}
+
+
