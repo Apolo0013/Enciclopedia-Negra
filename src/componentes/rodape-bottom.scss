@@ -122,9 +122,39 @@
 }
 
 .rodape-bottom-diviso {
-    height: 95%;
     width: font(1);  
+    //height: 95%;
     background: rgba(175, 175, 175, 0.738);
 }
 
 
+/////////////////////////////////////////////////////////////////
+/// Responsividade
+/// ////////////////////////////////////////////////////////
+/// Pc
+
+@media (max-width: 650px) {
+    .wraper-conteiner-info {
+        .conteiner-info {
+            h3 {
+                font-size: font(15);
+            }
+
+            h4 {
+                font-size: font(13);
+            }
+
+            ul {
+                li {
+                    a {
+                        font-size: font(13);
+                    }
+                    
+                    p {
+                        font-size: font(14);
+                    }
+                }
+            }
+        }
+    }
+}

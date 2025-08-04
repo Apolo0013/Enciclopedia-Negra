@@ -27,7 +27,7 @@ function rodape_bottom() {
                         </li>
                     </ul>
                 </div>
-                <div className="rodape-bottom-diviso">  </div>
+                <div className="rodape-bottom-diviso"></div>
                 <div class="conteiner-info">
                     <h3>Contato da Escola</h3>
                     <ul>

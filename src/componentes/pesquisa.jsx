@@ -7,8 +7,10 @@ import { useNavigate } from 'react-router-dom'
 import { useEffect, useRef, useState } from 'react'
 import dados from '../dados.json'
 import { GetValores } from '../Context'
+//componentes
 import PesquisaCard from './Artista/cardpesquisa.jsx'
 import Rodape from './rodape.jsx'
+import Rodape_bottom from './rodape-bottom.jsx'
 
 function Pesquisa() {
     function Ondenar(lista, entrada, chave) {
@@ -112,6 +114,7 @@ function Pesquisa() {
                     }
                 </div>
             </div>
+            <Rodape_bottom />
         </div>
     )
 }

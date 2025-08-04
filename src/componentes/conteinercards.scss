@@ -34,7 +34,7 @@ main {
 @media (max-width: 900px) {
     main {
         grid-template-columns: 34% 34% 34%;
-        grid-template-rows: repeat(9 ,15%);
+        grid-auto-rows: minmax(font(260), auto);
     }
 }
 
@@ -42,7 +42,7 @@ main {
 @media (max-width: 700px) {
     main {
         grid-template-columns: repeat(2 ,50%) !important;
-        grid-template-rows: repeat(13, 10%);
+        grid-auto-rows: minmax(font(260), auto);
     }
 }
 
@@ -50,7 +50,7 @@ main {
 @media (max-width: 420px) {
     main { 
         grid-template-columns: 100% !important;
-        grid-template-rows: repeat(26, 5%);
+        grid-auto-rows: minmax(font(260), auto);
     }
 }
 
