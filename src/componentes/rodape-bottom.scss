@@ -16,91 +16,161 @@
     width: 100%;
     height: 90%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: font(10);
-    gap: 5vw;
+    gap: font(20);
+        
+    .click-copy {
+        z-index: 200;
+        &::before{
+            animation: up 1s ease-in 1 forwards;
+            z-index: 100;
+        }
+    }
 
-    .conteiner-info {
-        color: white;
-        height: 100%;
-        width: fit-content;
-        display: flex;
-        flex-direction: column;
-        gap: font(5);
+    //className que serao usada pra descatar os informacoe scomo email e nmero para copiar
+    .infocopy-footerbottom {
+        user-select: none;
+        cursor: pointer;
+        position: relative;
+        background: rgba(255, 255, 255, 0.35);
+        padding: font(2);
+        color: rgb(255, 255, 255);
+        text-wrap: nowrap;
 
-        h3 {
-            font-size: font(20);
+        &::before {
+            opacity: 0;
+            z-index: -100;
+            padding: font(4);
+            border-radius: font(5);
+            display: inline;
+            position: absolute;
+            top: -100%;
+            content: 'Copiado';
+            border: font(3) solid #9b581e;
+            background: #d78c4b;
+            font-style: normal;
         }
 
-        h4 {
-        font-style: italic;
-        }
-
-        ul {
-            list-style: none;
-            display: flex;
-            width: fit-content;
-            flex-direction: column;
-            gap: 5px;
-
-            li {
-                &:hover {
-                    background: rgba(255, 255, 255, 0.409);
-                    a {
-                        color: black !important;
-                    }
-                }
-
-                transition: 0.5s ease-in-out;
-                padding: font(5);
-                border-radius: font(5);
-                cursor: pointer;
-
-                a {
-                    text-decoration: none;
-                    color: white;
-                    display: flex;
-                    justify-content: flex-start;
-                    align-items: center;
-                    gap: font(5);
-
-                    img {
-                        object-fit: contain;
-                        width: 2.0rem;
-                        height: auto;
-                    }   
-                }
+        @keyframes up {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+                top: -200%;
             }
         }
     }
 
-    //algumas alteracao de cada conteiner
-    .conteiner-info:nth-child(3) {
-        ul {
-            li {
+    .conteiner-info {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        height: 100%;
+        width: 45%;
+        gap: font(2);
+
+        h3 {
+            font-family: 'Oswald', Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+
+    }
+
+    .conteiner-info:nth-of-type(1) {
+        .conteiner-subinfo {    
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            gap: font(10);
+
+            span {
                 display: flex;
-                justify-content: flex-start;
-                align-items: center;
-                gap: font(10);
-
-                &:hover {
-                    background: rgba(255, 255, 255, 0.409);
-                    span, p {
-                        color: black !important;
-                    }
-                }
-
-                span {
-                    display: flex;
-                    align-items: center;
-                    gap: font(5);
-
-                    img {
-                        width: 2.0rem;
-                    }
-                }
+                flex-direction: column;
+                width: auto;
+                height: fit-content;
 
                 p {
-                    font-weight: bold;
+                    text-align: justify;
+                    hyphens: auto;
+                    
+                    strong {
+                        text-align: justify;
+                        hyphens: auto;
+                        font-style: italic;
+                    }
+                }
+            }
+
+            span:nth-of-type(2) {
+                gap: font(10);
+                img {
+                    aspect-ratio:  1 / 1;
+                    object-fit: cover;
+                    width: font(40);
+                    height: auto;
+                    transition: 0.3s ease;
+                    cursor: pointer;
+
+                    &:hover {
+                        padding: font(3);
+                        border-radius: font(3);
+                        background: rgba(255, 255, 255, 0.431);
+                    }
+                }
+            }
+        }
+
+        h3 {
+            text-align: end;
+        }
+    }
+
+    .conteiner-info:nth-of-type(3) {
+        h3 {
+            text-align: start;
+        }
+
+        .conteiner-subinfo:nth-of-type(1) {
+            display: flex;
+            flex-direction: column;
+            
+            span {
+                display: flex;
+                align-items: center;
+                gap: font(10);
+                width: 100%;
+
+                // texto do email pae
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: font(3);
+
+                    p {
+                        text-align: justify;
+                        hyphens: auto;
+                        text-align: wrap;
+                        
+                        strong {
+                            text-align: justify;
+                            hyphens: auto;
+                            font-style: italic;
+                        }
+                    }
+
+                    p:nth-of-type(2) { 
+                        text-align: start;
+                    }
+                }
+
+                img {
+                    aspect-ratio: 1 / 1;
+                    object-fit: contain;
+                    width: font(50);
+                    height: auto;
                 }
             }
         }
@@ -111,7 +181,8 @@
 .Direitos-Reservados {
     display: flex;
     width: 100%;
-    height: 10%;
+    min-height: 10%;
+    height: fit-content;
     justify-content: center;
     align-items: center;
     border-top: font(0.1) solid rgb(197, 197, 197);
@@ -122,8 +193,8 @@
 }
 
 .rodape-bottom-diviso {
-    width: font(1);  
-    //height: 95%;
+    width: font(2);  
+    height: 95%;
     background: rgba(175, 175, 175, 0.738);
 }
 
@@ -133,27 +204,45 @@
 /// ////////////////////////////////////////////////////////
 /// Pc
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     .wraper-conteiner-info {
+        flex-direction: column;
+
         .conteiner-info {
-            h3 {
+            width: 100%;
+
+            p {
                 font-size: font(15);
             }
 
-            h4 {
-                font-size: font(13);
+            h3 {
+                text-align: start !important;
             }
 
-            ul {
-                li {
-                    a {
-                        font-size: font(13);
-                    }
-                    
-                    p {
-                        font-size: font(14);
-                    }
+            .conteiner-subinfo:nth-of-type(1) {
+                flex-direction: column !important;
+
+                span:nth-of-type(2) {
+                    flex-direction: row;
                 }
+            }
+        }
+    }
+
+    .rodape-bottom-diviso {
+        width: 95% !important; 
+        height: 1rem;
+        background: rgba(175, 175, 175, 0.738);
+    }
+}
+
+//Celular Vertical
+//por se praticamente so texto, a adipitacao foi feito apenas com mudancas de fonts pae.
+@media (max-width: 400px) and (pointer: coarse) {
+    .wraper-conteiner-info {
+        .conteiner-info  {
+            p { 
+                font-size: font(13);
             }
         }
     }

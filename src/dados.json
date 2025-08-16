@@ -75,7 +75,7 @@
     "C" :
     [
         {
-            "Nome": "Francisca Xavier Queiroz de Jesus",
+            "Nome": "Chica Xavier",
             "Idade": "1932 - 2020",
             "Profissoes": ["atriz", "produtora", "sacerdotisa do candomblé", "autora"],
             "Biografia": "Nascida em Salvador em 22 de janeiro de 1932, Chica Xavier teve uma carreira artística que atravessou mais de seis décadas. Estreou no teatro em 1956 com 'Orfeu da Conceição' e consolidou-se como uma das mais importantes atrizes negras do Brasil. Atuou em diversos filmes e mais de 50 papéis na televisão, incluindo novelas marcantes como 'Sinhá Moça', 'Dancin’ Days', 'Renascer' e 'Tenda dos Milagres'. Também foi líder religiosa no candomblé, fundadora do terreiro Irmandade do Cercado do Boiadeiro, e autora do livro 'Chica Xavier canta sua prosa' (1999). Foi homenageada com o Troféu Palmares em 2010 e com a biografia 'Chica Xavier: Mãe do Brasil' (2013).",
@@ -601,6 +601,15 @@
         {
             "Nome": "Preta Ferreira",
             "Idade": "1984",
+            "Profissoes" : [
+                "Publicitária",
+                "Cantora",
+                "Atriz",
+                "Produtora cultural",
+                "Escritora",
+                "Ativista social",
+                "Liderança do movimento por moradia"
+            ],
             "Biografia": "Preta é publicitária de formação, mas também artista leve multiartista — cantora, atriz, produtora cultural e escritora. Tornou-se referência nacional no movimento por moradia como liderança da Ocupação 9 de Julho e da Frente de Luta por Moradia (MSTC/FLM) em São Paulo. Em junho de 2019, foi presa por 108‑109 dias, acusada injustamente de extorsão e associação criminosa, sem apresentação de provas, tornando‑se símbolo da criminalização de ativistas sociais no Brasil; recebeu apoio de figuras como Angela Davis e Papa Francisco. Após o cárcere, lançou o livro Minha Carne – Diário de uma prisão e continuou sua atuação artística e social.",
             "texto_obras": {
                 "obra1": [
