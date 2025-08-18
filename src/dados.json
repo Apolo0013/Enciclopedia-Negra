@@ -246,22 +246,23 @@
             }
         ,
         {
-            "Nome": "Gal Costa",
-            "Idade": "1945–2022",
-            "Profissoes": ["Cantora"],
-            "Biografia": "Gal Costa foi uma das vozes mais marcantes da música brasileira, reconhecida por sua versatilidade, ousadia e contribuição fundamental ao movimento tropicalista.",
+            "Nome": "Gilberto Passos Gil Moreira",
+            "Idade": "(1942– )",
+            "Profissoes": ["cantor", "compositor", "multi-instrumentista", "produtor musical", "político"],
+            "Biografia": "Gilberto Gil nasceu em 26 de junho de 1942, em Salvador (BA). É um dos principais nomes da música popular brasileira (MPB) e figura central no movimento tropicalista, ao lado de Caetano Veloso. Com uma carreira internacional de sucesso, Gil inovou ao misturar samba, bossa nova, rock, reggae e música nordestina. Além de sua trajetória artística, atuou na vida política, tendo sido Ministro da Cultura do Brasil entre 2003 e 2008. Sua obra reflete engajamento social, político e cultural, sendo um dos artistas brasileiros mais reconhecidos no mundo.",
             "texto_obras": {
                 "obra1": [
-                "Início da Vida e Carreira",
-                "Nascida Maria da Graça Costa Penna Burgos em 26 de setembro de 1945, em Salvador, Bahia, Gal Costa começou sua trajetória musical na década de 1960. Trabalhou como balconista em loja de discos, tendo contato com diversos estilos musicais. Estreou fonograficamente em 1965, participando do álbum de estreia de Maria Bethânia. Em 1966, lançou 'Domingo', álbum em parceria com Caetano Veloso, marcando sua entrada no cenário musical brasileiro."
+                    "Refazenda (1975)",
+                    "Um dos álbuns mais icônicos de Gil, que inaugura a chamada 'trilogia Re' (Refazenda, Refavela e Realce). Mistura elementos da música nordestina com influências internacionais, reafirmando a versatilidade musical do artista."
                 ],
                 "obra2": [
-                "Movimento Tropicalista e Sucesso",
-                "Foi uma das principais vozes do movimento Tropicália ao lado de Caetano Veloso, Gilberto Gil e Tom Zé. Seu álbum homônimo de 1969 trouxe sucessos como 'Baby' e 'Divino, Maravilhoso', consolidando sua posição como ícone da música brasileira. Em 1971 lançou o álbum ao vivo 'Fa-Tal – Gal a Todo Vapor', considerado um dos melhores discos brasileiros, com performances memoráveis de 'Vapor Barato' e 'Pérola Negra'."
+                    "Expresso 2222 (1972)",
+                    "Álbum marcante lançado após seu retorno do exílio em Londres, onde traz referências do rock e do reggae, além de sucessos como 'Back in Bahia'. Representa um ponto de virada em sua carreira e na música brasileira."
                 ]
             },
-            "legado": "Recebeu diversos prêmios, incluindo Grammy Latino pelo conjunto da obra. Em 2012, foi eleita a sétima maior voz da música brasileira pela Rolling Stone Brasil. Sua influência é reconhecida por artistas de diferentes gerações, e sua música continua a inspirar novos talentos."
-            }
+            "legado": "Gilberto Gil é considerado um dos maiores ícones da música brasileira, com reconhecimento mundial. Sua produção artística e atuação política contribuíram para a valorização da cultura nacional e a defesa da diversidade. É membro da Academia Brasileira de Letras (ABL) desde 2021 e sua obra atravessa gerações, influenciando músicos e intelectuais dentro e fora do Brasil."
+        }
+
     ], 
     "H" : [
         {
@@ -343,22 +344,23 @@
     "J" : 
     [
         {
-            "Nome": "Jean Michel Basquiat",
-            "Idade": "(1960–1988)",
-            "Profissoes": ["Artista"],
-            "Biografia": "Jean-Michel Basquiat foi um artista norte-americano de origem haitiana e porto-riquenha, reconhecido como um dos maiores nomes da arte contemporânea e do movimento neoexpressionista, conhecido por misturar grafite, arte primitiva e críticas sociais.",
+            "Nome": "José Gomes Filho (Jackson do Pandeiro)",
+            "Idade": "(1919–1982)",
+            "Profissoes": ["cantor", "compositor", "instrumentista"],
+            "Biografia": "Jackson do Pandeiro nasceu em 31 de agosto de 1919, em Alagoa Grande (PB). Ficou conhecido como o 'Rei do Ritmo' por sua habilidade única de mesclar gêneros como forró, samba, coco, xaxado e baião, sempre com grande swing e criatividade rítmica. Começou a carreira como percussionista e rapidamente ganhou notoriedade nacional, se tornando um dos maiores nomes da música popular nordestina. Faleceu em 10 de julho de 1982, deixando um legado fundamental para a MPB e para a valorização da cultura nordestina.",
             "texto_obras": {
                 "obra1": [
-                "Trajetória",
-                "Começou como grafiteiro em Nova York com o pseudônimo SAMO, ganhando destaque pelo estilo vibrante e por abordar temas como racismo, identidade negra e desigualdade."
+                    "O Canto da Ema (1956)",
+                    "Um de seus maiores sucessos, consagrado no forró e no samba, que até hoje é interpretado por diferentes gerações de músicos."
                 ],
                 "obra2": [
-                "Estilo e Temas",
-                "Sua arte combinava símbolos, palavras e cores intensas, criticando opressão racial e desigualdade social, e incorporando elementos da história negra, jazz e cultura popular."
+                    "Sebastiana (1953)",
+                    "Primeiro grande sucesso de Jackson, lançado ainda nos anos 1950, que ajudou a projetar sua carreira em nível nacional."
                 ]
             },
-            "legado": "Basquiat é símbolo de resistência, criatividade e afirmação da cultura negra na arte contemporânea, com obras vendidas por valores recordes e grande influência artística mesmo após sua morte precoce."
-            }
+            "legado": "Jackson do Pandeiro é lembrado como um dos maiores ritmistas do Brasil. Seu estilo inovador influenciou artistas como Gilberto Gil, Alceu Valença e Lenine. Até hoje é considerado uma referência no forró e na música popular, celebrado como símbolo da identidade cultural nordestina."
+        }
+
         ,{
             "Nome": "João Timótheo da Costa",
             "Idade": "(1879–1932)",
@@ -507,22 +509,22 @@
     "N" : 
     [
         {
-            "Nome": "Nelson Mandela",
-            "Idade": "(1918–2013)",
-            "Profissoes": ["Líder Político", "Ativista dos Direitos Humanos"],
-            "Biografia": "Nelson Mandela foi um líder sul-africano e símbolo global da luta contra o apartheid, o regime de segregação racial que vigorou na África do Sul até os anos 1990.",
+            "Nome": "Neusa Santos Souza",
+            "Idade": "(1948–2008)",
+            "Profissoes": ["psiquiatra", "psicanalista", "escritora", "intelectual", "professora"],
+            "Biografia": "Neusa Santos Souza foi uma importante psiquiatra, psicanalista e escritora brasileira, nascida em 1948 na Bahia. Tornou-se uma das primeiras médicas negras formadas pela Universidade Federal da Bahia (UFBA). Sua trajetória acadêmica e profissional foi marcada pela análise crítica da condição do negro na sociedade brasileira, especialmente a partir das perspectivas da psicanálise e das ciências sociais. Mudou-se para o Rio de Janeiro, onde atuou tanto na clínica quanto na docência e na militância intelectual.",
             "texto_obras": {
                 "obra1": [
-                "Formação e Trajetória",
-                "Mandela formou-se em Direito e se envolveu com o Congresso Nacional Africano, liderando a resistência contra o apartheid por meio da luta pacífica e posteriormente da ala armada do ANC."
+                    "Tornar-se negro (1983)",
+                    "Sua obra mais conhecida, em que analisa os impactos psicológicos e subjetivos do racismo estrutural na identidade da população negra no Brasil, explorando a construção da negritude em uma sociedade marcada pelo preconceito e pela desigualdade racial."
                 ],
                 "obra2": [
-                "Presídio, Presidência e Legado",
-                "Após passar 27 anos preso, tornou-se o primeiro presidente negro da África do Sul, promovendo reconciliação nacional e justiça social, sendo reconhecido mundialmente como ícone dos direitos humanos."
+                    "Artigos e ensaios em revistas acadêmicas (anos 1980–2000)",
+                    "Neusa publicou textos em periódicos especializados em psicanálise e ciências sociais, nos quais aprofundava a discussão sobre subjetividade, racismo e identidade negra no Brasil."
                 ]
             },
-            "legado": "Nelson Mandela é lembrado como símbolo de resistência pacífica, justiça social e direitos humanos, inspirando gerações ao redor do mundo."
-            }
+            "legado": "Neusa Santos Souza deixou uma contribuição fundamental para os estudos das relações raciais no Brasil, sendo referência para intelectuais, militantes e pesquisadores que discutem racismo, subjetividade e identidade negra. Sua obra 'Tornar-se negro' continua sendo amplamente estudada e é considerada um marco no pensamento crítico brasileiro."
+        }
         ,
         {
             "Nome": "Nádia Taquary",

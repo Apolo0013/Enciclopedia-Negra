@@ -86,10 +86,10 @@ import imgobra1Gerson from './img/artista/Gerson King Combo/1.webp'
 import imgobra2Gerson from './img/artista/Gerson King Combo/2.webp'
 
 //Gal Costa
-import imgfotoGal from './img/artista/Gal Costa/Gal Costa.webp'
-import imgcardGal from './img/artista/Gal Costa/Gal Costa_card.webp'
-import imgobra1Gal from './img/artista/Gal Costa/1.webp'
-import imgobra2Gal from './img/artista/Gal Costa/2.webp'
+import imgfotoGil from './img/artista/Gilberto Gil/Gilberto Gil.webp'
+import imgcardGil from './img/artista/Gilberto Gil/Gilberto Gil_card.webp'
+import imgobra1Gil from './img/artista/Gilberto Gil/1.webp'
+import imgobra2Gil from './img/artista/Gilberto Gil/2.webp'
 
 //Horácio Hora
 import imgfotoHorácio from './img/artista/Horácio Hora/Horácio Hora.webp'
@@ -116,10 +116,10 @@ import imgobra1Ilea from './img/artista/Iléa Ferraz/1.webp'
 import imgobra2Ilea from './img/artista/Iléa Ferraz/2.webp'
 
 //Jean-Michel Basquiat
-import imgfotoJeanMichel from './img/artista/Jean-Michel Basquiat/Jean-Michel Basquiat.webp'
-import imgcardJeanMichael from './img/artista/Jean-Michel Basquiat/Jean Michel Basquiat_card.webp'
-import imgobra1JeanMichel from './img/artista/Jean-Michel Basquiat/1.webp'
-import imgobra2JeanMichel from './img/artista/Jean-Michel Basquiat/2.webp'
+import imgfotojack from './img/artista/Jackson do Pandeiro/GJackson do Pandeiro.webp'
+import imgcardjack from './img/artista/Jackson do Pandeiro/GJackson do Pandeiro_card.webp'
+import imgobra1jack from './img/artista/Jackson do Pandeiro/1.webp'
+import imgobra2jack from './img/artista/Jackson do Pandeiro/2.webp'
 
 //João Timótheo da Costa
 import imgfotoJoão from './img/artista/João Timótheo da Costa/João Timótheo da Costa.webp'
@@ -164,10 +164,10 @@ import imgobra1Moisés from './img/artista/Moisés Patrício/1.webp'
 import imgobra2Moisés from './img/artista/Moisés Patrício/2.webp'
 
 //Nelson Mandela
-import imgfotoNelson from './img/artista/Nelson Mandela/Nelson Mandela.webp'
-import imgcardNelson from './img/artista/Nelson Mandela/Nelson Mandela_card.webp'
-import imgobra1Nelson from './img/artista/Nelson Mandela/1.webp'
-import imgobra2Nelson from './img/artista/Nelson Mandela/2.webp'
+import imgfotoNeusa from './img/artista/Neusa Santos Souza/Neusa Santos Souza.webp'
+import imgcardNeusa from './img/artista/Neusa Santos Souza/Neusa Santos Souza_card.webp'
+import imgobra1Neusa from './img/artista/Neusa Santos Souza/1.webp'
+import imgobra2Neusa from './img/artista/Neusa Santos Souza/2.webp'
 
 //Nádia Taquary
 import imgfotoNádia from './img/artista/Nádia Taquary/Nádia Taquary.webp'
@@ -407,9 +407,9 @@ function AppRotas() {
                 obras: [imgobra1Gerson, imgobra2Gerson]
             },
             artista2: {
-                foto: imgfotoGal,
-                card: imgcardGal,
-                obras: [imgobra1Gal, imgobra2Gal]
+                foto: imgfotoGil,
+                card: imgcardGil,
+                obras: [imgobra1Gil, imgobra2Gil]
             }
         },
         H: {
@@ -438,9 +438,9 @@ function AppRotas() {
         },
         J: {
             artista1: {
-                foto: imgfotoJeanMichel,
-                card: imgcardJeanMichael,
-                obras: [imgobra1JeanMichel, imgobra2JeanMichel]
+                foto: imgfotojack,
+                card: imgcardjack,
+                obras: [imgobra1jack, imgobra2jack]
             },
             artista2: {
                 foto: imgfotoJoão,
@@ -486,9 +486,9 @@ function AppRotas() {
         },
         N: {
             artista1: {
-                foto: imgfotoNelson,
-                card: imgcardNelson,
-                obras: [imgobra1Nelson, imgobra2Nelson]
+                foto: imgfotoNeusa,
+                card: imgcardNeusa,
+                obras: [imgobra1Neusa, imgobra2Neusa]
             },
             artista2: {
                 foto: imgfotoNádia,
