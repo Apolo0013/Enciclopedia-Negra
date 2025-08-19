@@ -344,7 +344,7 @@
     "J" : 
     [
         {
-            "Nome": "José Gomes Filho (Jackson do Pandeiro)",
+            "Nome": "José Gomes Filho",
             "Idade": "(1919–1982)",
             "Profissoes": ["cantor", "compositor", "instrumentista"],
             "Biografia": "Jackson do Pandeiro nasceu em 31 de agosto de 1919, em Alagoa Grande (PB). Ficou conhecido como o 'Rei do Ritmo' por sua habilidade única de mesclar gêneros como forró, samba, coco, xaxado e baião, sempre com grande swing e criatividade rítmica. Começou a carreira como percussionista e rapidamente ganhou notoriedade nacional, se tornando um dos maiores nomes da música popular nordestina. Faleceu em 10 de julho de 1982, deixando um legado fundamental para a MPB e para a valorização da cultura nordestina.",
@@ -381,23 +381,24 @@
     ],
     "K" : 
     [
-                {
-        "Nome": "Kehinde Wiley",
-        "Idade": "(1977–)",
-        "Profissoes": ["Pintor"],
-        "Biografia": "Kehinde Wiley é um pintor norte-americano contemporâneo, reconhecido por suas representações vibrantes e naturalistas de pessoas negras em poses heroicas inspiradas na pintura clássica ocidental. Seu trabalho busca reverter a ausência histórica de representações negras na arte tradicional, conferindo poder e dignidade aos indivíduos afrodescendentes.",
-        "texto_obras": {
-            "obra1": [
-            "Formação e Carreira",
-            "Nascido em Los Angeles, Wiley é filho de pai nigeriano e mãe afro-americana. Estudou arte desde jovem, com intercâmbio na Rússia aos 11 anos, Bacharelado em Belas Artes pelo Instituto de Arte de São Francisco e Mestrado em Belas Artes pela Universidade de Yale. Em Yale, aprofundou sua compreensão da pintura clássica europeia, que combina com sua visão contemporânea."
-            ],
-            "obra2": [
-            "Estilo, Reconhecimento e Projetos",
-            "Suas obras apresentam retratos de pessoas negras em poses inspiradas por mestres antigos, com fundos ornamentados e padrões florais. Em 2018, pintou o retrato oficial de Barack Obama para o Smithsonian, sendo o primeiro artista negro a fazê-lo. Desenvolveu o projeto 'The World Stage' e a série 'Rumors of War', que dialoga com monumentos históricos."
-            ]
-        },
-        "legado": "Kehinde Wiley é uma figura central na arte contemporânea, reconhecido por ampliar a representação negra e desafiar narrativas coloniais, inspirando discussões sobre identidade e poder através da arte."
-        },
+        {
+            "Nome": "Ketleyn Quadros",
+            "Idade": "(1987– )",
+            "Profissoes": ["judoca", "atleta olímpica"],
+            "Biografia": "Ketleyn Quadros nasceu em Brasília, em 1º de outubro de 1987. Tornou-se um marco do esporte brasileiro ao conquistar a medalha de bronze nos Jogos Olímpicos de Pequim, em 2008, na categoria até 57kg do judô. Esse feito a consagrou como a primeira mulher brasileira a ganhar uma medalha olímpica em esportes individuais. Além do judô, Ketleyn também estudou Educação Física e manteve uma trajetória de destaque no cenário nacional e internacional do esporte.",
+            "texto_obras": {
+                "obra1": [
+                    "Medalha de Bronze nos Jogos Olímpicos de Pequim (2008)",
+                    "Primeira mulher brasileira a conquistar uma medalha em esportes individuais nas Olimpíadas, um marco histórico no judô e no esporte nacional."
+                ],
+                "obra2": [
+                    "Medalhas em campeonatos Pan-Americanos e competições internacionais",
+                    "Ketleyn acumulou títulos e medalhas em torneios de alto nível, reforçando seu papel como uma das principais judocas do Brasil nas últimas décadas."
+                ]
+            },
+            "legado": "Ketleyn Quadros é símbolo de superação e pioneirismo no esporte brasileiro. Sua conquista olímpica abriu caminho para a valorização de atletas mulheres em modalidades individuais, inspirando novas gerações de judocas e esportistas no país."
+        }
+,
         {
             "Nome": "Kika Carvalho",
             "Idade": "(1992–)",
@@ -564,22 +565,22 @@
             "legado": "Oga Mendonça utiliza o design como ferramenta de valorização da cultura afro-brasileira, contribuindo para a visibilidade de narrativas negras e a construção de uma estética centrada na identidade e resistência cultural."
             }
         , {
-                "Nome": "Omar Blondin Diop",
-                "Idade": "(1940–1973)",
-                "Profissoes": ["Filósofo", "Poeta", "Ativista Político"],
-                "Biografia": "Omar Blondin Diop foi um filósofo, poeta e ativista político senegalês, reconhecido por sua militância anticolonialista e sua luta pela libertação e justiça social na África.",
-                "texto_obras": {
-                    "obra1": [
-                    "Formação e Trajetória",
-                    "Estudou filosofia na França, onde participou ativamente dos protestos de Maio de 1968. Sua atuação combinava crítica política, poesia e pensamento filosófico voltado à emancipação africana."
-                    ],
-                    "obra2": [
-                    "Ativismo e Legado",
-                    "Defensor da união dos países africanos contra o imperialismo, Diop foi preso e morreu em circunstâncias suspeitas em 1973, tornando-se símbolo da resistência anticolonial e mártir da luta por justiça social no continente africano."
-                    ]
-                },
-                "legado": "Omar Blondin Diop é lembrado como uma voz poderosa da resistência africana, cuja vida e obra seguem inspirando movimentos por libertação e justiça em contextos pós-coloniais."
-                }
+    "Nome": "Olga de Alaketu",
+    "Idade": "(1925–2005)",
+    "Profissoes": ["ialorixá", "líder religiosa", "mãe de santo"],
+    "Biografia": "Maria Olga de Figueiredo, mais conhecida como Mãe Olga de Alaketu, nasceu em Salvador em 1925. Tornou-se uma das mais respeitadas ialorixás do candomblé brasileiro, liderando o tradicional Terreiro Ilê Maroiá Láji, fundado em 1636 e considerado um dos mais antigos do Brasil. Herdou a função de sua mãe, Mãe Senhora, e foi reconhecida como uma grande autoridade religiosa, cultural e social, atuando na preservação da tradição iorubá e no diálogo com a sociedade e o Estado. Seu terreiro recebeu visitas de intelectuais, artistas e autoridades, tornando-se um ponto central da resistência cultural e religiosa afro-brasileira.",
+    "texto_obras": {
+        "obra1": [
+            "Liderança no Terreiro Ilê Maroiá Láji",
+            "Conduziu o terreiro de Alaketu por décadas, fortalecendo a herança religiosa e cultural iorubá, mantendo ritos, costumes e ensinamentos ancestrais do candomblé."
+        ],
+        "obra2": [
+            "Reconhecimento nacional e internacional",
+            "Foi homenageada por instituições culturais e religiosas, tornando-se referência no Brasil e no exterior como uma das mais influentes mães de santo de sua geração."
+        ]
+    },
+    "legado": "Mãe Olga de Alaketu deixou uma marca profunda na história das religiões de matriz africana no Brasil. Sua liderança consolidou o terreiro de Alaketu como um espaço de resistência, fé e preservação cultural, inspirando sucessoras e fortalecendo a identidade afro-brasileira."
+}
     ],
     "P" : 
     [{

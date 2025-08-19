@@ -36,10 +36,9 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////
 /// Responsiviade
-/// ///////////////////////////////////////////////////////////////////////////////////////////
-/// Celular
+//PC
 
-@media (max-width: 500px) and (pointer: coarse) {
+@media (max-width: 750px) {
     .Conteiner-Botao {
         flex-direction: row;
         top: 102%;
@@ -50,5 +49,16 @@
 
     .Conteiner-Botao > img {
         filter: brightness(1);
+    }
+}
+
+/// ///////////////////////////////////////////////////////////////////
+/// ////////////////////////
+/// Celular
+/// 
+
+@media (max-width: 440px) and (pointer: coarse) {
+    .Conteiner-Botao {
+        height: 17%;
     }
 }

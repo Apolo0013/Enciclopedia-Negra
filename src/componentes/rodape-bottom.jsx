@@ -25,7 +25,7 @@ function rodape_bottom() {
         <footer className="rodape-bottom">
             <div className="wraper-conteiner-info">
                 <div className="conteiner-info">
-                    <h3>ENCICLOPEDIA NEGRA</h3>
+                    <h3>JUSTIFICADO A DIREITO</h3>
                     <div className="conteiner-subinfo">
                         <span>
                             <p>Plataforma desenvolvida na disciplina eletiva da Escola Estadual Profª Ana Júlia de Carvalho Mousinho (Localizada no Parque dos Coqueiros, Zona Norte de Natal – RN) por:

@@ -85,7 +85,7 @@ import imgcardGenso from './img/artista/Gerson King Combo/Gerson King Combo_card
 import imgobra1Gerson from './img/artista/Gerson King Combo/1.webp'
 import imgobra2Gerson from './img/artista/Gerson King Combo/2.webp'
 
-//Gal Costa
+//GilBerto Gil
 import imgfotoGil from './img/artista/Gilberto Gil/Gilberto Gil.webp'
 import imgcardGil from './img/artista/Gilberto Gil/Gilberto Gil_card.webp'
 import imgobra1Gil from './img/artista/Gilberto Gil/1.webp'
@@ -127,11 +127,11 @@ import imgcardJoão from './img/artista/João Timótheo da Costa/João Timótheo
 import imgobra1João from './img/artista/João Timótheo da Costa/1.webp'
 import imgobra2João from './img/artista/João Timótheo da Costa/2.webp'
 
-//Kehinde Wiley
-import imgfotoKehinde from './img/artista/Kehinde Wiley/Kehinde Wiley.webp'
-import imgcardKehinde from './img/artista/Kehinde Wiley/Kehinde Wiley_card.webp'
-import imgobra1Kehinde from './img/artista/Kehinde Wiley/1.webp'
-import imgobra2Kehinde from './img/artista/Kehinde Wiley/2.webp'
+//Ketleyn Quadros
+import imgfotoKet from './img/artista/Ketleyn Quadros/Ketleyn Quadros.webp'
+import imgcardKet from './img/artista/Ketleyn Quadros/Ketleyn Quadros_card.webp'
+import imgobra1Ket from './img/artista/Ketleyn Quadros/1.webp'
+import imgobra2Ket from './img/artista/Ketleyn Quadros/2.webp'
 
 //Kika Carvalho
 import imgfotoKika from './img/artista/Kika Carvalho/Kika Carvalho.webp'
@@ -181,11 +181,11 @@ import imgcardOga from './img/artista/Oga Mendonça/Oga Mendonça_card.webp'
 import imgobra1Oga from './img/artista/Oga Mendonça/1.webp'
 import imgobra2Oga from './img/artista/Oga Mendonça/2.webp'
 
-//Omar Blondin Diop
-import imgfotoOmar from './img/artista/Omar Blondin Diop/Omar Blondin Diop.webp'
-import imgcardOmar from './img/artista/Omar Blondin Diop/Omar Blondin Diop_card.webp'
-import imgobra1Omar from './img/artista/Omar Blondin Diop/1.webp'
-import imgobra2Omar from './img/artista/Omar Blondin Diop/2.webp'
+//Olga de Alaketu
+import imgfotoOlga from './img/artista/Olga de Alaketu/Olga de Alaketu.webp'
+import imgcardOlga from './img/artista/Olga de Alaketu/Olga de Alaketu_card.webp'
+import imgobra1Olga from './img/artista/Olga de Alaketu/1.webp'
+import imgobra2Olga from './img/artista/Olga de Alaketu/2.webp'
 
 //Paulo Nazareth
 import imgfotoPaulo from './img/artista/Paulo Nazareth/Paulo Nazareth.webp'
@@ -450,9 +450,9 @@ function AppRotas() {
         },
         K: {
             artista1: {
-                foto: imgfotoKehinde,
-                card: imgcardKehinde,
-                obras: [imgobra1Kehinde, imgobra2Kehinde]
+                foto: imgfotoKet,
+                card: imgcardKet,
+                obras: [imgobra1Ket, imgobra2Ket]
             },
             artista2: {
                 foto: imgfotoKika,
@@ -503,9 +503,9 @@ function AppRotas() {
                 obras: [imgobra1Oga, imgobra2Oga]
             },
             artista2: {
-                foto: imgfotoOmar,
-                card: imgcardOmar,
-                obras: [imgobra1Omar, imgobra2Omar]
+                foto: imgfotoOlga,
+                card: imgcardOlga,
+                obras: [imgobra1Olga, imgobra2Olga]
             }
         },
         P: {

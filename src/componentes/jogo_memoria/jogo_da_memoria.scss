@@ -32,3 +32,12 @@ $gradient: linear-gradient(-135deg, #8e44ad, #3498db, #2ecc71);
     backdrop-filter: blur(5px) brightness(0.7);
 }
 
+//Responsividade
+//pc
+
+@media (max-width: 500px) {
+    .App-jogo {
+        align-items: center !important;
+        justify-content: center;
+    }
+}

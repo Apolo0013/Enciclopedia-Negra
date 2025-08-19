@@ -126,15 +126,10 @@ function Sobre() {
                         <h2>🧠 Pesquisadores do conceito</h2>
                         <span>
                             <ul>
-                                <li>Fagner</li>
-                                <li>Jhonata</li>
-                                <li>Ryan</li>
-                                <li>Mayra</li>
-                            </ul>
-                            <ul>
-                                <li>Richand</li>
-                                <li>Camily</li>
-                                <li>Guilherme</li>
+                                <li>Fagner Pereira da Silva</li>
+                                <li>Jhonata Michel Franca dos Santos</li>
+                                <li>Mayara Maciel da Sá</li>
+                                <li>Ryan da Silva Dias</li>
                             </ul>
                         </span>
                     </section>
@@ -145,15 +140,15 @@ function Sobre() {
                         <h2>👷🏽‍♂️ Time da missão</h2>
                         <span>
                             <ul>
-                                <li>Lívia</li>
-                                <li>Derick</li>
-                                <li>Ane Gabriely</li>
-                                <li>Brenno</li>
+                                <li>Anny Gabrielli Silva Félix de Lima</li>
+                                <li>Antony Derick Freire da Silva</li>
+                                <li>Brenno Souza de Oliveira</li>
+                                <li>Higor Vinicius Martins de Souza</li>
                             </ul>
                             <ul>
-                                <li>Higor</li>
-                                <li>Samuel</li>
-                                <li>Jackson Felipe</li>
+                                <li>Jackson Felipe de Castro Cabral</li>
+                                <li>Lívia Beatriz de Souza Nascimento</li>
+                                <li>Samuel Galdino de Oliveira Silva</li>
                             </ul>
                         </span>
                     </section>
