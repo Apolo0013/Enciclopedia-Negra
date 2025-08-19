@@ -24,7 +24,7 @@ function Escolher({SetConteiner, BgRef, SetAviso}) {
     const dificuldades = {
         facil: {    
             tempo: 120,        // segundos
-            tentativas: 120     // pode errar 12 vezes
+            tentativas: 12n     // pode errar 12 vezes
         },
         medio: {
             tempo: 90,
@@ -66,16 +66,20 @@ function Escolher({SetConteiner, BgRef, SetAviso}) {
     const [stateinfomedio, Setinfomedio] = useState()
     const [stateinfodificil, Setinfodificil] = useState()
     const [stateinfoextremo, Setinfoextremo] = useState()
+    //hover 
+    const RefHoverBotao = useRef(true)
 
     useEffect(() => {
-        console.log(UserCelular)
         if (UserCelular) {
+            RefHoverBotao.current = false
+            //amostrando as infomacao do mesmo
             Setinfofacil(RefListInfoComp.current.facil)
             Setinfomedio(RefListInfoComp.current.medio)
             Setinfodificil(RefListInfoComp.current.dificil)
             Setinfoextremo(RefListInfoComp.current.extremo)
         }
         else {
+            RefHoverBotao.current = true
             Setinfofacil('')
             Setinfomedio('')
             Setinfodificil('')
@@ -90,7 +94,10 @@ function Escolher({SetConteiner, BgRef, SetAviso}) {
                     <button
                         className='botao-facil-dificuldade'
                         onClick={() => Add(dificuldades.facil.tempo, dificuldades.facil.tentativas)}
-                        onMouseEnter={() => SetInfo(RefListInfoComp.current.facil)}
+                        onMouseEnter={() => {
+                            if (RefHoverBotao.current) {return}
+                            SetInfo(RefListInfoComp.current.facil)
+                        }}
                         onMouseLeave={() => SetInfo('')}
                     >Facil</button>
                     {stateinfofacil}
@@ -99,7 +106,10 @@ function Escolher({SetConteiner, BgRef, SetAviso}) {
                     <button
                         className='botao-medio-dificuldade'
                         onClick={() => Add(dificuldades.medio.tempo, dificuldades.medio.tentativas)}
-                        onMouseEnter={() => SetInfo(RefListInfoComp.current.medio)}
+                        onMouseEnter={() => {
+                            if (RefHoverBotao.current) {return}
+                            SetInfo(RefListInfoComp.current.medio)
+                        }}
                         onMouseLeave={() => SetInfo('')}
                     >Médio</button>
                     {stateinfomedio}
@@ -108,7 +118,10 @@ function Escolher({SetConteiner, BgRef, SetAviso}) {
                     <button
                         className='botao-dificil-dificuldade'
                         onClick={() => Add(dificuldades.dificil.tempo, dificuldades.dificil.tentativas)}
-                        onMouseEnter={() => SetInfo(RefListInfoComp.current.dificil)}
+                        onMouseEnter={() => {
+                            if (RefHoverBotao.current) {return}
+                            SetInfo(RefListInfoComp.current.dificil)
+                        }}
                         onMouseLeave={() => SetInfo('')}
                     >Dificil</button> 
                     {stateinfodificil}
@@ -117,7 +130,10 @@ function Escolher({SetConteiner, BgRef, SetAviso}) {
                     <button
                         className='botao-extremo-dificuldade'
                         onClick={() => Add(dificuldades.extremo.tempo, dificuldades.extremo.tentativas)}
-                        onMouseEnter={() => SetInfo(RefListInfoComp.current.extremo)}
+                        onMouseEnter={() => {
+                            if (RefHoverBotao.current) {return}
+                            SetInfo(RefListInfoComp.current.extremo)                            
+                        }}
                         onMouseLeave={() => SetInfo('')}
                     >Extremo</button>
                     {stateinfoextremo}

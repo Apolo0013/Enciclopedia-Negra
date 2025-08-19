@@ -55,10 +55,40 @@
     }
 }
 
-@media (max-width: 440px) and (pointer: coarse) {
+//390x800
+@media (max-width: 500px) and (max-height: 800px) and (pointer: coarse) {
     .Menu-Info {
+        h3 {
+            font-size: rem(25);
+        }
     }
 }
+@media (max-width: 390px) and (max-height: 800px) and (pointer: coarse) {
+    .Menu-Info {
+        h3 {
+            font-size: rem(20);
+        }
+    }
+}
+
+//375x640
+@media (max-width: 500px) and (max-height: 640px) and (pointer: coarse) {
+    .Menu-Info {
+        h3 {
+            font-size: rem(20);
+        }
+    }
+}
+
+@media (max-width: 390px) and (max-height: 640px) and (pointer: coarse) {
+    .Menu-Info {
+        h3 {
+            font-size: rem(17);
+        }
+    }
+}
+
+
 
 //////////////////////////////////////////////////////////////////////////////
 /// Celular Horizontal
