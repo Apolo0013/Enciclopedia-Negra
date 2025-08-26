@@ -106,18 +106,22 @@
 
             span:nth-of-type(2) {
                 gap: font(10);
-                img {
-                    aspect-ratio:  1 / 1;
-                    object-fit: cover;
-                    width: font(40);
-                    height: auto;
-                    transition: 0.3s ease;
-                    cursor: pointer;
+                a {
+                    height: 50%;   
+                    width: 100%; 
+                    img {
+                        aspect-ratio:  1 / 1;
+                        object-fit: cover;
+                        width: font(40);
+                        height: auto;
+                        transition: 0.3s ease;
+                        cursor: pointer;
 
-                    &:hover {
-                        padding: font(3);
-                        border-radius: font(3);
-                        background: rgba(255, 255, 255, 0.431);
+                        &:hover {
+                            padding: font(3);
+                            border-radius: font(3);
+                            background: rgba(255, 255, 255, 0.431);
+                        }
                     }
                 }
             }

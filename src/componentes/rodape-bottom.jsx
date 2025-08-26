@@ -35,8 +35,8 @@ function rodape_bottom() {
                             </p>
                         </span>
                         <span>
-                            <img src={linkdinimg} alt="" />
-                            <img src={githubimg} alt="" />
+                            <a href="https://www.linkedin.com/in/apolonio-guilherme-11a825322/" target='_blank'><img src={linkdinimg} alt="LinkDin" /></a>
+                            <a href="https://github.com/Apolo0013" target='_blank'><img src={githubimg} alt="GitHub" /></a>
                         </span>
                     </div>
                 </div>

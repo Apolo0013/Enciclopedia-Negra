@@ -24,7 +24,7 @@ function Escolher({SetConteiner, BgRef, SetAviso}) {
     const dificuldades = {
         facil: {    
             tempo: 120,        // segundos
-            tentativas: 12n     // pode errar 12 vezes
+            tentativas: 12     // pode errar 12 vezes
         },
         medio: {
             tempo: 90,
