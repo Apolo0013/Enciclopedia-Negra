@@ -1,0 +1,52 @@
+@use "../App.scss"  as *;
+
+.conteiner-contador-visitas {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 200;
+    left: 0;
+    bottom: 5%;
+    width: font(200);
+    height: font(60.5);
+    background: rgba(0, 0, 0, 0.311);
+    color: white;
+
+    h4 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .visistantes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+
+        img {
+            object-fit: contain;
+            aspect-ratio: 1 / 1;
+            height: 100%;
+        }
+
+        .load {
+            aspect-ratio: 1 / 1;
+            width: font(30);
+            height: font(30);
+            border-radius: 50%;
+            border: font(5) solid rgb(39, 39, 39);
+            border-top: font(5) solid white;
+            animation: rotate360 0.5s linear infinite forwards;
+        }
+
+
+        @keyframes rotate360 {
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+        }
+    }
+}
+

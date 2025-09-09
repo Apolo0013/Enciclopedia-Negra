@@ -16,6 +16,7 @@ import Back10 from '../img/back_home/10.webp'
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Rodape from './rodape'
+import Contador_Visitas from './contador-visitas'
 import Rodape_bottom from './rodape-bottom'
 
 
@@ -90,16 +91,16 @@ function Entrada() {
         RefControeleeffect.current = true
         const Lista_Img = [ // as imagem que vao fica no fundo
                          // indenx img inicial        index da imagem
-            <img className={RefImgIndexStart.current === 0 ? '' : 'desativador'} src={Back1} ref={RefBack1} alt="imagem de fundo" />,
-            <img className={RefImgIndexStart.current === 1 ? '' : 'desativador'} src={Back2} ref={RefBack2} alt="imagem de fundo" />,
-            <img className={RefImgIndexStart.current === 2 ? '' : 'desativador'} src={Back3} ref={RefBack3} alt="imagem de fundo" />,
-            <img className={RefImgIndexStart.current === 3 ? '' : 'desativador'} src={Back4} ref={RefBack4} alt="imagem de fundo" />,
-            <img className={RefImgIndexStart.current === 4 ? '' : 'desativador'} src={Back5} ref={RefBack5} alt="imagem de fundo" />,
-            <img className={RefImgIndexStart.current === 5 ? '' : 'desativador'} src={Back6} ref={RefBack6} alt="imagem de fundo" />,
-            <img className={RefImgIndexStart.current === 6 ? '' : 'desativador'} src={Back7} ref={RefBack7} alt="imagem de fundo" />,
-            <img className={RefImgIndexStart.current === 7 ? '' : 'desativador'} src={Back8} ref={RefBack8} alt="imagem de fundo" />,
-            <img className={RefImgIndexStart.current === 8 ? '' : 'desativador'} src={Back9} ref={RefBack9} alt="imagem de fundo" />,
-            <img className={RefImgIndexStart.current === 9 ? '' : 'desativador'} src={Back10} ref={RefBack10} alt="imagem de fundo" />
+            <img key='1' className={RefImgIndexStart.current === 0 ? '' : 'desativador'} src={Back1} ref={RefBack1} alt="imagem de fundo" />,
+            <img key='2' className={RefImgIndexStart.current === 1 ? '' : 'desativador'} src={Back2} ref={RefBack2} alt="imagem de fundo" />,
+            <img key='3' className={RefImgIndexStart.current === 2 ? '' : 'desativador'} src={Back3} ref={RefBack3} alt="imagem de fundo" />,
+            <img key='4' className={RefImgIndexStart.current === 3 ? '' : 'desativador'} src={Back4} ref={RefBack4} alt="imagem de fundo" />,
+            <img key='5' className={RefImgIndexStart.current === 4 ? '' : 'desativador'} src={Back5} ref={RefBack5} alt="imagem de fundo" />,
+            <img key='6' className={RefImgIndexStart.current === 5 ? '' : 'desativador'} src={Back6} ref={RefBack6} alt="imagem de fundo" />,
+            <img key='7' className={RefImgIndexStart.current === 6 ? '' : 'desativador'} src={Back7} ref={RefBack7} alt="imagem de fundo" />,
+            <img key='8' className={RefImgIndexStart.current === 7 ? '' : 'desativador'} src={Back8} ref={RefBack8} alt="imagem de fundo" />,
+            <img key='9' className={RefImgIndexStart.current === 8 ? '' : 'desativador'} src={Back9} ref={RefBack9} alt="imagem de fundo" />,
+            <img key='10' className={RefImgIndexStart.current === 9 ? '' : 'desativador'} src={Back10} ref={RefBack10} alt="imagem de fundo" />
             
 
         ]
@@ -133,6 +134,7 @@ function Entrada() {
                 <button onClick={Explorar}
                 >Explorar Agora</button>
             </div>
+            <Contador_Visitas/>
         </div>
     )
 }
