@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Enciclopedia-Negra/static/css/main.c64fba7d.css",
-    "main.js": "/Enciclopedia-Negra/static/js/main.928ef5a4.js",
-    "static/js/453.1fb0e548.chunk.js": "/Enciclopedia-Negra/static/js/453.1fb0e548.chunk.js",
+    "main.css": "/Enciclopedia-Negra/static/css/main.fed85910.css",
+    "main.js": "/Enciclopedia-Negra/static/js/main.bcbaef60.js",
+    "static/js/453.8a532ed3.chunk.js": "/Enciclopedia-Negra/static/js/453.8a532ed3.chunk.js",
     "static/media/2.webp": "/Enciclopedia-Negra/static/media/2.9f401b02d7a265619836.webp",
     "static/media/1.webp": "/Enciclopedia-Negra/static/media/1.31675afecab7442218df.webp",
     "static/media/Becos da Memória2.png": "/Enciclopedia-Negra/static/media/Becos da Memória2.f4623ea28c1502f3bb9b.png",
@@ -130,16 +130,17 @@
     "static/media/ex.svg": "/Enciclopedia-Negra/static/media/ex.e0b96e8437121b2fa4f6a87da9d944b9.svg",
     "index.html": "/Enciclopedia-Negra/index.html",
     "static/media/email.svg": "/Enciclopedia-Negra/static/media/email.2d6dba5e75d053df4690e93bb28fb393.svg",
+    "static/media/user.svg": "/Enciclopedia-Negra/static/media/user.e3a7fca9f2b507f7287060f52b09657b.svg",
     "static/media/code.svg": "/Enciclopedia-Negra/static/media/code.2eafa38cb7a7caf17896b4514b91ac66.svg",
     "static/media/users.svg": "/Enciclopedia-Negra/static/media/users.d605d8a43f60476f91617b970206952f.svg",
     "static/media/menu.webp": "/Enciclopedia-Negra/static/media/menu.7e800a83c87463f07670.webp",
     "static/media/sobre-projeto.svg": "/Enciclopedia-Negra/static/media/sobre-projeto.b22e777e1b3d978faa73fd563c5cee62.svg",
-    "main.c64fba7d.css.map": "/Enciclopedia-Negra/static/css/main.c64fba7d.css.map",
-    "main.928ef5a4.js.map": "/Enciclopedia-Negra/static/js/main.928ef5a4.js.map",
-    "453.1fb0e548.chunk.js.map": "/Enciclopedia-Negra/static/js/453.1fb0e548.chunk.js.map"
+    "main.fed85910.css.map": "/Enciclopedia-Negra/static/css/main.fed85910.css.map",
+    "main.bcbaef60.js.map": "/Enciclopedia-Negra/static/js/main.bcbaef60.js.map",
+    "453.8a532ed3.chunk.js.map": "/Enciclopedia-Negra/static/js/453.8a532ed3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c64fba7d.css",
-    "static/js/main.928ef5a4.js"
+    "static/css/main.fed85910.css",
+    "static/js/main.bcbaef60.js"
   ]
 }
