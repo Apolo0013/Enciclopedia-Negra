@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Enciclopedia-Negra/static/css/main.fed85910.css",
-    "main.js": "/Enciclopedia-Negra/static/js/main.bcbaef60.js",
+    "main.js": "/Enciclopedia-Negra/static/js/main.9e840cf8.js",
     "static/js/453.8a532ed3.chunk.js": "/Enciclopedia-Negra/static/js/453.8a532ed3.chunk.js",
     "static/media/2.webp": "/Enciclopedia-Negra/static/media/2.9f401b02d7a265619836.webp",
     "static/media/1.webp": "/Enciclopedia-Negra/static/media/1.31675afecab7442218df.webp",
@@ -136,11 +136,11 @@
     "static/media/menu.webp": "/Enciclopedia-Negra/static/media/menu.7e800a83c87463f07670.webp",
     "static/media/sobre-projeto.svg": "/Enciclopedia-Negra/static/media/sobre-projeto.b22e777e1b3d978faa73fd563c5cee62.svg",
     "main.fed85910.css.map": "/Enciclopedia-Negra/static/css/main.fed85910.css.map",
-    "main.bcbaef60.js.map": "/Enciclopedia-Negra/static/js/main.bcbaef60.js.map",
+    "main.9e840cf8.js.map": "/Enciclopedia-Negra/static/js/main.9e840cf8.js.map",
     "453.8a532ed3.chunk.js.map": "/Enciclopedia-Negra/static/js/453.8a532ed3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fed85910.css",
-    "static/js/main.bcbaef60.js"
+    "static/js/main.9e840cf8.js"
   ]
 }
