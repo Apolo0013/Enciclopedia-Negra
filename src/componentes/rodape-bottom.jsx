@@ -21,6 +21,8 @@ function rodape_bottom() {
         }
     }
 
+    const yearCurrent = new Date().getFullYear()
+
     return (
         <footer className="rodape-bottom">
             <div className="wraper-conteiner-info">
@@ -64,7 +66,7 @@ function rodape_bottom() {
                 </div>
             </div>
             <div class="Direitos-Reservados">
-                <p>© 2025 - Todos os direitos reservados</p>
+                <p>© {yearCurrent} - Todos os direitos reservados</p>
             </div>
         </footer>
     )
