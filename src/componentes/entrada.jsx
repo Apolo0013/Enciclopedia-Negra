@@ -134,7 +134,9 @@ function Entrada() {
                 <button onClick={Explorar}
                 >Explorar Agora</button>
             </div>
-            <Contador_Visitas/>
+            {
+                //<Contador_Visitas/>
+            }
         </div>
     )
 }
